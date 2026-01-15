@@ -1,0 +1,1025 @@
+{"name": "bulbasaur", "national_dex_number": 1, "type1": "grass", "type2": "poison", "color": "green", "genus": "Seed Pokémon"}
+{"name": "ivysaur", "national_dex_number": 2, "type1": "grass", "type2": "poison", "color": "green", "genus": "Seed Pokémon"}
+{"name": "venusaur", "national_dex_number": 3, "type1": "grass", "type2": "poison", "color": "green", "genus": "Seed Pokémon"}
+{"name": "charmander", "national_dex_number": 4, "type1": "fire", "type2": null, "color": "red", "genus": "Lizard Pokémon"}
+{"name": "charmeleon", "national_dex_number": 5, "type1": "fire", "type2": null, "color": "red", "genus": "Flame Pokémon"}
+{"name": "charizard", "national_dex_number": 6, "type1": "fire", "type2": "flying", "color": "red", "genus": "Flame Pokémon"}
+{"name": "squirtle", "national_dex_number": 7, "type1": "water", "type2": null, "color": "blue", "genus": "Tiny Turtle Pokémon"}
+{"name": "wartortle", "national_dex_number": 8, "type1": "water", "type2": null, "color": "blue", "genus": "Turtle Pokémon"}
+{"name": "blastoise", "national_dex_number": 9, "type1": "water", "type2": null, "color": "blue", "genus": "Shellfish Pokémon"}
+{"name": "caterpie", "national_dex_number": 10, "type1": "bug", "type2": null, "color": "green", "genus": "Worm Pokémon"}
+{"name": "metapod", "national_dex_number": 11, "type1": "bug", "type2": null, "color": "green", "genus": "Cocoon Pokémon"}
+{"name": "butterfree", "national_dex_number": 12, "type1": "bug", "type2": "flying", "color": "white", "genus": "Butterfly Pokémon"}
+{"name": "weedle", "national_dex_number": 13, "type1": "bug", "type2": "poison", "color": "brown", "genus": "Hairy Bug Pokémon"}
+{"name": "kakuna", "national_dex_number": 14, "type1": "bug", "type2": "poison", "color": "yellow", "genus": "Cocoon Pokémon"}
+{"name": "beedrill", "national_dex_number": 15, "type1": "bug", "type2": "poison", "color": "yellow", "genus": "Poison Bee Pokémon"}
+{"name": "pidgey", "national_dex_number": 16, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Tiny Bird Pokémon"}
+{"name": "pidgeotto", "national_dex_number": 17, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Bird Pokémon"}
+{"name": "pidgeot", "national_dex_number": 18, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Bird Pokémon"}
+{"name": "rattata", "national_dex_number": 19, "type1": "normal", "type2": null, "color": "purple", "genus": "Mouse Pokémon"}
+{"name": "raticate", "national_dex_number": 20, "type1": "normal", "type2": null, "color": "brown", "genus": "Mouse Pokémon"}
+{"name": "spearow", "national_dex_number": 21, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Tiny Bird Pokémon"}
+{"name": "fearow", "national_dex_number": 22, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Beak Pokémon"}
+{"name": "ekans", "national_dex_number": 23, "type1": "poison", "type2": null, "color": "purple", "genus": "Snake Pokémon"}
+{"name": "arbok", "national_dex_number": 24, "type1": "poison", "type2": null, "color": "purple", "genus": "Cobra Pokémon"}
+{"name": "pikachu", "national_dex_number": 25, "type1": "electric", "type2": null, "color": "yellow", "genus": "Mouse Pokémon"}
+{"name": "raichu", "national_dex_number": 26, "type1": "electric", "type2": null, "color": "yellow", "genus": "Mouse Pokémon"}
+{"name": "sandshrew", "national_dex_number": 27, "type1": "ground", "type2": null, "color": "yellow", "genus": "Mouse Pokémon"}
+{"name": "sandslash", "national_dex_number": 28, "type1": "ground", "type2": null, "color": "yellow", "genus": "Mouse Pokémon"}
+{"name": "nidoran-f", "national_dex_number": 29, "type1": "poison", "type2": null, "color": "blue", "genus": "Poison Pin Pokémon"}
+{"name": "nidorina", "national_dex_number": 30, "type1": "poison", "type2": null, "color": "blue", "genus": "Poison Pin Pokémon"}
+{"name": "nidoqueen", "national_dex_number": 31, "type1": "poison", "type2": "ground", "color": "blue", "genus": "Drill Pokémon"}
+{"name": "nidoran-m", "national_dex_number": 32, "type1": "poison", "type2": null, "color": "purple", "genus": "Poison Pin Pokémon"}
+{"name": "nidorino", "national_dex_number": 33, "type1": "poison", "type2": null, "color": "purple", "genus": "Poison Pin Pokémon"}
+{"name": "nidoking", "national_dex_number": 34, "type1": "poison", "type2": "ground", "color": "purple", "genus": "Drill Pokémon"}
+{"name": "clefairy", "national_dex_number": 35, "type1": "fairy", "type2": null, "color": "pink", "genus": "Fairy Pokémon"}
+{"name": "clefable", "national_dex_number": 36, "type1": "fairy", "type2": null, "color": "pink", "genus": "Fairy Pokémon"}
+{"name": "vulpix", "national_dex_number": 37, "type1": "fire", "type2": null, "color": "brown", "genus": "Fox Pokémon"}
+{"name": "ninetales", "national_dex_number": 38, "type1": "fire", "type2": null, "color": "yellow", "genus": "Fox Pokémon"}
+{"name": "jigglypuff", "national_dex_number": 39, "type1": "normal", "type2": "fairy", "color": "pink", "genus": "Balloon Pokémon"}
+{"name": "wigglytuff", "national_dex_number": 40, "type1": "normal", "type2": "fairy", "color": "pink", "genus": "Balloon Pokémon"}
+{"name": "zubat", "national_dex_number": 41, "type1": "poison", "type2": "flying", "color": "purple", "genus": "Bat Pokémon"}
+{"name": "golbat", "national_dex_number": 42, "type1": "poison", "type2": "flying", "color": "purple", "genus": "Bat Pokémon"}
+{"name": "oddish", "national_dex_number": 43, "type1": "grass", "type2": "poison", "color": "blue", "genus": "Weed Pokémon"}
+{"name": "gloom", "national_dex_number": 44, "type1": "grass", "type2": "poison", "color": "blue", "genus": "Weed Pokémon"}
+{"name": "vileplume", "national_dex_number": 45, "type1": "grass", "type2": "poison", "color": "red", "genus": "Flower Pokémon"}
+{"name": "paras", "national_dex_number": 46, "type1": "bug", "type2": "grass", "color": "red", "genus": "Mushroom Pokémon"}
+{"name": "parasect", "national_dex_number": 47, "type1": "bug", "type2": "grass", "color": "red", "genus": "Mushroom Pokémon"}
+{"name": "venonat", "national_dex_number": 48, "type1": "bug", "type2": "poison", "color": "purple", "genus": "Insect Pokémon"}
+{"name": "venomoth", "national_dex_number": 49, "type1": "bug", "type2": "poison", "color": "purple", "genus": "Poison Moth Pokémon"}
+{"name": "diglett", "national_dex_number": 50, "type1": "ground", "type2": null, "color": "brown", "genus": "Mole Pokémon"}
+{"name": "dugtrio", "national_dex_number": 51, "type1": "ground", "type2": null, "color": "brown", "genus": "Mole Pokémon"}
+{"name": "meowth", "national_dex_number": 52, "type1": "normal", "type2": null, "color": "yellow", "genus": "Scratch Cat Pokémon"}
+{"name": "persian", "national_dex_number": 53, "type1": "normal", "type2": null, "color": "yellow", "genus": "Classy Cat Pokémon"}
+{"name": "psyduck", "national_dex_number": 54, "type1": "water", "type2": null, "color": "yellow", "genus": "Duck Pokémon"}
+{"name": "golduck", "national_dex_number": 55, "type1": "water", "type2": null, "color": "blue", "genus": "Duck Pokémon"}
+{"name": "mankey", "national_dex_number": 56, "type1": "fighting", "type2": null, "color": "brown", "genus": "Pig Monkey Pokémon"}
+{"name": "primeape", "national_dex_number": 57, "type1": "fighting", "type2": null, "color": "brown", "genus": "Pig Monkey Pokémon"}
+{"name": "growlithe", "national_dex_number": 58, "type1": "fire", "type2": null, "color": "brown", "genus": "Puppy Pokémon"}
+{"name": "arcanine", "national_dex_number": 59, "type1": "fire", "type2": null, "color": "brown", "genus": "Legendary Pokémon"}
+{"name": "poliwag", "national_dex_number": 60, "type1": "water", "type2": null, "color": "blue", "genus": "Tadpole Pokémon"}
+{"name": "poliwhirl", "national_dex_number": 61, "type1": "water", "type2": null, "color": "blue", "genus": "Tadpole Pokémon"}
+{"name": "poliwrath", "national_dex_number": 62, "type1": "water", "type2": "fighting", "color": "blue", "genus": "Tadpole Pokémon"}
+{"name": "abra", "national_dex_number": 63, "type1": "psychic", "type2": null, "color": "brown", "genus": "Psi Pokémon"}
+{"name": "kadabra", "national_dex_number": 64, "type1": "psychic", "type2": null, "color": "brown", "genus": "Psi Pokémon"}
+{"name": "alakazam", "national_dex_number": 65, "type1": "psychic", "type2": null, "color": "brown", "genus": "Psi Pokémon"}
+{"name": "machop", "national_dex_number": 66, "type1": "fighting", "type2": null, "color": "gray", "genus": "Superpower Pokémon"}
+{"name": "machoke", "national_dex_number": 67, "type1": "fighting", "type2": null, "color": "gray", "genus": "Superpower Pokémon"}
+{"name": "machamp", "national_dex_number": 68, "type1": "fighting", "type2": null, "color": "gray", "genus": "Superpower Pokémon"}
+{"name": "bellsprout", "national_dex_number": 69, "type1": "grass", "type2": "poison", "color": "green", "genus": "Flower Pokémon"}
+{"name": "weepinbell", "national_dex_number": 70, "type1": "grass", "type2": "poison", "color": "green", "genus": "Flycatcher Pokémon"}
+{"name": "victreebel", "national_dex_number": 71, "type1": "grass", "type2": "poison", "color": "green", "genus": "Flycatcher Pokémon"}
+{"name": "tentacool", "national_dex_number": 72, "type1": "water", "type2": "poison", "color": "blue", "genus": "Jellyfish Pokémon"}
+{"name": "tentacruel", "national_dex_number": 73, "type1": "water", "type2": "poison", "color": "blue", "genus": "Jellyfish Pokémon"}
+{"name": "geodude", "national_dex_number": 74, "type1": "rock", "type2": "ground", "color": "brown", "genus": "Rock Pokémon"}
+{"name": "graveler", "national_dex_number": 75, "type1": "rock", "type2": "ground", "color": "brown", "genus": "Rock Pokémon"}
+{"name": "golem", "national_dex_number": 76, "type1": "rock", "type2": "ground", "color": "brown", "genus": "Megaton Pokémon"}
+{"name": "ponyta", "national_dex_number": 77, "type1": "fire", "type2": null, "color": "yellow", "genus": "Fire Horse Pokémon"}
+{"name": "rapidash", "national_dex_number": 78, "type1": "fire", "type2": null, "color": "yellow", "genus": "Fire Horse Pokémon"}
+{"name": "slowpoke", "national_dex_number": 79, "type1": "water", "type2": "psychic", "color": "pink", "genus": "Dopey Pokémon"}
+{"name": "slowbro", "national_dex_number": 80, "type1": "water", "type2": "psychic", "color": "pink", "genus": "Hermit Crab Pokémon"}
+{"name": "magnemite", "national_dex_number": 81, "type1": "electric", "type2": "steel", "color": "gray", "genus": "Magnet Pokémon"}
+{"name": "magneton", "national_dex_number": 82, "type1": "electric", "type2": "steel", "color": "gray", "genus": "Magnet Pokémon"}
+{"name": "farfetchd", "national_dex_number": 83, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Wild Duck Pokémon"}
+{"name": "doduo", "national_dex_number": 84, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Twin Bird Pokémon"}
+{"name": "dodrio", "national_dex_number": 85, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Triple Bird Pokémon"}
+{"name": "seel", "national_dex_number": 86, "type1": "water", "type2": null, "color": "white", "genus": "Sea Lion Pokémon"}
+{"name": "dewgong", "national_dex_number": 87, "type1": "water", "type2": "ice", "color": "white", "genus": "Sea Lion Pokémon"}
+{"name": "grimer", "national_dex_number": 88, "type1": "poison", "type2": null, "color": "purple", "genus": "Sludge Pokémon"}
+{"name": "muk", "national_dex_number": 89, "type1": "poison", "type2": null, "color": "purple", "genus": "Sludge Pokémon"}
+{"name": "shellder", "national_dex_number": 90, "type1": "water", "type2": null, "color": "purple", "genus": "Bivalve Pokémon"}
+{"name": "cloyster", "national_dex_number": 91, "type1": "water", "type2": "ice", "color": "purple", "genus": "Bivalve Pokémon"}
+{"name": "gastly", "national_dex_number": 92, "type1": "ghost", "type2": "poison", "color": "purple", "genus": "Gas Pokémon"}
+{"name": "haunter", "national_dex_number": 93, "type1": "ghost", "type2": "poison", "color": "purple", "genus": "Gas Pokémon"}
+{"name": "gengar", "national_dex_number": 94, "type1": "ghost", "type2": "poison", "color": "purple", "genus": "Shadow Pokémon"}
+{"name": "onix", "national_dex_number": 95, "type1": "rock", "type2": "ground", "color": "gray", "genus": "Rock Snake Pokémon"}
+{"name": "drowzee", "national_dex_number": 96, "type1": "psychic", "type2": null, "color": "yellow", "genus": "Hypnosis Pokémon"}
+{"name": "hypno", "national_dex_number": 97, "type1": "psychic", "type2": null, "color": "yellow", "genus": "Hypnosis Pokémon"}
+{"name": "krabby", "national_dex_number": 98, "type1": "water", "type2": null, "color": "red", "genus": "River Crab Pokémon"}
+{"name": "kingler", "national_dex_number": 99, "type1": "water", "type2": null, "color": "red", "genus": "Pincer Pokémon"}
+{"name": "voltorb", "national_dex_number": 100, "type1": "electric", "type2": null, "color": "red", "genus": "Ball Pokémon"}
+{"name": "electrode", "national_dex_number": 101, "type1": "electric", "type2": null, "color": "red", "genus": "Ball Pokémon"}
+{"name": "exeggcute", "national_dex_number": 102, "type1": "grass", "type2": "psychic", "color": "pink", "genus": "Egg Pokémon"}
+{"name": "exeggutor", "national_dex_number": 103, "type1": "grass", "type2": "psychic", "color": "yellow", "genus": "Coconut Pokémon"}
+{"name": "cubone", "national_dex_number": 104, "type1": "ground", "type2": null, "color": "brown", "genus": "Lonely Pokémon"}
+{"name": "marowak", "national_dex_number": 105, "type1": "ground", "type2": null, "color": "brown", "genus": "Bone Keeper Pokémon"}
+{"name": "hitmonlee", "national_dex_number": 106, "type1": "fighting", "type2": null, "color": "brown", "genus": "Kicking Pokémon"}
+{"name": "hitmonchan", "national_dex_number": 107, "type1": "fighting", "type2": null, "color": "brown", "genus": "Punching Pokémon"}
+{"name": "lickitung", "national_dex_number": 108, "type1": "normal", "type2": null, "color": "pink", "genus": "Licking Pokémon"}
+{"name": "koffing", "national_dex_number": 109, "type1": "poison", "type2": null, "color": "purple", "genus": "Poison Gas Pokémon"}
+{"name": "weezing", "national_dex_number": 110, "type1": "poison", "type2": null, "color": "purple", "genus": "Poison Gas Pokémon"}
+{"name": "rhyhorn", "national_dex_number": 111, "type1": "ground", "type2": "rock", "color": "gray", "genus": "Spikes Pokémon"}
+{"name": "rhydon", "national_dex_number": 112, "type1": "ground", "type2": "rock", "color": "gray", "genus": "Drill Pokémon"}
+{"name": "chansey", "national_dex_number": 113, "type1": "normal", "type2": null, "color": "pink", "genus": "Egg Pokémon"}
+{"name": "tangela", "national_dex_number": 114, "type1": "grass", "type2": null, "color": "blue", "genus": "Vine Pokémon"}
+{"name": "kangaskhan", "national_dex_number": 115, "type1": "normal", "type2": null, "color": "brown", "genus": "Parent Pokémon"}
+{"name": "horsea", "national_dex_number": 116, "type1": "water", "type2": null, "color": "blue", "genus": "Dragon Pokémon"}
+{"name": "seadra", "national_dex_number": 117, "type1": "water", "type2": null, "color": "blue", "genus": "Dragon Pokémon"}
+{"name": "goldeen", "national_dex_number": 118, "type1": "water", "type2": null, "color": "red", "genus": "Goldfish Pokémon"}
+{"name": "seaking", "national_dex_number": 119, "type1": "water", "type2": null, "color": "red", "genus": "Goldfish Pokémon"}
+{"name": "staryu", "national_dex_number": 120, "type1": "water", "type2": null, "color": "brown", "genus": "Star Shape Pokémon"}
+{"name": "starmie", "national_dex_number": 121, "type1": "water", "type2": "psychic", "color": "purple", "genus": "Mysterious Pokémon"}
+{"name": "mr-mime", "national_dex_number": 122, "type1": "psychic", "type2": "fairy", "color": "pink", "genus": "Barrier Pokémon"}
+{"name": "scyther", "national_dex_number": 123, "type1": "bug", "type2": "flying", "color": "green", "genus": "Mantis Pokémon"}
+{"name": "jynx", "national_dex_number": 124, "type1": "ice", "type2": "psychic", "color": "red", "genus": "Human Shape Pokémon"}
+{"name": "electabuzz", "national_dex_number": 125, "type1": "electric", "type2": null, "color": "yellow", "genus": "Electric Pokémon"}
+{"name": "magmar", "national_dex_number": 126, "type1": "fire", "type2": null, "color": "red", "genus": "Spitfire Pokémon"}
+{"name": "pinsir", "national_dex_number": 127, "type1": "bug", "type2": null, "color": "brown", "genus": "Stag Beetle Pokémon"}
+{"name": "tauros", "national_dex_number": 128, "type1": "normal", "type2": null, "color": "brown", "genus": "Wild Bull Pokémon"}
+{"name": "magikarp", "national_dex_number": 129, "type1": "water", "type2": null, "color": "red", "genus": "Fish Pokémon"}
+{"name": "gyarados", "national_dex_number": 130, "type1": "water", "type2": "flying", "color": "blue", "genus": "Atrocious Pokémon"}
+{"name": "lapras", "national_dex_number": 131, "type1": "water", "type2": "ice", "color": "blue", "genus": "Transport Pokémon"}
+{"name": "ditto", "national_dex_number": 132, "type1": "normal", "type2": null, "color": "purple", "genus": "Transform Pokémon"}
+{"name": "eevee", "national_dex_number": 133, "type1": "normal", "type2": null, "color": "brown", "genus": "Evolution Pokémon"}
+{"name": "vaporeon", "national_dex_number": 134, "type1": "water", "type2": null, "color": "blue", "genus": "Bubble Jet Pokémon"}
+{"name": "jolteon", "national_dex_number": 135, "type1": "electric", "type2": null, "color": "yellow", "genus": "Lightning Pokémon"}
+{"name": "flareon", "national_dex_number": 136, "type1": "fire", "type2": null, "color": "red", "genus": "Flame Pokémon"}
+{"name": "porygon", "national_dex_number": 137, "type1": "normal", "type2": null, "color": "pink", "genus": "Virtual Pokémon"}
+{"name": "omanyte", "national_dex_number": 138, "type1": "rock", "type2": "water", "color": "blue", "genus": "Spiral Pokémon"}
+{"name": "omastar", "national_dex_number": 139, "type1": "rock", "type2": "water", "color": "blue", "genus": "Spiral Pokémon"}
+{"name": "kabuto", "national_dex_number": 140, "type1": "rock", "type2": "water", "color": "brown", "genus": "Shellfish Pokémon"}
+{"name": "kabutops", "national_dex_number": 141, "type1": "rock", "type2": "water", "color": "brown", "genus": "Shellfish Pokémon"}
+{"name": "aerodactyl", "national_dex_number": 142, "type1": "rock", "type2": "flying", "color": "purple", "genus": "Fossil Pokémon"}
+{"name": "snorlax", "national_dex_number": 143, "type1": "normal", "type2": null, "color": "black", "genus": "Sleeping Pokémon"}
+{"name": "articuno", "national_dex_number": 144, "type1": "ice", "type2": "flying", "color": "blue", "genus": "Freeze Pokémon"}
+{"name": "zapdos", "national_dex_number": 145, "type1": "electric", "type2": "flying", "color": "yellow", "genus": "Electric Pokémon"}
+{"name": "moltres", "national_dex_number": 146, "type1": "fire", "type2": "flying", "color": "yellow", "genus": "Flame Pokémon"}
+{"name": "dratini", "national_dex_number": 147, "type1": "dragon", "type2": null, "color": "blue", "genus": "Dragon Pokémon"}
+{"name": "dragonair", "national_dex_number": 148, "type1": "dragon", "type2": null, "color": "blue", "genus": "Dragon Pokémon"}
+{"name": "dragonite", "national_dex_number": 149, "type1": "dragon", "type2": "flying", "color": "brown", "genus": "Dragon Pokémon"}
+{"name": "mewtwo", "national_dex_number": 150, "type1": "psychic", "type2": null, "color": "purple", "genus": "Genetic Pokémon"}
+{"name": "mew", "national_dex_number": 151, "type1": "psychic", "type2": null, "color": "pink", "genus": "New Species Pokémon"}
+{"name": "chikorita", "national_dex_number": 152, "type1": "grass", "type2": null, "color": "green", "genus": "Leaf Pokémon"}
+{"name": "bayleef", "national_dex_number": 153, "type1": "grass", "type2": null, "color": "green", "genus": "Leaf Pokémon"}
+{"name": "meganium", "national_dex_number": 154, "type1": "grass", "type2": null, "color": "green", "genus": "Herb Pokémon"}
+{"name": "cyndaquil", "national_dex_number": 155, "type1": "fire", "type2": null, "color": "yellow", "genus": "Fire Mouse Pokémon"}
+{"name": "quilava", "national_dex_number": 156, "type1": "fire", "type2": null, "color": "yellow", "genus": "Volcano Pokémon"}
+{"name": "typhlosion", "national_dex_number": 157, "type1": "fire", "type2": null, "color": "yellow", "genus": "Volcano Pokémon"}
+{"name": "totodile", "national_dex_number": 158, "type1": "water", "type2": null, "color": "blue", "genus": "Big Jaw Pokémon"}
+{"name": "croconaw", "national_dex_number": 159, "type1": "water", "type2": null, "color": "blue", "genus": "Big Jaw Pokémon"}
+{"name": "feraligatr", "national_dex_number": 160, "type1": "water", "type2": null, "color": "blue", "genus": "Big Jaw Pokémon"}
+{"name": "sentret", "national_dex_number": 161, "type1": "normal", "type2": null, "color": "brown", "genus": "Scout Pokémon"}
+{"name": "furret", "national_dex_number": 162, "type1": "normal", "type2": null, "color": "brown", "genus": "Long Body Pokémon"}
+{"name": "hoothoot", "national_dex_number": 163, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Owl Pokémon"}
+{"name": "noctowl", "national_dex_number": 164, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Owl Pokémon"}
+{"name": "ledyba", "national_dex_number": 165, "type1": "bug", "type2": "flying", "color": "red", "genus": "Five Star Pokémon"}
+{"name": "ledian", "national_dex_number": 166, "type1": "bug", "type2": "flying", "color": "red", "genus": "Five Star Pokémon"}
+{"name": "spinarak", "national_dex_number": 167, "type1": "bug", "type2": "poison", "color": "green", "genus": "String Spit Pokémon"}
+{"name": "ariados", "national_dex_number": 168, "type1": "bug", "type2": "poison", "color": "red", "genus": "Long Leg Pokémon"}
+{"name": "crobat", "national_dex_number": 169, "type1": "poison", "type2": "flying", "color": "purple", "genus": "Bat Pokémon"}
+{"name": "chinchou", "national_dex_number": 170, "type1": "water", "type2": "electric", "color": "blue", "genus": "Angler Pokémon"}
+{"name": "lanturn", "national_dex_number": 171, "type1": "water", "type2": "electric", "color": "blue", "genus": "Light Pokémon"}
+{"name": "pichu", "national_dex_number": 172, "type1": "electric", "type2": null, "color": "yellow", "genus": "Tiny Mouse Pokémon"}
+{"name": "cleffa", "national_dex_number": 173, "type1": "fairy", "type2": null, "color": "pink", "genus": "Star Shape Pokémon"}
+{"name": "igglybuff", "national_dex_number": 174, "type1": "normal", "type2": "fairy", "color": "pink", "genus": "Balloon Pokémon"}
+{"name": "togepi", "national_dex_number": 175, "type1": "fairy", "type2": null, "color": "white", "genus": "Spike Ball Pokémon"}
+{"name": "togetic", "national_dex_number": 176, "type1": "fairy", "type2": "flying", "color": "white", "genus": "Happiness Pokémon"}
+{"name": "natu", "national_dex_number": 177, "type1": "psychic", "type2": "flying", "color": "green", "genus": "Tiny Bird Pokémon"}
+{"name": "xatu", "national_dex_number": 178, "type1": "psychic", "type2": "flying", "color": "green", "genus": "Mystic Pokémon"}
+{"name": "mareep", "national_dex_number": 179, "type1": "electric", "type2": null, "color": "white", "genus": "Wool Pokémon"}
+{"name": "flaaffy", "national_dex_number": 180, "type1": "electric", "type2": null, "color": "pink", "genus": "Wool Pokémon"}
+{"name": "ampharos", "national_dex_number": 181, "type1": "electric", "type2": null, "color": "yellow", "genus": "Light Pokémon"}
+{"name": "bellossom", "national_dex_number": 182, "type1": "grass", "type2": null, "color": "green", "genus": "Flower Pokémon"}
+{"name": "marill", "national_dex_number": 183, "type1": "water", "type2": "fairy", "color": "blue", "genus": "Aqua Mouse Pokémon"}
+{"name": "azumarill", "national_dex_number": 184, "type1": "water", "type2": "fairy", "color": "blue", "genus": "Aqua Rabbit Pokémon"}
+{"name": "sudowoodo", "national_dex_number": 185, "type1": "rock", "type2": null, "color": "brown", "genus": "Imitation Pokémon"}
+{"name": "politoed", "national_dex_number": 186, "type1": "water", "type2": null, "color": "green", "genus": "Frog Pokémon"}
+{"name": "hoppip", "national_dex_number": 187, "type1": "grass", "type2": "flying", "color": "pink", "genus": "Cottonweed Pokémon"}
+{"name": "skiploom", "national_dex_number": 188, "type1": "grass", "type2": "flying", "color": "green", "genus": "Cottonweed Pokémon"}
+{"name": "jumpluff", "national_dex_number": 189, "type1": "grass", "type2": "flying", "color": "blue", "genus": "Cottonweed Pokémon"}
+{"name": "aipom", "national_dex_number": 190, "type1": "normal", "type2": null, "color": "purple", "genus": "Long Tail Pokémon"}
+{"name": "sunkern", "national_dex_number": 191, "type1": "grass", "type2": null, "color": "yellow", "genus": "Seed Pokémon"}
+{"name": "sunflora", "national_dex_number": 192, "type1": "grass", "type2": null, "color": "yellow", "genus": "Sun Pokémon"}
+{"name": "yanma", "national_dex_number": 193, "type1": "bug", "type2": "flying", "color": "red", "genus": "Clear Wing Pokémon"}
+{"name": "wooper", "national_dex_number": 194, "type1": "water", "type2": "ground", "color": "blue", "genus": "Water Fish Pokémon"}
+{"name": "quagsire", "national_dex_number": 195, "type1": "water", "type2": "ground", "color": "blue", "genus": "Water Fish Pokémon"}
+{"name": "espeon", "national_dex_number": 196, "type1": "psychic", "type2": null, "color": "purple", "genus": "Sun Pokémon"}
+{"name": "umbreon", "national_dex_number": 197, "type1": "dark", "type2": null, "color": "black", "genus": "Moonlight Pokémon"}
+{"name": "murkrow", "national_dex_number": 198, "type1": "dark", "type2": "flying", "color": "black", "genus": "Darkness Pokémon"}
+{"name": "slowking", "national_dex_number": 199, "type1": "water", "type2": "psychic", "color": "pink", "genus": "Royal Pokémon"}
+{"name": "misdreavus", "national_dex_number": 200, "type1": "ghost", "type2": null, "color": "gray", "genus": "Screech Pokémon"}
+{"name": "unown", "national_dex_number": 201, "type1": "psychic", "type2": null, "color": "black", "genus": "Symbol Pokémon"}
+{"name": "wobbuffet", "national_dex_number": 202, "type1": "psychic", "type2": null, "color": "blue", "genus": "Patient Pokémon"}
+{"name": "girafarig", "national_dex_number": 203, "type1": "normal", "type2": "psychic", "color": "yellow", "genus": "Long Neck Pokémon"}
+{"name": "pineco", "national_dex_number": 204, "type1": "bug", "type2": null, "color": "gray", "genus": "Bagworm Pokémon"}
+{"name": "forretress", "national_dex_number": 205, "type1": "bug", "type2": "steel", "color": "purple", "genus": "Bagworm Pokémon"}
+{"name": "dunsparce", "national_dex_number": 206, "type1": "normal", "type2": null, "color": "yellow", "genus": "Land Snake Pokémon"}
+{"name": "gligar", "national_dex_number": 207, "type1": "ground", "type2": "flying", "color": "purple", "genus": "Fly Scorpion Pokémon"}
+{"name": "steelix", "national_dex_number": 208, "type1": "steel", "type2": "ground", "color": "gray", "genus": "Iron Snake Pokémon"}
+{"name": "snubbull", "national_dex_number": 209, "type1": "fairy", "type2": null, "color": "pink", "genus": "Fairy Pokémon"}
+{"name": "granbull", "national_dex_number": 210, "type1": "fairy", "type2": null, "color": "purple", "genus": "Fairy Pokémon"}
+{"name": "qwilfish", "national_dex_number": 211, "type1": "water", "type2": "poison", "color": "gray", "genus": "Balloon Pokémon"}
+{"name": "scizor", "national_dex_number": 212, "type1": "bug", "type2": "steel", "color": "red", "genus": "Pincer Pokémon"}
+{"name": "shuckle", "national_dex_number": 213, "type1": "bug", "type2": "rock", "color": "yellow", "genus": "Mold Pokémon"}
+{"name": "heracross", "national_dex_number": 214, "type1": "bug", "type2": "fighting", "color": "blue", "genus": "Single Horn Pokémon"}
+{"name": "sneasel", "national_dex_number": 215, "type1": "dark", "type2": "ice", "color": "black", "genus": "Sharp Claw Pokémon"}
+{"name": "teddiursa", "national_dex_number": 216, "type1": "normal", "type2": null, "color": "brown", "genus": "Little Bear Pokémon"}
+{"name": "ursaring", "national_dex_number": 217, "type1": "normal", "type2": null, "color": "brown", "genus": "Hibernator Pokémon"}
+{"name": "slugma", "national_dex_number": 218, "type1": "fire", "type2": null, "color": "red", "genus": "Lava Pokémon"}
+{"name": "magcargo", "national_dex_number": 219, "type1": "fire", "type2": "rock", "color": "red", "genus": "Lava Pokémon"}
+{"name": "swinub", "national_dex_number": 220, "type1": "ice", "type2": "ground", "color": "brown", "genus": "Pig Pokémon"}
+{"name": "piloswine", "national_dex_number": 221, "type1": "ice", "type2": "ground", "color": "brown", "genus": "Swine Pokémon"}
+{"name": "corsola", "national_dex_number": 222, "type1": "water", "type2": "rock", "color": "pink", "genus": "Coral Pokémon"}
+{"name": "remoraid", "national_dex_number": 223, "type1": "water", "type2": null, "color": "gray", "genus": "Jet Pokémon"}
+{"name": "octillery", "national_dex_number": 224, "type1": "water", "type2": null, "color": "red", "genus": "Jet Pokémon"}
+{"name": "delibird", "national_dex_number": 225, "type1": "ice", "type2": "flying", "color": "red", "genus": "Delivery Pokémon"}
+{"name": "mantine", "national_dex_number": 226, "type1": "water", "type2": "flying", "color": "purple", "genus": "Kite Pokémon"}
+{"name": "skarmory", "national_dex_number": 227, "type1": "steel", "type2": "flying", "color": "gray", "genus": "Armor Bird Pokémon"}
+{"name": "houndour", "national_dex_number": 228, "type1": "dark", "type2": "fire", "color": "black", "genus": "Dark Pokémon"}
+{"name": "houndoom", "national_dex_number": 229, "type1": "dark", "type2": "fire", "color": "black", "genus": "Dark Pokémon"}
+{"name": "kingdra", "national_dex_number": 230, "type1": "water", "type2": "dragon", "color": "blue", "genus": "Dragon Pokémon"}
+{"name": "phanpy", "national_dex_number": 231, "type1": "ground", "type2": null, "color": "blue", "genus": "Long Nose Pokémon"}
+{"name": "donphan", "national_dex_number": 232, "type1": "ground", "type2": null, "color": "gray", "genus": "Armor Pokémon"}
+{"name": "porygon2", "national_dex_number": 233, "type1": "normal", "type2": null, "color": "red", "genus": "Virtual Pokémon"}
+{"name": "stantler", "national_dex_number": 234, "type1": "normal", "type2": null, "color": "brown", "genus": "Big Horn Pokémon"}
+{"name": "smeargle", "national_dex_number": 235, "type1": "normal", "type2": null, "color": "white", "genus": "Painter Pokémon"}
+{"name": "tyrogue", "national_dex_number": 236, "type1": "fighting", "type2": null, "color": "purple", "genus": "Scuffle Pokémon"}
+{"name": "hitmontop", "national_dex_number": 237, "type1": "fighting", "type2": null, "color": "brown", "genus": "Handstand Pokémon"}
+{"name": "smoochum", "national_dex_number": 238, "type1": "ice", "type2": "psychic", "color": "pink", "genus": "Kiss Pokémon"}
+{"name": "elekid", "national_dex_number": 239, "type1": "electric", "type2": null, "color": "yellow", "genus": "Electric Pokémon"}
+{"name": "magby", "national_dex_number": 240, "type1": "fire", "type2": null, "color": "red", "genus": "Live Coal Pokémon"}
+{"name": "miltank", "national_dex_number": 241, "type1": "normal", "type2": null, "color": "pink", "genus": "Milk Cow Pokémon"}
+{"name": "blissey", "national_dex_number": 242, "type1": "normal", "type2": null, "color": "pink", "genus": "Happiness Pokémon"}
+{"name": "raikou", "national_dex_number": 243, "type1": "electric", "type2": null, "color": "yellow", "genus": "Thunder Pokémon"}
+{"name": "entei", "national_dex_number": 244, "type1": "fire", "type2": null, "color": "brown", "genus": "Volcano Pokémon"}
+{"name": "suicune", "national_dex_number": 245, "type1": "water", "type2": null, "color": "blue", "genus": "Aurora Pokémon"}
+{"name": "larvitar", "national_dex_number": 246, "type1": "rock", "type2": "ground", "color": "green", "genus": "Rock Skin Pokémon"}
+{"name": "pupitar", "national_dex_number": 247, "type1": "rock", "type2": "ground", "color": "gray", "genus": "Hard Shell Pokémon"}
+{"name": "tyranitar", "national_dex_number": 248, "type1": "rock", "type2": "dark", "color": "green", "genus": "Armor Pokémon"}
+{"name": "lugia", "national_dex_number": 249, "type1": "psychic", "type2": "flying", "color": "white", "genus": "Diving Pokémon"}
+{"name": "ho-oh", "national_dex_number": 250, "type1": "fire", "type2": "flying", "color": "red", "genus": "Rainbow Pokémon"}
+{"name": "celebi", "national_dex_number": 251, "type1": "psychic", "type2": "grass", "color": "green", "genus": "Time Travel Pokémon"}
+{"name": "treecko", "national_dex_number": 252, "type1": "grass", "type2": null, "color": "green", "genus": "Wood Gecko Pokémon"}
+{"name": "grovyle", "national_dex_number": 253, "type1": "grass", "type2": null, "color": "green", "genus": "Wood Gecko Pokémon"}
+{"name": "sceptile", "national_dex_number": 254, "type1": "grass", "type2": null, "color": "green", "genus": "Forest Pokémon"}
+{"name": "torchic", "national_dex_number": 255, "type1": "fire", "type2": null, "color": "red", "genus": "Chick Pokémon"}
+{"name": "combusken", "national_dex_number": 256, "type1": "fire", "type2": "fighting", "color": "red", "genus": "Young Fowl Pokémon"}
+{"name": "blaziken", "national_dex_number": 257, "type1": "fire", "type2": "fighting", "color": "red", "genus": "Blaze Pokémon"}
+{"name": "mudkip", "national_dex_number": 258, "type1": "water", "type2": null, "color": "blue", "genus": "Mud Fish Pokémon"}
+{"name": "marshtomp", "national_dex_number": 259, "type1": "water", "type2": "ground", "color": "blue", "genus": "Mud Fish Pokémon"}
+{"name": "swampert", "national_dex_number": 260, "type1": "water", "type2": "ground", "color": "blue", "genus": "Mud Fish Pokémon"}
+{"name": "poochyena", "national_dex_number": 261, "type1": "dark", "type2": null, "color": "gray", "genus": "Bite Pokémon"}
+{"name": "mightyena", "national_dex_number": 262, "type1": "dark", "type2": null, "color": "gray", "genus": "Bite Pokémon"}
+{"name": "zigzagoon", "national_dex_number": 263, "type1": "normal", "type2": null, "color": "brown", "genus": "Tiny Raccoon Pokémon"}
+{"name": "linoone", "national_dex_number": 264, "type1": "normal", "type2": null, "color": "white", "genus": "Rushing Pokémon"}
+{"name": "wurmple", "national_dex_number": 265, "type1": "bug", "type2": null, "color": "red", "genus": "Worm Pokémon"}
+{"name": "silcoon", "national_dex_number": 266, "type1": "bug", "type2": null, "color": "white", "genus": "Cocoon Pokémon"}
+{"name": "beautifly", "national_dex_number": 267, "type1": "bug", "type2": "flying", "color": "yellow", "genus": "Butterfly Pokémon"}
+{"name": "cascoon", "national_dex_number": 268, "type1": "bug", "type2": null, "color": "purple", "genus": "Cocoon Pokémon"}
+{"name": "dustox", "national_dex_number": 269, "type1": "bug", "type2": "poison", "color": "green", "genus": "Poison Moth Pokémon"}
+{"name": "lotad", "national_dex_number": 270, "type1": "water", "type2": "grass", "color": "green", "genus": "Water Weed Pokémon"}
+{"name": "lombre", "national_dex_number": 271, "type1": "water", "type2": "grass", "color": "green", "genus": "Jolly Pokémon"}
+{"name": "ludicolo", "national_dex_number": 272, "type1": "water", "type2": "grass", "color": "green", "genus": "Carefree Pokémon"}
+{"name": "seedot", "national_dex_number": 273, "type1": "grass", "type2": null, "color": "brown", "genus": "Acorn Pokémon"}
+{"name": "nuzleaf", "national_dex_number": 274, "type1": "grass", "type2": "dark", "color": "brown", "genus": "Wily Pokémon"}
+{"name": "shiftry", "national_dex_number": 275, "type1": "grass", "type2": "dark", "color": "brown", "genus": "Wicked Pokémon"}
+{"name": "taillow", "national_dex_number": 276, "type1": "normal", "type2": "flying", "color": "blue", "genus": "Tiny Swallow Pokémon"}
+{"name": "swellow", "national_dex_number": 277, "type1": "normal", "type2": "flying", "color": "blue", "genus": "Swallow Pokémon"}
+{"name": "wingull", "national_dex_number": 278, "type1": "water", "type2": "flying", "color": "white", "genus": "Seagull Pokémon"}
+{"name": "pelipper", "national_dex_number": 279, "type1": "water", "type2": "flying", "color": "yellow", "genus": "Water Bird Pokémon"}
+{"name": "ralts", "national_dex_number": 280, "type1": "psychic", "type2": "fairy", "color": "white", "genus": "Feeling Pokémon"}
+{"name": "kirlia", "national_dex_number": 281, "type1": "psychic", "type2": "fairy", "color": "white", "genus": "Emotion Pokémon"}
+{"name": "gardevoir", "national_dex_number": 282, "type1": "psychic", "type2": "fairy", "color": "white", "genus": "Embrace Pokémon"}
+{"name": "surskit", "national_dex_number": 283, "type1": "bug", "type2": "water", "color": "blue", "genus": "Pond Skater Pokémon"}
+{"name": "masquerain", "national_dex_number": 284, "type1": "bug", "type2": "flying", "color": "blue", "genus": "Eyeball Pokémon"}
+{"name": "shroomish", "national_dex_number": 285, "type1": "grass", "type2": null, "color": "brown", "genus": "Mushroom Pokémon"}
+{"name": "breloom", "national_dex_number": 286, "type1": "grass", "type2": "fighting", "color": "green", "genus": "Mushroom Pokémon"}
+{"name": "slakoth", "national_dex_number": 287, "type1": "normal", "type2": null, "color": "brown", "genus": "Slacker Pokémon"}
+{"name": "vigoroth", "national_dex_number": 288, "type1": "normal", "type2": null, "color": "white", "genus": "Wild Monkey Pokémon"}
+{"name": "slaking", "national_dex_number": 289, "type1": "normal", "type2": null, "color": "brown", "genus": "Lazy Pokémon"}
+{"name": "nincada", "national_dex_number": 290, "type1": "bug", "type2": "ground", "color": "gray", "genus": "Trainee Pokémon"}
+{"name": "ninjask", "national_dex_number": 291, "type1": "bug", "type2": "flying", "color": "yellow", "genus": "Ninja Pokémon"}
+{"name": "shedinja", "national_dex_number": 292, "type1": "bug", "type2": "ghost", "color": "brown", "genus": "Shed Pokémon"}
+{"name": "whismur", "national_dex_number": 293, "type1": "normal", "type2": null, "color": "pink", "genus": "Whisper Pokémon"}
+{"name": "loudred", "national_dex_number": 294, "type1": "normal", "type2": null, "color": "blue", "genus": "Big Voice Pokémon"}
+{"name": "exploud", "national_dex_number": 295, "type1": "normal", "type2": null, "color": "blue", "genus": "Loud Noise Pokémon"}
+{"name": "makuhita", "national_dex_number": 296, "type1": "fighting", "type2": null, "color": "yellow", "genus": "Guts Pokémon"}
+{"name": "hariyama", "national_dex_number": 297, "type1": "fighting", "type2": null, "color": "brown", "genus": "Arm Thrust Pokémon"}
+{"name": "azurill", "national_dex_number": 298, "type1": "normal", "type2": "fairy", "color": "blue", "genus": "Polka Dot Pokémon"}
+{"name": "nosepass", "national_dex_number": 299, "type1": "rock", "type2": null, "color": "gray", "genus": "Compass Pokémon"}
+{"name": "skitty", "national_dex_number": 300, "type1": "normal", "type2": null, "color": "pink", "genus": "Kitten Pokémon"}
+{"name": "delcatty", "national_dex_number": 301, "type1": "normal", "type2": null, "color": "purple", "genus": "Prim Pokémon"}
+{"name": "sableye", "national_dex_number": 302, "type1": "dark", "type2": "ghost", "color": "purple", "genus": "Darkness Pokémon"}
+{"name": "mawile", "national_dex_number": 303, "type1": "steel", "type2": "fairy", "color": "black", "genus": "Deceiver Pokémon"}
+{"name": "aron", "national_dex_number": 304, "type1": "steel", "type2": "rock", "color": "gray", "genus": "Iron Armor Pokémon"}
+{"name": "lairon", "national_dex_number": 305, "type1": "steel", "type2": "rock", "color": "gray", "genus": "Iron Armor Pokémon"}
+{"name": "aggron", "national_dex_number": 306, "type1": "steel", "type2": "rock", "color": "gray", "genus": "Iron Armor Pokémon"}
+{"name": "meditite", "national_dex_number": 307, "type1": "fighting", "type2": "psychic", "color": "blue", "genus": "Meditate Pokémon"}
+{"name": "medicham", "national_dex_number": 308, "type1": "fighting", "type2": "psychic", "color": "red", "genus": "Meditate Pokémon"}
+{"name": "electrike", "national_dex_number": 309, "type1": "electric", "type2": null, "color": "green", "genus": "Lightning Pokémon"}
+{"name": "manectric", "national_dex_number": 310, "type1": "electric", "type2": null, "color": "yellow", "genus": "Discharge Pokémon"}
+{"name": "plusle", "national_dex_number": 311, "type1": "electric", "type2": null, "color": "yellow", "genus": "Cheering Pokémon"}
+{"name": "minun", "national_dex_number": 312, "type1": "electric", "type2": null, "color": "yellow", "genus": "Cheering Pokémon"}
+{"name": "volbeat", "national_dex_number": 313, "type1": "bug", "type2": null, "color": "gray", "genus": "Firefly Pokémon"}
+{"name": "illumise", "national_dex_number": 314, "type1": "bug", "type2": null, "color": "purple", "genus": "Firefly Pokémon"}
+{"name": "roselia", "national_dex_number": 315, "type1": "grass", "type2": "poison", "color": "green", "genus": "Thorn Pokémon"}
+{"name": "gulpin", "national_dex_number": 316, "type1": "poison", "type2": null, "color": "green", "genus": "Stomach Pokémon"}
+{"name": "swalot", "national_dex_number": 317, "type1": "poison", "type2": null, "color": "purple", "genus": "Poison Bag Pokémon"}
+{"name": "carvanha", "national_dex_number": 318, "type1": "water", "type2": "dark", "color": "red", "genus": "Savage Pokémon"}
+{"name": "sharpedo", "national_dex_number": 319, "type1": "water", "type2": "dark", "color": "blue", "genus": "Brutal Pokémon"}
+{"name": "wailmer", "national_dex_number": 320, "type1": "water", "type2": null, "color": "blue", "genus": "Ball Whale Pokémon"}
+{"name": "wailord", "national_dex_number": 321, "type1": "water", "type2": null, "color": "blue", "genus": "Float Whale Pokémon"}
+{"name": "numel", "national_dex_number": 322, "type1": "fire", "type2": "ground", "color": "yellow", "genus": "Numb Pokémon"}
+{"name": "camerupt", "national_dex_number": 323, "type1": "fire", "type2": "ground", "color": "red", "genus": "Eruption Pokémon"}
+{"name": "torkoal", "national_dex_number": 324, "type1": "fire", "type2": null, "color": "brown", "genus": "Coal Pokémon"}
+{"name": "spoink", "national_dex_number": 325, "type1": "psychic", "type2": null, "color": "black", "genus": "Bounce Pokémon"}
+{"name": "grumpig", "national_dex_number": 326, "type1": "psychic", "type2": null, "color": "purple", "genus": "Manipulate Pokémon"}
+{"name": "spinda", "national_dex_number": 327, "type1": "normal", "type2": null, "color": "brown", "genus": "Spot Panda Pokémon"}
+{"name": "trapinch", "national_dex_number": 328, "type1": "ground", "type2": null, "color": "brown", "genus": "Ant Pit Pokémon"}
+{"name": "vibrava", "national_dex_number": 329, "type1": "ground", "type2": "dragon", "color": "green", "genus": "Vibration Pokémon"}
+{"name": "flygon", "national_dex_number": 330, "type1": "ground", "type2": "dragon", "color": "green", "genus": "Mystic Pokémon"}
+{"name": "cacnea", "national_dex_number": 331, "type1": "grass", "type2": null, "color": "green", "genus": "Cactus Pokémon"}
+{"name": "cacturne", "national_dex_number": 332, "type1": "grass", "type2": "dark", "color": "green", "genus": "Scarecrow Pokémon"}
+{"name": "swablu", "national_dex_number": 333, "type1": "normal", "type2": "flying", "color": "blue", "genus": "Cotton Bird Pokémon"}
+{"name": "altaria", "national_dex_number": 334, "type1": "dragon", "type2": "flying", "color": "blue", "genus": "Humming Pokémon"}
+{"name": "zangoose", "national_dex_number": 335, "type1": "normal", "type2": null, "color": "white", "genus": "Cat Ferret Pokémon"}
+{"name": "seviper", "national_dex_number": 336, "type1": "poison", "type2": null, "color": "black", "genus": "Fang Snake Pokémon"}
+{"name": "lunatone", "national_dex_number": 337, "type1": "rock", "type2": "psychic", "color": "yellow", "genus": "Meteorite Pokémon"}
+{"name": "solrock", "national_dex_number": 338, "type1": "rock", "type2": "psychic", "color": "red", "genus": "Meteorite Pokémon"}
+{"name": "barboach", "national_dex_number": 339, "type1": "water", "type2": "ground", "color": "gray", "genus": "Whiskers Pokémon"}
+{"name": "whiscash", "national_dex_number": 340, "type1": "water", "type2": "ground", "color": "blue", "genus": "Whiskers Pokémon"}
+{"name": "corphish", "national_dex_number": 341, "type1": "water", "type2": null, "color": "red", "genus": "Ruffian Pokémon"}
+{"name": "crawdaunt", "national_dex_number": 342, "type1": "water", "type2": "dark", "color": "red", "genus": "Rogue Pokémon"}
+{"name": "baltoy", "national_dex_number": 343, "type1": "ground", "type2": "psychic", "color": "brown", "genus": "Clay Doll Pokémon"}
+{"name": "claydol", "national_dex_number": 344, "type1": "ground", "type2": "psychic", "color": "black", "genus": "Clay Doll Pokémon"}
+{"name": "lileep", "national_dex_number": 345, "type1": "rock", "type2": "grass", "color": "purple", "genus": "Sea Lily Pokémon"}
+{"name": "cradily", "national_dex_number": 346, "type1": "rock", "type2": "grass", "color": "green", "genus": "Barnacle Pokémon"}
+{"name": "anorith", "national_dex_number": 347, "type1": "rock", "type2": "bug", "color": "gray", "genus": "Old Shrimp Pokémon"}
+{"name": "armaldo", "national_dex_number": 348, "type1": "rock", "type2": "bug", "color": "gray", "genus": "Plate Pokémon"}
+{"name": "feebas", "national_dex_number": 349, "type1": "water", "type2": null, "color": "brown", "genus": "Fish Pokémon"}
+{"name": "milotic", "national_dex_number": 350, "type1": "water", "type2": null, "color": "pink", "genus": "Tender Pokémon"}
+{"name": "castform", "national_dex_number": 351, "type1": "normal", "type2": null, "color": "gray", "genus": "Weather Pokémon"}
+{"name": "kecleon", "national_dex_number": 352, "type1": "normal", "type2": null, "color": "green", "genus": "Color Swap Pokémon"}
+{"name": "shuppet", "national_dex_number": 353, "type1": "ghost", "type2": null, "color": "black", "genus": "Puppet Pokémon"}
+{"name": "banette", "national_dex_number": 354, "type1": "ghost", "type2": null, "color": "black", "genus": "Marionette Pokémon"}
+{"name": "duskull", "national_dex_number": 355, "type1": "ghost", "type2": null, "color": "black", "genus": "Requiem Pokémon"}
+{"name": "dusclops", "national_dex_number": 356, "type1": "ghost", "type2": null, "color": "black", "genus": "Beckon Pokémon"}
+{"name": "tropius", "national_dex_number": 357, "type1": "grass", "type2": "flying", "color": "green", "genus": "Fruit Pokémon"}
+{"name": "chimecho", "national_dex_number": 358, "type1": "psychic", "type2": null, "color": "blue", "genus": "Wind Chime Pokémon"}
+{"name": "absol", "national_dex_number": 359, "type1": "dark", "type2": null, "color": "white", "genus": "Disaster Pokémon"}
+{"name": "wynaut", "national_dex_number": 360, "type1": "psychic", "type2": null, "color": "blue", "genus": "Bright Pokémon"}
+{"name": "snorunt", "national_dex_number": 361, "type1": "ice", "type2": null, "color": "gray", "genus": "Snow Hat Pokémon"}
+{"name": "glalie", "national_dex_number": 362, "type1": "ice", "type2": null, "color": "gray", "genus": "Face Pokémon"}
+{"name": "spheal", "national_dex_number": 363, "type1": "ice", "type2": "water", "color": "blue", "genus": "Clap Pokémon"}
+{"name": "sealeo", "national_dex_number": 364, "type1": "ice", "type2": "water", "color": "blue", "genus": "Ball Roll Pokémon"}
+{"name": "walrein", "national_dex_number": 365, "type1": "ice", "type2": "water", "color": "blue", "genus": "Ice Break Pokémon"}
+{"name": "clamperl", "national_dex_number": 366, "type1": "water", "type2": null, "color": "blue", "genus": "Bivalve Pokémon"}
+{"name": "huntail", "national_dex_number": 367, "type1": "water", "type2": null, "color": "blue", "genus": "Deep Sea Pokémon"}
+{"name": "gorebyss", "national_dex_number": 368, "type1": "water", "type2": null, "color": "pink", "genus": "South Sea Pokémon"}
+{"name": "relicanth", "national_dex_number": 369, "type1": "water", "type2": "rock", "color": "gray", "genus": "Longevity Pokémon"}
+{"name": "luvdisc", "national_dex_number": 370, "type1": "water", "type2": null, "color": "pink", "genus": "Rendezvous Pokémon"}
+{"name": "bagon", "national_dex_number": 371, "type1": "dragon", "type2": null, "color": "blue", "genus": "Rock Head Pokémon"}
+{"name": "shelgon", "national_dex_number": 372, "type1": "dragon", "type2": null, "color": "white", "genus": "Endurance Pokémon"}
+{"name": "salamence", "national_dex_number": 373, "type1": "dragon", "type2": "flying", "color": "blue", "genus": "Dragon Pokémon"}
+{"name": "beldum", "national_dex_number": 374, "type1": "steel", "type2": "psychic", "color": "blue", "genus": "Iron Ball Pokémon"}
+{"name": "metang", "national_dex_number": 375, "type1": "steel", "type2": "psychic", "color": "blue", "genus": "Iron Claw Pokémon"}
+{"name": "metagross", "national_dex_number": 376, "type1": "steel", "type2": "psychic", "color": "blue", "genus": "Iron Leg Pokémon"}
+{"name": "regirock", "national_dex_number": 377, "type1": "rock", "type2": null, "color": "brown", "genus": "Rock Peak Pokémon"}
+{"name": "regice", "national_dex_number": 378, "type1": "ice", "type2": null, "color": "blue", "genus": "Iceberg Pokémon"}
+{"name": "registeel", "national_dex_number": 379, "type1": "steel", "type2": null, "color": "gray", "genus": "Iron Pokémon"}
+{"name": "latias", "national_dex_number": 380, "type1": "dragon", "type2": "psychic", "color": "red", "genus": "Eon Pokémon"}
+{"name": "latios", "national_dex_number": 381, "type1": "dragon", "type2": "psychic", "color": "blue", "genus": "Eon Pokémon"}
+{"name": "kyogre", "national_dex_number": 382, "type1": "water", "type2": null, "color": "blue", "genus": "Sea Basin Pokémon"}
+{"name": "groudon", "national_dex_number": 383, "type1": "ground", "type2": null, "color": "red", "genus": "Continent Pokémon"}
+{"name": "rayquaza", "national_dex_number": 384, "type1": "dragon", "type2": "flying", "color": "green", "genus": "Sky High Pokémon"}
+{"name": "jirachi", "national_dex_number": 385, "type1": "steel", "type2": "psychic", "color": "yellow", "genus": "Wish Pokémon"}
+{"name": "deoxys-normal", "national_dex_number": 386, "type1": "psychic", "type2": null, "color": "red", "genus": "DNA Pokémon"}
+{"name": "turtwig", "national_dex_number": 387, "type1": "grass", "type2": null, "color": "green", "genus": "Tiny Leaf Pokémon"}
+{"name": "grotle", "national_dex_number": 388, "type1": "grass", "type2": null, "color": "green", "genus": "Grove Pokémon"}
+{"name": "torterra", "national_dex_number": 389, "type1": "grass", "type2": "ground", "color": "green", "genus": "Continent Pokémon"}
+{"name": "chimchar", "national_dex_number": 390, "type1": "fire", "type2": null, "color": "brown", "genus": "Chimp Pokémon"}
+{"name": "monferno", "national_dex_number": 391, "type1": "fire", "type2": "fighting", "color": "brown", "genus": "Playful Pokémon"}
+{"name": "infernape", "national_dex_number": 392, "type1": "fire", "type2": "fighting", "color": "brown", "genus": "Flame Pokémon"}
+{"name": "piplup", "national_dex_number": 393, "type1": "water", "type2": null, "color": "blue", "genus": "Penguin Pokémon"}
+{"name": "prinplup", "national_dex_number": 394, "type1": "water", "type2": null, "color": "blue", "genus": "Penguin Pokémon"}
+{"name": "empoleon", "national_dex_number": 395, "type1": "water", "type2": "steel", "color": "blue", "genus": "Emperor Pokémon"}
+{"name": "starly", "national_dex_number": 396, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Starling Pokémon"}
+{"name": "staravia", "national_dex_number": 397, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Starling Pokémon"}
+{"name": "staraptor", "national_dex_number": 398, "type1": "normal", "type2": "flying", "color": "brown", "genus": "Predator Pokémon"}
+{"name": "bidoof", "national_dex_number": 399, "type1": "normal", "type2": null, "color": "brown", "genus": "Plump Mouse Pokémon"}
+{"name": "bibarel", "national_dex_number": 400, "type1": "normal", "type2": "water", "color": "brown", "genus": "Beaver Pokémon"}
+{"name": "kricketot", "national_dex_number": 401, "type1": "bug", "type2": null, "color": "red", "genus": "Cricket Pokémon"}
+{"name": "kricketune", "national_dex_number": 402, "type1": "bug", "type2": null, "color": "red", "genus": "Cricket Pokémon"}
+{"name": "shinx", "national_dex_number": 403, "type1": "electric", "type2": null, "color": "blue", "genus": "Flash Pokémon"}
+{"name": "luxio", "national_dex_number": 404, "type1": "electric", "type2": null, "color": "blue", "genus": "Spark Pokémon"}
+{"name": "luxray", "national_dex_number": 405, "type1": "electric", "type2": null, "color": "blue", "genus": "Gleam Eyes Pokémon"}
+{"name": "budew", "national_dex_number": 406, "type1": "grass", "type2": "poison", "color": "green", "genus": "Bud Pokémon"}
+{"name": "roserade", "national_dex_number": 407, "type1": "grass", "type2": "poison", "color": "green", "genus": "Bouquet Pokémon"}
+{"name": "cranidos", "national_dex_number": 408, "type1": "rock", "type2": null, "color": "blue", "genus": "Head Butt Pokémon"}
+{"name": "rampardos", "national_dex_number": 409, "type1": "rock", "type2": null, "color": "blue", "genus": "Head Butt Pokémon"}
+{"name": "shieldon", "national_dex_number": 410, "type1": "rock", "type2": "steel", "color": "gray", "genus": "Shield Pokémon"}
+{"name": "bastiodon", "national_dex_number": 411, "type1": "rock", "type2": "steel", "color": "gray", "genus": "Shield Pokémon"}
+{"name": "burmy", "national_dex_number": 412, "type1": "bug", "type2": null, "color": "green", "genus": "Bagworm Pokémon"}
+{"name": "wormadam-plant", "national_dex_number": 413, "type1": "bug", "type2": "grass", "color": "green", "genus": "Bagworm Pokémon"}
+{"name": "mothim", "national_dex_number": 414, "type1": "bug", "type2": "flying", "color": "yellow", "genus": "Moth Pokémon"}
+{"name": "combee", "national_dex_number": 415, "type1": "bug", "type2": "flying", "color": "yellow", "genus": "Tiny Bee Pokémon"}
+{"name": "vespiquen", "national_dex_number": 416, "type1": "bug", "type2": "flying", "color": "yellow", "genus": "Beehive Pokémon"}
+{"name": "pachirisu", "national_dex_number": 417, "type1": "electric", "type2": null, "color": "white", "genus": "EleSquirrel Pokémon"}
+{"name": "buizel", "national_dex_number": 418, "type1": "water", "type2": null, "color": "brown", "genus": "Sea Weasel Pokémon"}
+{"name": "floatzel", "national_dex_number": 419, "type1": "water", "type2": null, "color": "brown", "genus": "Sea Weasel Pokémon"}
+{"name": "cherubi", "national_dex_number": 420, "type1": "grass", "type2": null, "color": "pink", "genus": "Cherry Pokémon"}
+{"name": "cherrim", "national_dex_number": 421, "type1": "grass", "type2": null, "color": "purple", "genus": "Blossom Pokémon"}
+{"name": "shellos", "national_dex_number": 422, "type1": "water", "type2": null, "color": "purple", "genus": "Sea Slug Pokémon"}
+{"name": "gastrodon", "national_dex_number": 423, "type1": "water", "type2": "ground", "color": "purple", "genus": "Sea Slug Pokémon"}
+{"name": "ambipom", "national_dex_number": 424, "type1": "normal", "type2": null, "color": "purple", "genus": "Long Tail Pokémon"}
+{"name": "drifloon", "national_dex_number": 425, "type1": "ghost", "type2": "flying", "color": "purple", "genus": "Balloon Pokémon"}
+{"name": "drifblim", "national_dex_number": 426, "type1": "ghost", "type2": "flying", "color": "purple", "genus": "Blimp Pokémon"}
+{"name": "buneary", "national_dex_number": 427, "type1": "normal", "type2": null, "color": "brown", "genus": "Rabbit Pokémon"}
+{"name": "lopunny", "national_dex_number": 428, "type1": "normal", "type2": null, "color": "brown", "genus": "Rabbit Pokémon"}
+{"name": "mismagius", "national_dex_number": 429, "type1": "ghost", "type2": null, "color": "purple", "genus": "Magical Pokémon"}
+{"name": "honchkrow", "national_dex_number": 430, "type1": "dark", "type2": "flying", "color": "black", "genus": "Big Boss Pokémon"}
+{"name": "glameow", "national_dex_number": 431, "type1": "normal", "type2": null, "color": "gray", "genus": "Catty Pokémon"}
+{"name": "purugly", "national_dex_number": 432, "type1": "normal", "type2": null, "color": "gray", "genus": "Tiger Cat Pokémon"}
+{"name": "chingling", "national_dex_number": 433, "type1": "psychic", "type2": null, "color": "yellow", "genus": "Bell Pokémon"}
+{"name": "stunky", "national_dex_number": 434, "type1": "poison", "type2": "dark", "color": "purple", "genus": "Skunk Pokémon"}
+{"name": "skuntank", "national_dex_number": 435, "type1": "poison", "type2": "dark", "color": "purple", "genus": "Skunk Pokémon"}
+{"name": "bronzor", "national_dex_number": 436, "type1": "steel", "type2": "psychic", "color": "green", "genus": "Bronze Pokémon"}
+{"name": "bronzong", "national_dex_number": 437, "type1": "steel", "type2": "psychic", "color": "green", "genus": "Bronze Bell Pokémon"}
+{"name": "bonsly", "national_dex_number": 438, "type1": "rock", "type2": null, "color": "brown", "genus": "Bonsai Pokémon"}
+{"name": "mime-jr", "national_dex_number": 439, "type1": "psychic", "type2": "fairy", "color": "pink", "genus": "Mime Pokémon"}
+{"name": "happiny", "national_dex_number": 440, "type1": "normal", "type2": null, "color": "pink", "genus": "Playhouse Pokémon"}
+{"name": "chatot", "national_dex_number": 441, "type1": "normal", "type2": "flying", "color": "black", "genus": "Music Note Pokémon"}
+{"name": "spiritomb", "national_dex_number": 442, "type1": "ghost", "type2": "dark", "color": "purple", "genus": "Forbidden Pokémon"}
+{"name": "gible", "national_dex_number": 443, "type1": "dragon", "type2": "ground", "color": "blue", "genus": "Land Shark Pokémon"}
+{"name": "gabite", "national_dex_number": 444, "type1": "dragon", "type2": "ground", "color": "blue", "genus": "Cave Pokémon"}
+{"name": "garchomp", "national_dex_number": 445, "type1": "dragon", "type2": "ground", "color": "blue", "genus": "Mach Pokémon"}
+{"name": "munchlax", "national_dex_number": 446, "type1": "normal", "type2": null, "color": "black", "genus": "Big Eater Pokémon"}
+{"name": "riolu", "national_dex_number": 447, "type1": "fighting", "type2": null, "color": "blue", "genus": "Emanation Pokémon"}
+{"name": "lucario", "national_dex_number": 448, "type1": "fighting", "type2": "steel", "color": "blue", "genus": "Aura Pokémon"}
+{"name": "hippopotas", "national_dex_number": 449, "type1": "ground", "type2": null, "color": "brown", "genus": "Hippo Pokémon"}
+{"name": "hippowdon", "national_dex_number": 450, "type1": "ground", "type2": null, "color": "brown", "genus": "Heavyweight Pokémon"}
+{"name": "skorupi", "national_dex_number": 451, "type1": "poison", "type2": "bug", "color": "purple", "genus": "Scorpion Pokémon"}
+{"name": "drapion", "national_dex_number": 452, "type1": "poison", "type2": "dark", "color": "purple", "genus": "Ogre Scorpion Pokémon"}
+{"name": "croagunk", "national_dex_number": 453, "type1": "poison", "type2": "fighting", "color": "blue", "genus": "Toxic Mouth Pokémon"}
+{"name": "toxicroak", "national_dex_number": 454, "type1": "poison", "type2": "fighting", "color": "blue", "genus": "Toxic Mouth Pokémon"}
+{"name": "carnivine", "national_dex_number": 455, "type1": "grass", "type2": null, "color": "green", "genus": "Bug Catcher Pokémon"}
+{"name": "finneon", "national_dex_number": 456, "type1": "water", "type2": null, "color": "blue", "genus": "Wing Fish Pokémon"}
+{"name": "lumineon", "national_dex_number": 457, "type1": "water", "type2": null, "color": "blue", "genus": "Neon Pokémon"}
+{"name": "mantyke", "national_dex_number": 458, "type1": "water", "type2": "flying", "color": "blue", "genus": "Kite Pokémon"}
+{"name": "snover", "national_dex_number": 459, "type1": "grass", "type2": "ice", "color": "white", "genus": "Frost Tree Pokémon"}
+{"name": "abomasnow", "national_dex_number": 460, "type1": "grass", "type2": "ice", "color": "white", "genus": "Frost Tree Pokémon"}
+{"name": "weavile", "national_dex_number": 461, "type1": "dark", "type2": "ice", "color": "black", "genus": "Sharp Claw Pokémon"}
+{"name": "magnezone", "national_dex_number": 462, "type1": "electric", "type2": "steel", "color": "gray", "genus": "Magnet Area Pokémon"}
+{"name": "lickilicky", "national_dex_number": 463, "type1": "normal", "type2": null, "color": "pink", "genus": "Licking Pokémon"}
+{"name": "rhyperior", "national_dex_number": 464, "type1": "ground", "type2": "rock", "color": "gray", "genus": "Drill Pokémon"}
+{"name": "tangrowth", "national_dex_number": 465, "type1": "grass", "type2": null, "color": "blue", "genus": "Vine Pokémon"}
+{"name": "electivire", "national_dex_number": 466, "type1": "electric", "type2": null, "color": "yellow", "genus": "Thunderbolt Pokémon"}
+{"name": "magmortar", "national_dex_number": 467, "type1": "fire", "type2": null, "color": "red", "genus": "Blast Pokémon"}
+{"name": "togekiss", "national_dex_number": 468, "type1": "fairy", "type2": "flying", "color": "white", "genus": "Jubilee Pokémon"}
+{"name": "yanmega", "national_dex_number": 469, "type1": "bug", "type2": "flying", "color": "green", "genus": "Ogre Darner Pokémon"}
+{"name": "leafeon", "national_dex_number": 470, "type1": "grass", "type2": null, "color": "green", "genus": "Verdant Pokémon"}
+{"name": "glaceon", "national_dex_number": 471, "type1": "ice", "type2": null, "color": "blue", "genus": "Fresh Snow Pokémon"}
+{"name": "gliscor", "national_dex_number": 472, "type1": "ground", "type2": "flying", "color": "purple", "genus": "Fang Scorpion Pokémon"}
+{"name": "mamoswine", "national_dex_number": 473, "type1": "ice", "type2": "ground", "color": "brown", "genus": "Twin Tusk Pokémon"}
+{"name": "porygon-z", "national_dex_number": 474, "type1": "normal", "type2": null, "color": "red", "genus": "Virtual Pokémon"}
+{"name": "gallade", "national_dex_number": 475, "type1": "psychic", "type2": "fighting", "color": "white", "genus": "Blade Pokémon"}
+{"name": "probopass", "national_dex_number": 476, "type1": "rock", "type2": "steel", "color": "gray", "genus": "Compass Pokémon"}
+{"name": "dusknoir", "national_dex_number": 477, "type1": "ghost", "type2": null, "color": "black", "genus": "Gripper Pokémon"}
+{"name": "froslass", "national_dex_number": 478, "type1": "ice", "type2": "ghost", "color": "white", "genus": "Snow Land Pokémon"}
+{"name": "rotom", "national_dex_number": 479, "type1": "electric", "type2": "ghost", "color": "red", "genus": "Plasma Pokémon"}
+{"name": "uxie", "national_dex_number": 480, "type1": "psychic", "type2": null, "color": "yellow", "genus": "Knowledge Pokémon"}
+{"name": "mesprit", "national_dex_number": 481, "type1": "psychic", "type2": null, "color": "pink", "genus": "Emotion Pokémon"}
+{"name": "azelf", "national_dex_number": 482, "type1": "psychic", "type2": null, "color": "blue", "genus": "Willpower Pokémon"}
+{"name": "dialga", "national_dex_number": 483, "type1": "steel", "type2": "dragon", "color": "white", "genus": "Temporal Pokémon"}
+{"name": "palkia", "national_dex_number": 484, "type1": "water", "type2": "dragon", "color": "purple", "genus": "Spatial Pokémon"}
+{"name": "heatran", "national_dex_number": 485, "type1": "fire", "type2": "steel", "color": "brown", "genus": "Lava Dome Pokémon"}
+{"name": "regigigas", "national_dex_number": 486, "type1": "normal", "type2": null, "color": "white", "genus": "Colossal Pokémon"}
+{"name": "giratina-altered", "national_dex_number": 487, "type1": "ghost", "type2": "dragon", "color": "black", "genus": "Renegade Pokémon"}
+{"name": "cresselia", "national_dex_number": 488, "type1": "psychic", "type2": null, "color": "yellow", "genus": "Lunar Pokémon"}
+{"name": "phione", "national_dex_number": 489, "type1": "water", "type2": null, "color": "blue", "genus": "Sea Drifter Pokémon"}
+{"name": "manaphy", "national_dex_number": 490, "type1": "water", "type2": null, "color": "blue", "genus": "Seafaring Pokémon"}
+{"name": "darkrai", "national_dex_number": 491, "type1": "dark", "type2": null, "color": "black", "genus": "Pitch-Black Pokémon"}
+{"name": "shaymin-land", "national_dex_number": 492, "type1": "grass", "type2": null, "color": "green", "genus": "Gratitude Pokémon"}
+{"name": "arceus", "national_dex_number": 493, "type1": "normal", "type2": null, "color": "white", "genus": "Alpha Pokémon"}
+{"name": "victini", "national_dex_number": 494, "type1": "psychic", "type2": "fire", "color": "yellow", "genus": "Victory Pokémon"}
+{"name": "snivy", "national_dex_number": 495, "type1": "grass", "type2": null, "color": "green", "genus": "Grass Snake Pokémon"}
+{"name": "servine", "national_dex_number": 496, "type1": "grass", "type2": null, "color": "green", "genus": "Grass Snake Pokémon"}
+{"name": "serperior", "national_dex_number": 497, "type1": "grass", "type2": null, "color": "green", "genus": "Regal Pokémon"}
+{"name": "tepig", "national_dex_number": 498, "type1": "fire", "type2": null, "color": "red", "genus": "Fire Pig Pokémon"}
+{"name": "pignite", "national_dex_number": 499, "type1": "fire", "type2": "fighting", "color": "red", "genus": "Fire Pig Pokémon"}
+{"name": "emboar", "national_dex_number": 500, "type1": "fire", "type2": "fighting", "color": "red", "genus": "Mega Fire Pig Pokémon"}
+{"name": "oshawott", "national_dex_number": 501, "type1": "water", "type2": null, "color": "blue", "genus": "Sea Otter Pokémon"}
+{"name": "dewott", "national_dex_number": 502, "type1": "water", "type2": null, "color": "blue", "genus": "Discipline Pokémon"}
+{"name": "samurott", "national_dex_number": 503, "type1": "water", "type2": null, "color": "blue", "genus": "Formidable Pokémon"}
+{"name": "patrat", "national_dex_number": 504, "type1": "normal", "type2": null, "color": "brown", "genus": "Scout Pokémon"}
+{"name": "watchog", "national_dex_number": 505, "type1": "normal", "type2": null, "color": "brown", "genus": "Lookout Pokémon"}
+{"name": "lillipup", "national_dex_number": 506, "type1": "normal", "type2": null, "color": "brown", "genus": "Puppy Pokémon"}
+{"name": "herdier", "national_dex_number": 507, "type1": "normal", "type2": null, "color": "gray", "genus": "Loyal Dog Pokémon"}
+{"name": "stoutland", "national_dex_number": 508, "type1": "normal", "type2": null, "color": "gray", "genus": "Big-Hearted Pokémon"}
+{"name": "purrloin", "national_dex_number": 509, "type1": "dark", "type2": null, "color": "purple", "genus": "Devious Pokémon"}
+{"name": "liepard", "national_dex_number": 510, "type1": "dark", "type2": null, "color": "purple", "genus": "Cruel Pokémon"}
+{"name": "pansage", "national_dex_number": 511, "type1": "grass", "type2": null, "color": "green", "genus": "Grass Monkey Pokémon"}
+{"name": "simisage", "national_dex_number": 512, "type1": "grass", "type2": null, "color": "green", "genus": "Thorn Monkey Pokémon"}
+{"name": "pansear", "national_dex_number": 513, "type1": "fire", "type2": null, "color": "red", "genus": "High Temp Pokémon"}
+{"name": "simisear", "national_dex_number": 514, "type1": "fire", "type2": null, "color": "red", "genus": "Ember Pokémon"}
+{"name": "panpour", "national_dex_number": 515, "type1": "water", "type2": null, "color": "blue", "genus": "Spray Pokémon"}
+{"name": "simipour", "national_dex_number": 516, "type1": "water", "type2": null, "color": "blue", "genus": "Geyser Pokémon"}
+{"name": "munna", "national_dex_number": 517, "type1": "psychic", "type2": null, "color": "pink", "genus": "Dream Eater Pokémon"}
+{"name": "musharna", "national_dex_number": 518, "type1": "psychic", "type2": null, "color": "pink", "genus": "Drowsing Pokémon"}
+{"name": "pidove", "national_dex_number": 519, "type1": "normal", "type2": "flying", "color": "gray", "genus": "Tiny Pigeon Pokémon"}
+{"name": "tranquill", "national_dex_number": 520, "type1": "normal", "type2": "flying", "color": "gray", "genus": "Wild Pigeon Pokémon"}
+{"name": "unfezant", "national_dex_number": 521, "type1": "normal", "type2": "flying", "color": "gray", "genus": "Proud Pokémon"}
+{"name": "blitzle", "national_dex_number": 522, "type1": "electric", "type2": null, "color": "black", "genus": "Electrified Pokémon"}
+{"name": "zebstrika", "national_dex_number": 523, "type1": "electric", "type2": null, "color": "black", "genus": "Thunderbolt Pokémon"}
+{"name": "roggenrola", "national_dex_number": 524, "type1": "rock", "type2": null, "color": "blue", "genus": "Mantle Pokémon"}
+{"name": "boldore", "national_dex_number": 525, "type1": "rock", "type2": null, "color": "blue", "genus": "Ore Pokémon"}
+{"name": "gigalith", "national_dex_number": 526, "type1": "rock", "type2": null, "color": "blue", "genus": "Compressed Pokémon"}
+{"name": "woobat", "national_dex_number": 527, "type1": "psychic", "type2": "flying", "color": "blue", "genus": "Bat Pokémon"}
+{"name": "swoobat", "national_dex_number": 528, "type1": "psychic", "type2": "flying", "color": "blue", "genus": "Courting Pokémon"}
+{"name": "drilbur", "national_dex_number": 529, "type1": "ground", "type2": null, "color": "gray", "genus": "Mole Pokémon"}
+{"name": "excadrill", "national_dex_number": 530, "type1": "ground", "type2": "steel", "color": "gray", "genus": "Subterrene Pokémon"}
+{"name": "audino", "national_dex_number": 531, "type1": "normal", "type2": null, "color": "pink", "genus": "Hearing Pokémon"}
+{"name": "timburr", "national_dex_number": 532, "type1": "fighting", "type2": null, "color": "gray", "genus": "Muscular Pokémon"}
+{"name": "gurdurr", "national_dex_number": 533, "type1": "fighting", "type2": null, "color": "gray", "genus": "Muscular Pokémon"}
+{"name": "conkeldurr", "national_dex_number": 534, "type1": "fighting", "type2": null, "color": "brown", "genus": "Muscular Pokémon"}
+{"name": "tympole", "national_dex_number": 535, "type1": "water", "type2": null, "color": "blue", "genus": "Tadpole Pokémon"}
+{"name": "palpitoad", "national_dex_number": 536, "type1": "water", "type2": "ground", "color": "blue", "genus": "Vibration Pokémon"}
+{"name": "seismitoad", "national_dex_number": 537, "type1": "water", "type2": "ground", "color": "blue", "genus": "Vibration Pokémon"}
+{"name": "throh", "national_dex_number": 538, "type1": "fighting", "type2": null, "color": "red", "genus": "Judo Pokémon"}
+{"name": "sawk", "national_dex_number": 539, "type1": "fighting", "type2": null, "color": "blue", "genus": "Karate Pokémon"}
+{"name": "sewaddle", "national_dex_number": 540, "type1": "bug", "type2": "grass", "color": "yellow", "genus": "Sewing Pokémon"}
+{"name": "swadloon", "national_dex_number": 541, "type1": "bug", "type2": "grass", "color": "green", "genus": "Leaf-Wrapped Pokémon"}
+{"name": "leavanny", "national_dex_number": 542, "type1": "bug", "type2": "grass", "color": "yellow", "genus": "Nurturing Pokémon"}
+{"name": "venipede", "national_dex_number": 543, "type1": "bug", "type2": "poison", "color": "red", "genus": "Centipede Pokémon"}
+{"name": "whirlipede", "national_dex_number": 544, "type1": "bug", "type2": "poison", "color": "gray", "genus": "Curlipede Pokémon"}
+{"name": "scolipede", "national_dex_number": 545, "type1": "bug", "type2": "poison", "color": "red", "genus": "Megapede Pokémon"}
+{"name": "cottonee", "national_dex_number": 546, "type1": "grass", "type2": "fairy", "color": "green", "genus": "Cotton Puff Pokémon"}
+{"name": "whimsicott", "national_dex_number": 547, "type1": "grass", "type2": "fairy", "color": "green", "genus": "Windveiled Pokémon"}
+{"name": "petilil", "national_dex_number": 548, "type1": "grass", "type2": null, "color": "green", "genus": "Bulb Pokémon"}
+{"name": "lilligant", "national_dex_number": 549, "type1": "grass", "type2": null, "color": "green", "genus": "Flowering Pokémon"}
+{"name": "basculin-red-striped", "national_dex_number": 550, "type1": "water", "type2": null, "color": "green", "genus": "Hostile Pokémon"}
+{"name": "sandile", "national_dex_number": 551, "type1": "ground", "type2": "dark", "color": "brown", "genus": "Desert Croc Pokémon"}
+{"name": "krokorok", "national_dex_number": 552, "type1": "ground", "type2": "dark", "color": "brown", "genus": "Desert Croc Pokémon"}
+{"name": "krookodile", "national_dex_number": 553, "type1": "ground", "type2": "dark", "color": "red", "genus": "Intimidation Pokémon"}
+{"name": "darumaka", "national_dex_number": 554, "type1": "fire", "type2": null, "color": "red", "genus": "Zen Charm Pokémon"}
+{"name": "darmanitan-standard", "national_dex_number": 555, "type1": "fire", "type2": null, "color": "red", "genus": "Blazing Pokémon"}
+{"name": "maractus", "national_dex_number": 556, "type1": "grass", "type2": null, "color": "green", "genus": "Cactus Pokémon"}
+{"name": "dwebble", "national_dex_number": 557, "type1": "bug", "type2": "rock", "color": "red", "genus": "Rock Inn Pokémon"}
+{"name": "crustle", "national_dex_number": 558, "type1": "bug", "type2": "rock", "color": "red", "genus": "Stone Home Pokémon"}
+{"name": "scraggy", "national_dex_number": 559, "type1": "dark", "type2": "fighting", "color": "yellow", "genus": "Shedding Pokémon"}
+{"name": "scrafty", "national_dex_number": 560, "type1": "dark", "type2": "fighting", "color": "red", "genus": "Hoodlum Pokémon"}
+{"name": "sigilyph", "national_dex_number": 561, "type1": "psychic", "type2": "flying", "color": "black", "genus": "Avianoid Pokémon"}
+{"name": "yamask", "national_dex_number": 562, "type1": "ghost", "type2": null, "color": "black", "genus": "Spirit Pokémon"}
+{"name": "cofagrigus", "national_dex_number": 563, "type1": "ghost", "type2": null, "color": "yellow", "genus": "Coffin Pokémon"}
+{"name": "tirtouga", "national_dex_number": 564, "type1": "water", "type2": "rock", "color": "blue", "genus": "Prototurtle Pokémon"}
+{"name": "carracosta", "national_dex_number": 565, "type1": "water", "type2": "rock", "color": "blue", "genus": "Prototurtle Pokémon"}
+{"name": "archen", "national_dex_number": 566, "type1": "rock", "type2": "flying", "color": "yellow", "genus": "First Bird Pokémon"}
+{"name": "archeops", "national_dex_number": 567, "type1": "rock", "type2": "flying", "color": "yellow", "genus": "First Bird Pokémon"}
+{"name": "trubbish", "national_dex_number": 568, "type1": "poison", "type2": null, "color": "green", "genus": "Trash Bag Pokémon"}
+{"name": "garbodor", "national_dex_number": 569, "type1": "poison", "type2": null, "color": "green", "genus": "Trash Heap Pokémon"}
+{"name": "zorua", "national_dex_number": 570, "type1": "dark", "type2": null, "color": "gray", "genus": "Tricky Fox Pokémon"}
+{"name": "zoroark", "national_dex_number": 571, "type1": "dark", "type2": null, "color": "gray", "genus": "Illusion Fox Pokémon"}
+{"name": "minccino", "national_dex_number": 572, "type1": "normal", "type2": null, "color": "gray", "genus": "Chinchilla Pokémon"}
+{"name": "cinccino", "national_dex_number": 573, "type1": "normal", "type2": null, "color": "gray", "genus": "Scarf Pokémon"}
+{"name": "gothita", "national_dex_number": 574, "type1": "psychic", "type2": null, "color": "purple", "genus": "Fixation Pokémon"}
+{"name": "gothorita", "national_dex_number": 575, "type1": "psychic", "type2": null, "color": "purple", "genus": "Manipulate Pokémon"}
+{"name": "gothitelle", "national_dex_number": 576, "type1": "psychic", "type2": null, "color": "purple", "genus": "Astral Body Pokémon"}
+{"name": "solosis", "national_dex_number": 577, "type1": "psychic", "type2": null, "color": "green", "genus": "Cell Pokémon"}
+{"name": "duosion", "national_dex_number": 578, "type1": "psychic", "type2": null, "color": "green", "genus": "Mitosis Pokémon"}
+{"name": "reuniclus", "national_dex_number": 579, "type1": "psychic", "type2": null, "color": "green", "genus": "Multiplying Pokémon"}
+{"name": "ducklett", "national_dex_number": 580, "type1": "water", "type2": "flying", "color": "blue", "genus": "Water Bird Pokémon"}
+{"name": "swanna", "national_dex_number": 581, "type1": "water", "type2": "flying", "color": "white", "genus": "White Bird Pokémon"}
+{"name": "vanillite", "national_dex_number": 582, "type1": "ice", "type2": null, "color": "white", "genus": "Fresh Snow Pokémon"}
+{"name": "vanillish", "national_dex_number": 583, "type1": "ice", "type2": null, "color": "white", "genus": "Icy Snow Pokémon"}
+{"name": "vanilluxe", "national_dex_number": 584, "type1": "ice", "type2": null, "color": "white", "genus": "Snowstorm Pokémon"}
+{"name": "deerling", "national_dex_number": 585, "type1": "normal", "type2": "grass", "color": "pink", "genus": "Season Pokémon"}
+{"name": "sawsbuck", "national_dex_number": 586, "type1": "normal", "type2": "grass", "color": "brown", "genus": "Season Pokémon"}
+{"name": "emolga", "national_dex_number": 587, "type1": "electric", "type2": "flying", "color": "white", "genus": "Sky Squirrel Pokémon"}
+{"name": "karrablast", "national_dex_number": 588, "type1": "bug", "type2": null, "color": "blue", "genus": "Clamping Pokémon"}
+{"name": "escavalier", "national_dex_number": 589, "type1": "bug", "type2": "steel", "color": "gray", "genus": "Cavalry Pokémon"}
+{"name": "foongus", "national_dex_number": 590, "type1": "grass", "type2": "poison", "color": "white", "genus": "Mushroom Pokémon"}
+{"name": "amoonguss", "national_dex_number": 591, "type1": "grass", "type2": "poison", "color": "white", "genus": "Mushroom Pokémon"}
+{"name": "frillish", "national_dex_number": 592, "type1": "water", "type2": "ghost", "color": "white", "genus": "Floating Pokémon"}
+{"name": "jellicent", "national_dex_number": 593, "type1": "water", "type2": "ghost", "color": "white", "genus": "Floating Pokémon"}
+{"name": "alomomola", "national_dex_number": 594, "type1": "water", "type2": null, "color": "pink", "genus": "Caring Pokémon"}
+{"name": "joltik", "national_dex_number": 595, "type1": "bug", "type2": "electric", "color": "yellow", "genus": "Attaching Pokémon"}
+{"name": "galvantula", "national_dex_number": 596, "type1": "bug", "type2": "electric", "color": "yellow", "genus": "EleSpider Pokémon"}
+{"name": "ferroseed", "national_dex_number": 597, "type1": "grass", "type2": "steel", "color": "gray", "genus": "Thorn Seed Pokémon"}
+{"name": "ferrothorn", "national_dex_number": 598, "type1": "grass", "type2": "steel", "color": "gray", "genus": "Thorn Pod Pokémon"}
+{"name": "klink", "national_dex_number": 599, "type1": "steel", "type2": null, "color": "gray", "genus": "Gear Pokémon"}
+{"name": "klang", "national_dex_number": 600, "type1": "steel", "type2": null, "color": "gray", "genus": "Gear Pokémon"}
+{"name": "klinklang", "national_dex_number": 601, "type1": "steel", "type2": null, "color": "gray", "genus": "Gear Pokémon"}
+{"name": "tynamo", "national_dex_number": 602, "type1": "electric", "type2": null, "color": "white", "genus": "EleFish Pokémon"}
+{"name": "eelektrik", "national_dex_number": 603, "type1": "electric", "type2": null, "color": "blue", "genus": "EleFish Pokémon"}
+{"name": "eelektross", "national_dex_number": 604, "type1": "electric", "type2": null, "color": "blue", "genus": "EleFish Pokémon"}
+{"name": "elgyem", "national_dex_number": 605, "type1": "psychic", "type2": null, "color": "blue", "genus": "Cerebral Pokémon"}
+{"name": "beheeyem", "national_dex_number": 606, "type1": "psychic", "type2": null, "color": "brown", "genus": "Cerebral Pokémon"}
+{"name": "litwick", "national_dex_number": 607, "type1": "ghost", "type2": "fire", "color": "white", "genus": "Candle Pokémon"}
+{"name": "lampent", "national_dex_number": 608, "type1": "ghost", "type2": "fire", "color": "black", "genus": "Lamp Pokémon"}
+{"name": "chandelure", "national_dex_number": 609, "type1": "ghost", "type2": "fire", "color": "black", "genus": "Luring Pokémon"}
+{"name": "axew", "national_dex_number": 610, "type1": "dragon", "type2": null, "color": "green", "genus": "Tusk Pokémon"}
+{"name": "fraxure", "national_dex_number": 611, "type1": "dragon", "type2": null, "color": "green", "genus": "Axe Jaw Pokémon"}
+{"name": "haxorus", "national_dex_number": 612, "type1": "dragon", "type2": null, "color": "yellow", "genus": "Axe Jaw Pokémon"}
+{"name": "cubchoo", "national_dex_number": 613, "type1": "ice", "type2": null, "color": "white", "genus": "Chill Pokémon"}
+{"name": "beartic", "national_dex_number": 614, "type1": "ice", "type2": null, "color": "white", "genus": "Freezing Pokémon"}
+{"name": "cryogonal", "national_dex_number": 615, "type1": "ice", "type2": null, "color": "blue", "genus": "Crystallizing Pokémon"}
+{"name": "shelmet", "national_dex_number": 616, "type1": "bug", "type2": null, "color": "red", "genus": "Snail Pokémon"}
+{"name": "accelgor", "national_dex_number": 617, "type1": "bug", "type2": null, "color": "red", "genus": "Shell Out Pokémon"}
+{"name": "stunfisk", "national_dex_number": 618, "type1": "ground", "type2": "electric", "color": "brown", "genus": "Trap Pokémon"}
+{"name": "mienfoo", "national_dex_number": 619, "type1": "fighting", "type2": null, "color": "yellow", "genus": "Martial Arts Pokémon"}
+{"name": "mienshao", "national_dex_number": 620, "type1": "fighting", "type2": null, "color": "purple", "genus": "Martial Arts Pokémon"}
+{"name": "druddigon", "national_dex_number": 621, "type1": "dragon", "type2": null, "color": "red", "genus": "Cave Pokémon"}
+{"name": "golett", "national_dex_number": 622, "type1": "ground", "type2": "ghost", "color": "green", "genus": "Automaton Pokémon"}
+{"name": "golurk", "national_dex_number": 623, "type1": "ground", "type2": "ghost", "color": "green", "genus": "Automaton Pokémon"}
+{"name": "pawniard", "national_dex_number": 624, "type1": "dark", "type2": "steel", "color": "red", "genus": "Sharp Blade Pokémon"}
+{"name": "bisharp", "national_dex_number": 625, "type1": "dark", "type2": "steel", "color": "red", "genus": "Sword Blade Pokémon"}
+{"name": "bouffalant", "national_dex_number": 626, "type1": "normal", "type2": null, "color": "brown", "genus": "Bash Buffalo Pokémon"}
+{"name": "rufflet", "national_dex_number": 627, "type1": "normal", "type2": "flying", "color": "white", "genus": "Eaglet Pokémon"}
+{"name": "braviary", "national_dex_number": 628, "type1": "normal", "type2": "flying", "color": "red", "genus": "Valiant Pokémon"}
+{"name": "vullaby", "national_dex_number": 629, "type1": "dark", "type2": "flying", "color": "brown", "genus": "Diapered Pokémon"}
+{"name": "mandibuzz", "national_dex_number": 630, "type1": "dark", "type2": "flying", "color": "brown", "genus": "Bone Vulture Pokémon"}
+{"name": "heatmor", "national_dex_number": 631, "type1": "fire", "type2": null, "color": "red", "genus": "Anteater Pokémon"}
+{"name": "durant", "national_dex_number": 632, "type1": "bug", "type2": "steel", "color": "gray", "genus": "Iron Ant Pokémon"}
+{"name": "deino", "national_dex_number": 633, "type1": "dark", "type2": "dragon", "color": "blue", "genus": "Irate Pokémon"}
+{"name": "zweilous", "national_dex_number": 634, "type1": "dark", "type2": "dragon", "color": "blue", "genus": "Hostile Pokémon"}
+{"name": "hydreigon", "national_dex_number": 635, "type1": "dark", "type2": "dragon", "color": "blue", "genus": "Brutal Pokémon"}
+{"name": "larvesta", "national_dex_number": 636, "type1": "bug", "type2": "fire", "color": "white", "genus": "Torch Pokémon"}
+{"name": "volcarona", "national_dex_number": 637, "type1": "bug", "type2": "fire", "color": "white", "genus": "Sun Pokémon"}
+{"name": "cobalion", "national_dex_number": 638, "type1": "steel", "type2": "fighting", "color": "blue", "genus": "Iron Will Pokémon"}
+{"name": "terrakion", "national_dex_number": 639, "type1": "rock", "type2": "fighting", "color": "gray", "genus": "Cavern Pokémon"}
+{"name": "virizion", "national_dex_number": 640, "type1": "grass", "type2": "fighting", "color": "green", "genus": "Grassland Pokémon"}
+{"name": "tornadus-incarnate", "national_dex_number": 641, "type1": "flying", "type2": null, "color": "green", "genus": "Cyclone Pokémon"}
+{"name": "thundurus-incarnate", "national_dex_number": 642, "type1": "electric", "type2": "flying", "color": "blue", "genus": "Bolt Strike Pokémon"}
+{"name": "reshiram", "national_dex_number": 643, "type1": "dragon", "type2": "fire", "color": "white", "genus": "Vast White Pokémon"}
+{"name": "zekrom", "national_dex_number": 644, "type1": "dragon", "type2": "electric", "color": "black", "genus": "Deep Black Pokémon"}
+{"name": "landorus-incarnate", "national_dex_number": 645, "type1": "ground", "type2": "flying", "color": "brown", "genus": "Abundance Pokémon"}
+{"name": "kyurem", "national_dex_number": 646, "type1": "dragon", "type2": "ice", "color": "gray", "genus": "Boundary Pokémon"}
+{"name": "keldeo-ordinary", "national_dex_number": 647, "type1": "water", "type2": "fighting", "color": "yellow", "genus": "Colt Pokémon"}
+{"name": "meloetta-aria", "national_dex_number": 648, "type1": "normal", "type2": "psychic", "color": "white", "genus": "Melody Pokémon"}
+{"name": "genesect", "national_dex_number": 649, "type1": "bug", "type2": "steel", "color": "purple", "genus": "Paleozoic Pokémon"}
+{"name": "chespin", "national_dex_number": 650, "type1": "grass", "type2": null, "color": "green", "genus": "Spiny Nut Pokémon"}
+{"name": "quilladin", "national_dex_number": 651, "type1": "grass", "type2": null, "color": "green", "genus": "Spiny Armor Pokémon"}
+{"name": "chesnaught", "national_dex_number": 652, "type1": "grass", "type2": "fighting", "color": "green", "genus": "Spiny Armor Pokémon"}
+{"name": "fennekin", "national_dex_number": 653, "type1": "fire", "type2": null, "color": "red", "genus": "Fox Pokémon"}
+{"name": "braixen", "national_dex_number": 654, "type1": "fire", "type2": null, "color": "red", "genus": "Fox Pokémon"}
+{"name": "delphox", "national_dex_number": 655, "type1": "fire", "type2": "psychic", "color": "red", "genus": "Fox Pokémon"}
+{"name": "froakie", "national_dex_number": 656, "type1": "water", "type2": null, "color": "blue", "genus": "Bubble Frog Pokémon"}
+{"name": "frogadier", "national_dex_number": 657, "type1": "water", "type2": null, "color": "blue", "genus": "Bubble Frog Pokémon"}
+{"name": "greninja", "national_dex_number": 658, "type1": "water", "type2": "dark", "color": "blue", "genus": "Ninja Pokémon"}
+{"name": "bunnelby", "national_dex_number": 659, "type1": "normal", "type2": null, "color": "brown", "genus": "Digging Pokémon"}
+{"name": "diggersby", "national_dex_number": 660, "type1": "normal", "type2": "ground", "color": "brown", "genus": "Digging Pokémon"}
+{"name": "fletchling", "national_dex_number": 661, "type1": "normal", "type2": "flying", "color": "red", "genus": "Tiny Robin Pokémon"}
+{"name": "fletchinder", "national_dex_number": 662, "type1": "fire", "type2": "flying", "color": "red", "genus": "Ember Pokémon"}
+{"name": "talonflame", "national_dex_number": 663, "type1": "fire", "type2": "flying", "color": "red", "genus": "Scorching Pokémon"}
+{"name": "scatterbug", "national_dex_number": 664, "type1": "bug", "type2": null, "color": "black", "genus": "Scatterdust Pokémon"}
+{"name": "spewpa", "national_dex_number": 665, "type1": "bug", "type2": null, "color": "black", "genus": "Scatterdust Pokémon"}
+{"name": "vivillon", "national_dex_number": 666, "type1": "bug", "type2": "flying", "color": "white", "genus": "Scale Pokémon"}
+{"name": "litleo", "national_dex_number": 667, "type1": "fire", "type2": "normal", "color": "brown", "genus": "Lion Cub Pokémon"}
+{"name": "pyroar", "national_dex_number": 668, "type1": "fire", "type2": "normal", "color": "brown", "genus": "Royal Pokémon"}
+{"name": "flabebe", "national_dex_number": 669, "type1": "fairy", "type2": null, "color": "white", "genus": "Single Bloom Pokémon"}
+{"name": "floette", "national_dex_number": 670, "type1": "fairy", "type2": null, "color": "white", "genus": "Single Bloom Pokémon"}
+{"name": "florges", "national_dex_number": 671, "type1": "fairy", "type2": null, "color": "white", "genus": "Garden Pokémon"}
+{"name": "skiddo", "national_dex_number": 672, "type1": "grass", "type2": null, "color": "brown", "genus": "Mount Pokémon"}
+{"name": "gogoat", "national_dex_number": 673, "type1": "grass", "type2": null, "color": "brown", "genus": "Mount Pokémon"}
+{"name": "pancham", "national_dex_number": 674, "type1": "fighting", "type2": null, "color": "white", "genus": "Playful Pokémon"}
+{"name": "pangoro", "national_dex_number": 675, "type1": "fighting", "type2": "dark", "color": "white", "genus": "Daunting Pokémon"}
+{"name": "furfrou", "national_dex_number": 676, "type1": "normal", "type2": null, "color": "white", "genus": "Poodle Pokémon"}
+{"name": "espurr", "national_dex_number": 677, "type1": "psychic", "type2": null, "color": "gray", "genus": "Restraint Pokémon"}
+{"name": "meowstic-male", "national_dex_number": 678, "type1": "psychic", "type2": null, "color": "blue", "genus": "Constraint Pokémon"}
+{"name": "honedge", "national_dex_number": 679, "type1": "steel", "type2": "ghost", "color": "brown", "genus": "Sword Pokémon"}
+{"name": "doublade", "national_dex_number": 680, "type1": "steel", "type2": "ghost", "color": "brown", "genus": "Sword Pokémon"}
+{"name": "aegislash-shield", "national_dex_number": 681, "type1": "steel", "type2": "ghost", "color": "brown", "genus": "Royal Sword Pokémon"}
+{"name": "spritzee", "national_dex_number": 682, "type1": "fairy", "type2": null, "color": "pink", "genus": "Perfume Pokémon"}
+{"name": "aromatisse", "national_dex_number": 683, "type1": "fairy", "type2": null, "color": "pink", "genus": "Fragrance Pokémon"}
+{"name": "swirlix", "national_dex_number": 684, "type1": "fairy", "type2": null, "color": "white", "genus": "Cotton Candy Pokémon"}
+{"name": "slurpuff", "national_dex_number": 685, "type1": "fairy", "type2": null, "color": "white", "genus": "Meringue Pokémon"}
+{"name": "inkay", "national_dex_number": 686, "type1": "dark", "type2": "psychic", "color": "blue", "genus": "Revolving Pokémon"}
+{"name": "malamar", "national_dex_number": 687, "type1": "dark", "type2": "psychic", "color": "blue", "genus": "Overturning Pokémon"}
+{"name": "binacle", "national_dex_number": 688, "type1": "rock", "type2": "water", "color": "brown", "genus": "Two-Handed Pokémon"}
+{"name": "barbaracle", "national_dex_number": 689, "type1": "rock", "type2": "water", "color": "brown", "genus": "Collective Pokémon"}
+{"name": "skrelp", "national_dex_number": 690, "type1": "poison", "type2": "water", "color": "brown", "genus": "Mock Kelp Pokémon"}
+{"name": "dragalge", "national_dex_number": 691, "type1": "poison", "type2": "dragon", "color": "brown", "genus": "Mock Kelp Pokémon"}
+{"name": "clauncher", "national_dex_number": 692, "type1": "water", "type2": null, "color": "blue", "genus": "Water Gun Pokémon"}
+{"name": "clawitzer", "national_dex_number": 693, "type1": "water", "type2": null, "color": "blue", "genus": "Howitzer Pokémon"}
+{"name": "helioptile", "national_dex_number": 694, "type1": "electric", "type2": "normal", "color": "yellow", "genus": "Generator Pokémon"}
+{"name": "heliolisk", "national_dex_number": 695, "type1": "electric", "type2": "normal", "color": "yellow", "genus": "Generator Pokémon"}
+{"name": "tyrunt", "national_dex_number": 696, "type1": "rock", "type2": "dragon", "color": "brown", "genus": "Royal Heir Pokémon"}
+{"name": "tyrantrum", "national_dex_number": 697, "type1": "rock", "type2": "dragon", "color": "red", "genus": "Despot Pokémon"}
+{"name": "amaura", "national_dex_number": 698, "type1": "rock", "type2": "ice", "color": "blue", "genus": "Tundra Pokémon"}
+{"name": "aurorus", "national_dex_number": 699, "type1": "rock", "type2": "ice", "color": "blue", "genus": "Tundra Pokémon"}
+{"name": "sylveon", "national_dex_number": 700, "type1": "fairy", "type2": null, "color": "pink", "genus": "Intertwining Pokémon"}
+{"name": "hawlucha", "national_dex_number": 701, "type1": "fighting", "type2": "flying", "color": "green", "genus": "Wrestling Pokémon"}
+{"name": "dedenne", "national_dex_number": 702, "type1": "electric", "type2": "fairy", "color": "yellow", "genus": "Antenna Pokémon"}
+{"name": "carbink", "national_dex_number": 703, "type1": "rock", "type2": "fairy", "color": "gray", "genus": "Jewel Pokémon"}
+{"name": "goomy", "national_dex_number": 704, "type1": "dragon", "type2": null, "color": "purple", "genus": "Soft Tissue Pokémon"}
+{"name": "sliggoo", "national_dex_number": 705, "type1": "dragon", "type2": null, "color": "purple", "genus": "Soft Tissue Pokémon"}
+{"name": "goodra", "national_dex_number": 706, "type1": "dragon", "type2": null, "color": "purple", "genus": "Dragon Pokémon"}
+{"name": "klefki", "national_dex_number": 707, "type1": "steel", "type2": "fairy", "color": "gray", "genus": "Key Ring Pokémon"}
+{"name": "phantump", "national_dex_number": 708, "type1": "ghost", "type2": "grass", "color": "brown", "genus": "Stump Pokémon"}
+{"name": "trevenant", "national_dex_number": 709, "type1": "ghost", "type2": "grass", "color": "brown", "genus": "Elder Tree Pokémon"}
+{"name": "pumpkaboo-average", "national_dex_number": 710, "type1": "ghost", "type2": "grass", "color": "brown", "genus": "Pumpkin Pokémon"}
+{"name": "gourgeist-average", "national_dex_number": 711, "type1": "ghost", "type2": "grass", "color": "brown", "genus": "Pumpkin Pokémon"}
+{"name": "bergmite", "national_dex_number": 712, "type1": "ice", "type2": null, "color": "blue", "genus": "Ice Chunk Pokémon"}
+{"name": "avalugg", "national_dex_number": 713, "type1": "ice", "type2": null, "color": "blue", "genus": "Iceberg Pokémon"}
+{"name": "noibat", "national_dex_number": 714, "type1": "flying", "type2": "dragon", "color": "purple", "genus": "Sound Wave Pokémon"}
+{"name": "noivern", "national_dex_number": 715, "type1": "flying", "type2": "dragon", "color": "purple", "genus": "Sound Wave Pokémon"}
+{"name": "xerneas", "national_dex_number": 716, "type1": "fairy", "type2": null, "color": "blue", "genus": "Life Pokémon"}
+{"name": "yveltal", "national_dex_number": 717, "type1": "dark", "type2": "flying", "color": "red", "genus": "Destruction Pokémon"}
+{"name": "zygarde-50", "national_dex_number": 718, "type1": "dragon", "type2": "ground", "color": "green", "genus": "Order Pokémon"}
+{"name": "diancie", "national_dex_number": 719, "type1": "rock", "type2": "fairy", "color": "pink", "genus": "Jewel Pokémon"}
+{"name": "hoopa", "national_dex_number": 720, "type1": "psychic", "type2": "ghost", "color": "purple", "genus": "Mischief Pokémon"}
+{"name": "volcanion", "national_dex_number": 721, "type1": "fire", "type2": "water", "color": "brown", "genus": "Steam Pokémon"}
+{"name": "rowlet", "national_dex_number": 722, "type1": "grass", "type2": "flying", "color": "brown", "genus": "Grass Quill Pokémon"}
+{"name": "dartrix", "national_dex_number": 723, "type1": "grass", "type2": "flying", "color": "brown", "genus": "Blade Quill Pokémon"}
+{"name": "decidueye", "national_dex_number": 724, "type1": "grass", "type2": "ghost", "color": "brown", "genus": "Arrow Quill Pokémon"}
+{"name": "litten", "national_dex_number": 725, "type1": "fire", "type2": null, "color": "red", "genus": "Fire Cat Pokémon"}
+{"name": "torracat", "national_dex_number": 726, "type1": "fire", "type2": null, "color": "red", "genus": "Fire Cat Pokémon"}
+{"name": "incineroar", "national_dex_number": 727, "type1": "fire", "type2": "dark", "color": "red", "genus": "Heel Pokémon"}
+{"name": "popplio", "national_dex_number": 728, "type1": "water", "type2": null, "color": "blue", "genus": "Sea Lion Pokémon"}
+{"name": "brionne", "national_dex_number": 729, "type1": "water", "type2": null, "color": "blue", "genus": "Pop Star Pokémon"}
+{"name": "primarina", "national_dex_number": 730, "type1": "water", "type2": "fairy", "color": "blue", "genus": "Soloist Pokémon"}
+{"name": "pikipek", "national_dex_number": 731, "type1": "normal", "type2": "flying", "color": "black", "genus": "Woodpecker Pokémon"}
+{"name": "trumbeak", "national_dex_number": 732, "type1": "normal", "type2": "flying", "color": "black", "genus": "Bugle Beak Pokémon"}
+{"name": "toucannon", "national_dex_number": 733, "type1": "normal", "type2": "flying", "color": "black", "genus": "Cannon Pokémon"}
+{"name": "yungoos", "national_dex_number": 734, "type1": "normal", "type2": null, "color": "brown", "genus": "Loitering Pokémon"}
+{"name": "gumshoos", "national_dex_number": 735, "type1": "normal", "type2": null, "color": "brown", "genus": "Stakeout Pokémon"}
+{"name": "grubbin", "national_dex_number": 736, "type1": "bug", "type2": null, "color": "gray", "genus": "Larva Pokémon"}
+{"name": "charjabug", "national_dex_number": 737, "type1": "bug", "type2": "electric", "color": "green", "genus": "Battery Pokémon"}
+{"name": "vikavolt", "national_dex_number": 738, "type1": "bug", "type2": "electric", "color": "blue", "genus": "Stag Beetle Pokémon"}
+{"name": "crabrawler", "national_dex_number": 739, "type1": "fighting", "type2": null, "color": "purple", "genus": "Boxing Pokémon"}
+{"name": "crabominable", "national_dex_number": 740, "type1": "fighting", "type2": "ice", "color": "white", "genus": "Woolly Crab Pokémon"}
+{"name": "oricorio-baile", "national_dex_number": 741, "type1": "fire", "type2": "flying", "color": "red", "genus": "Dancing Pokémon"}
+{"name": "cutiefly", "national_dex_number": 742, "type1": "bug", "type2": "fairy", "color": "yellow", "genus": "Bee Fly Pokémon"}
+{"name": "ribombee", "national_dex_number": 743, "type1": "bug", "type2": "fairy", "color": "yellow", "genus": "Bee Fly Pokémon"}
+{"name": "rockruff", "national_dex_number": 744, "type1": "rock", "type2": null, "color": "brown", "genus": "Puppy Pokémon"}
+{"name": "lycanroc-midday", "national_dex_number": 745, "type1": "rock", "type2": null, "color": "brown", "genus": "Wolf Pokémon"}
+{"name": "wishiwashi-solo", "national_dex_number": 746, "type1": "water", "type2": null, "color": "blue", "genus": "Small Fry Pokémon"}
+{"name": "mareanie", "national_dex_number": 747, "type1": "poison", "type2": "water", "color": "blue", "genus": "Brutal Star Pokémon"}
+{"name": "toxapex", "national_dex_number": 748, "type1": "poison", "type2": "water", "color": "blue", "genus": "Brutal Star Pokémon"}
+{"name": "mudbray", "national_dex_number": 749, "type1": "ground", "type2": null, "color": "brown", "genus": "Donkey Pokémon"}
+{"name": "mudsdale", "national_dex_number": 750, "type1": "ground", "type2": null, "color": "brown", "genus": "Draft Horse Pokémon"}
+{"name": "dewpider", "national_dex_number": 751, "type1": "water", "type2": "bug", "color": "green", "genus": "Water Bubble Pokémon"}
+{"name": "araquanid", "national_dex_number": 752, "type1": "water", "type2": "bug", "color": "green", "genus": "Water Bubble Pokémon"}
+{"name": "fomantis", "national_dex_number": 753, "type1": "grass", "type2": null, "color": "pink", "genus": "Sickle Grass Pokémon"}
+{"name": "lurantis", "national_dex_number": 754, "type1": "grass", "type2": null, "color": "pink", "genus": "Bloom Sickle Pokémon"}
+{"name": "morelull", "national_dex_number": 755, "type1": "grass", "type2": "fairy", "color": "purple", "genus": "Illuminating Pokémon"}
+{"name": "shiinotic", "national_dex_number": 756, "type1": "grass", "type2": "fairy", "color": "purple", "genus": "Illuminating Pokémon"}
+{"name": "salandit", "national_dex_number": 757, "type1": "poison", "type2": "fire", "color": "black", "genus": "Toxic Lizard Pokémon"}
+{"name": "salazzle", "national_dex_number": 758, "type1": "poison", "type2": "fire", "color": "black", "genus": "Toxic Lizard Pokémon"}
+{"name": "stufful", "national_dex_number": 759, "type1": "normal", "type2": "fighting", "color": "pink", "genus": "Flailing Pokémon"}
+{"name": "bewear", "national_dex_number": 760, "type1": "normal", "type2": "fighting", "color": "pink", "genus": "Strong Arm Pokémon"}
+{"name": "bounsweet", "national_dex_number": 761, "type1": "grass", "type2": null, "color": "purple", "genus": "Fruit Pokémon"}
+{"name": "steenee", "national_dex_number": 762, "type1": "grass", "type2": null, "color": "purple", "genus": "Fruit Pokémon"}
+{"name": "tsareena", "national_dex_number": 763, "type1": "grass", "type2": null, "color": "purple", "genus": "Fruit Pokémon"}
+{"name": "comfey", "national_dex_number": 764, "type1": "fairy", "type2": null, "color": "green", "genus": "Posy Picker Pokémon"}
+{"name": "oranguru", "national_dex_number": 765, "type1": "normal", "type2": "psychic", "color": "white", "genus": "Sage Pokémon"}
+{"name": "passimian", "national_dex_number": 766, "type1": "fighting", "type2": null, "color": "white", "genus": "Teamwork Pokémon"}
+{"name": "wimpod", "national_dex_number": 767, "type1": "bug", "type2": "water", "color": "gray", "genus": "Turn Tail Pokémon"}
+{"name": "golisopod", "national_dex_number": 768, "type1": "bug", "type2": "water", "color": "gray", "genus": "Hard Scale Pokémon"}
+{"name": "sandygast", "national_dex_number": 769, "type1": "ghost", "type2": "ground", "color": "brown", "genus": "Sand Heap Pokémon"}
+{"name": "palossand", "national_dex_number": 770, "type1": "ghost", "type2": "ground", "color": "brown", "genus": "Sand Castle Pokémon"}
+{"name": "pyukumuku", "national_dex_number": 771, "type1": "water", "type2": null, "color": "black", "genus": "Sea Cucumber Pokémon"}
+{"name": "type-null", "national_dex_number": 772, "type1": "normal", "type2": null, "color": "gray", "genus": "Synthetic Pokémon"}
+{"name": "silvally", "national_dex_number": 773, "type1": "normal", "type2": null, "color": "gray", "genus": "Synthetic Pokémon"}
+{"name": "minior-red-meteor", "national_dex_number": 774, "type1": "rock", "type2": "flying", "color": "brown", "genus": "Meteor Pokémon"}
+{"name": "komala", "national_dex_number": 775, "type1": "normal", "type2": null, "color": "blue", "genus": "Drowsing Pokémon"}
+{"name": "turtonator", "national_dex_number": 776, "type1": "fire", "type2": "dragon", "color": "red", "genus": "Blast Turtle Pokémon"}
+{"name": "togedemaru", "national_dex_number": 777, "type1": "electric", "type2": "steel", "color": "gray", "genus": "Roly-Poly Pokémon"}
+{"name": "mimikyu-disguised", "national_dex_number": 778, "type1": "ghost", "type2": "fairy", "color": "yellow", "genus": "Disguise Pokémon"}
+{"name": "bruxish", "national_dex_number": 779, "type1": "water", "type2": "psychic", "color": "pink", "genus": "Gnash Teeth Pokémon"}
+{"name": "drampa", "national_dex_number": 780, "type1": "normal", "type2": "dragon", "color": "white", "genus": "Placid Pokémon"}
+{"name": "dhelmise", "national_dex_number": 781, "type1": "ghost", "type2": "grass", "color": "green", "genus": "Sea Creeper Pokémon"}
+{"name": "jangmo-o", "national_dex_number": 782, "type1": "dragon", "type2": null, "color": "gray", "genus": "Scaly Pokémon"}
+{"name": "hakamo-o", "national_dex_number": 783, "type1": "dragon", "type2": "fighting", "color": "gray", "genus": "Scaly Pokémon"}
+{"name": "kommo-o", "national_dex_number": 784, "type1": "dragon", "type2": "fighting", "color": "gray", "genus": "Scaly Pokémon"}
+{"name": "tapu-koko", "national_dex_number": 785, "type1": "electric", "type2": "fairy", "color": "yellow", "genus": "Land Spirit Pokémon"}
+{"name": "tapu-lele", "national_dex_number": 786, "type1": "psychic", "type2": "fairy", "color": "pink", "genus": "Land Spirit Pokémon"}
+{"name": "tapu-bulu", "national_dex_number": 787, "type1": "grass", "type2": "fairy", "color": "red", "genus": "Land Spirit Pokémon"}
+{"name": "tapu-fini", "national_dex_number": 788, "type1": "water", "type2": "fairy", "color": "purple", "genus": "Land Spirit Pokémon"}
+{"name": "cosmog", "national_dex_number": 789, "type1": "psychic", "type2": null, "color": "blue", "genus": "Nebula Pokémon"}
+{"name": "cosmoem", "national_dex_number": 790, "type1": "psychic", "type2": null, "color": "blue", "genus": "Protostar Pokémon"}
+{"name": "solgaleo", "national_dex_number": 791, "type1": "psychic", "type2": "steel", "color": "white", "genus": "Sunne Pokémon"}
+{"name": "lunala", "national_dex_number": 792, "type1": "psychic", "type2": "ghost", "color": "purple", "genus": "Moone Pokémon"}
+{"name": "nihilego", "national_dex_number": 793, "type1": "rock", "type2": "poison", "color": "white", "genus": "Parasite Pokémon"}
+{"name": "buzzwole", "national_dex_number": 794, "type1": "bug", "type2": "fighting", "color": "red", "genus": "Swollen Pokémon"}
+{"name": "pheromosa", "national_dex_number": 795, "type1": "bug", "type2": "fighting", "color": "white", "genus": "Lissome Pokémon"}
+{"name": "xurkitree", "national_dex_number": 796, "type1": "electric", "type2": null, "color": "black", "genus": "Glowing Pokémon"}
+{"name": "celesteela", "national_dex_number": 797, "type1": "steel", "type2": "flying", "color": "green", "genus": "Launch Pokémon"}
+{"name": "kartana", "national_dex_number": 798, "type1": "grass", "type2": "steel", "color": "white", "genus": "Drawn Sword Pokémon"}
+{"name": "guzzlord", "national_dex_number": 799, "type1": "dark", "type2": "dragon", "color": "black", "genus": "Junkivore Pokémon"}
+{"name": "necrozma", "national_dex_number": 800, "type1": "psychic", "type2": null, "color": "black", "genus": "Prism Pokémon"}
+{"name": "magearna", "national_dex_number": 801, "type1": "steel", "type2": "fairy", "color": "gray", "genus": "Artificial Pokémon"}
+{"name": "marshadow", "national_dex_number": 802, "type1": "fighting", "type2": "ghost", "color": "gray", "genus": "Gloomdweller Pokémon"}
+{"name": "poipole", "national_dex_number": 803, "type1": "poison", "type2": null, "color": "purple", "genus": "Poison Pin Pokémon"}
+{"name": "naganadel", "national_dex_number": 804, "type1": "poison", "type2": "dragon", "color": "purple", "genus": "Poison Pin Pokémon"}
+{"name": "stakataka", "national_dex_number": 805, "type1": "rock", "type2": "steel", "color": "gray", "genus": "Rampart Pokémon"}
+{"name": "blacephalon", "national_dex_number": 806, "type1": "fire", "type2": "ghost", "color": "white", "genus": "Fireworks Pokémon"}
+{"name": "zeraora", "national_dex_number": 807, "type1": "electric", "type2": null, "color": "yellow", "genus": "Thunderclap Pokémon"}
+{"name": "meltan", "national_dex_number": 808, "type1": "steel", "type2": null, "color": "gray", "genus": "Hex Nut Pokémon"}
+{"name": "melmetal", "national_dex_number": 809, "type1": "steel", "type2": null, "color": "gray", "genus": "Hex Nut Pokémon"}
+{"name": "grookey", "national_dex_number": 810, "type1": "grass", "type2": null, "color": "green", "genus": "Chimp Pokémon"}
+{"name": "thwackey", "national_dex_number": 811, "type1": "grass", "type2": null, "color": "green", "genus": "Beat Pokémon"}
+{"name": "rillaboom", "national_dex_number": 812, "type1": "grass", "type2": null, "color": "green", "genus": "Drummer Pokémon"}
+{"name": "scorbunny", "national_dex_number": 813, "type1": "fire", "type2": null, "color": "white", "genus": "Rabbit Pokémon"}
+{"name": "raboot", "national_dex_number": 814, "type1": "fire", "type2": null, "color": "gray", "genus": "Rabbit Pokémon"}
+{"name": "cinderace", "national_dex_number": 815, "type1": "fire", "type2": null, "color": "white", "genus": "Striker Pokémon"}
+{"name": "sobble", "national_dex_number": 816, "type1": "water", "type2": null, "color": "blue", "genus": "Water Lizard Pokémon"}
+{"name": "drizzile", "national_dex_number": 817, "type1": "water", "type2": null, "color": "blue", "genus": "Water Lizard Pokémon"}
+{"name": "inteleon", "national_dex_number": 818, "type1": "water", "type2": null, "color": "blue", "genus": "Secret Agent Pokémon"}
+{"name": "skwovet", "national_dex_number": 819, "type1": "normal", "type2": null, "color": "brown", "genus": "Cheeky Pokémon"}
+{"name": "greedent", "national_dex_number": 820, "type1": "normal", "type2": null, "color": "brown", "genus": "Greedy Pokémon"}
+{"name": "rookidee", "national_dex_number": 821, "type1": "flying", "type2": null, "color": "blue", "genus": "Tiny Bird Pokémon"}
+{"name": "corvisquire", "national_dex_number": 822, "type1": "flying", "type2": null, "color": "blue", "genus": "Raven Pokémon"}
+{"name": "corviknight", "national_dex_number": 823, "type1": "flying", "type2": "steel", "color": "purple", "genus": "Raven Pokémon"}
+{"name": "blipbug", "national_dex_number": 824, "type1": "bug", "type2": null, "color": "blue", "genus": "Larva Pokémon"}
+{"name": "dottler", "national_dex_number": 825, "type1": "bug", "type2": "psychic", "color": "yellow", "genus": "Radome Pokémon"}
+{"name": "orbeetle", "national_dex_number": 826, "type1": "bug", "type2": "psychic", "color": "red", "genus": "Seven Spot Pokémon"}
+{"name": "nickit", "national_dex_number": 827, "type1": "dark", "type2": null, "color": "brown", "genus": "Fox Pokémon"}
+{"name": "thievul", "national_dex_number": 828, "type1": "dark", "type2": null, "color": "brown", "genus": "Fox Pokémon"}
+{"name": "gossifleur", "national_dex_number": 829, "type1": "grass", "type2": null, "color": "green", "genus": "Flowering Pokémon"}
+{"name": "eldegoss", "national_dex_number": 830, "type1": "grass", "type2": null, "color": "green", "genus": "Cotton Bloom Pokémon"}
+{"name": "wooloo", "national_dex_number": 831, "type1": "normal", "type2": null, "color": "white", "genus": "Sheep Pokémon"}
+{"name": "dubwool", "national_dex_number": 832, "type1": "normal", "type2": null, "color": "white", "genus": "Sheep Pokémon"}
+{"name": "chewtle", "national_dex_number": 833, "type1": "water", "type2": null, "color": "green", "genus": "Snapping Pokémon"}
+{"name": "drednaw", "national_dex_number": 834, "type1": "water", "type2": "rock", "color": "green", "genus": "Bite Pokémon"}
+{"name": "yamper", "national_dex_number": 835, "type1": "electric", "type2": null, "color": "yellow", "genus": "Puppy Pokémon"}
+{"name": "boltund", "national_dex_number": 836, "type1": "electric", "type2": null, "color": "yellow", "genus": "Dog Pokémon"}
+{"name": "rolycoly", "national_dex_number": 837, "type1": "rock", "type2": null, "color": "black", "genus": "Coal Pokémon"}
+{"name": "carkol", "national_dex_number": 838, "type1": "rock", "type2": "fire", "color": "black", "genus": "Coal Pokémon"}
+{"name": "coalossal", "national_dex_number": 839, "type1": "rock", "type2": "fire", "color": "black", "genus": "Coal Pokémon"}
+{"name": "applin", "national_dex_number": 840, "type1": "grass", "type2": "dragon", "color": "green", "genus": "Apple Core Pokémon"}
+{"name": "flapple", "national_dex_number": 841, "type1": "grass", "type2": "dragon", "color": "green", "genus": "Apple Wing Pokémon"}
+{"name": "appletun", "national_dex_number": 842, "type1": "grass", "type2": "dragon", "color": "green", "genus": "Apple Nectar Pokémon"}
+{"name": "silicobra", "national_dex_number": 843, "type1": "ground", "type2": null, "color": "green", "genus": "Sand Snake Pokémon"}
+{"name": "sandaconda", "national_dex_number": 844, "type1": "ground", "type2": null, "color": "green", "genus": "Sand Snake Pokémon"}
+{"name": "cramorant", "national_dex_number": 845, "type1": "flying", "type2": "water", "color": "blue", "genus": "Gulp Pokémon"}
+{"name": "arrokuda", "national_dex_number": 846, "type1": "water", "type2": null, "color": "brown", "genus": "Rush Pokémon"}
+{"name": "barraskewda", "national_dex_number": 847, "type1": "water", "type2": null, "color": "brown", "genus": "Skewer Pokémon"}
+{"name": "toxel", "national_dex_number": 848, "type1": "electric", "type2": "poison", "color": "purple", "genus": "Baby Pokémon"}
+{"name": "toxtricity-amped", "national_dex_number": 849, "type1": "electric", "type2": "poison", "color": "purple", "genus": "Punk Pokémon"}
+{"name": "sizzlipede", "national_dex_number": 850, "type1": "fire", "type2": "bug", "color": "red", "genus": "Radiator Pokémon"}
+{"name": "centiskorch", "national_dex_number": 851, "type1": "fire", "type2": "bug", "color": "red", "genus": "Radiator Pokémon"}
+{"name": "clobbopus", "national_dex_number": 852, "type1": "fighting", "type2": null, "color": "brown", "genus": "Tantrum Pokémon"}
+{"name": "grapploct", "national_dex_number": 853, "type1": "fighting", "type2": null, "color": "blue", "genus": "Jujitsu Pokémon"}
+{"name": "sinistea", "national_dex_number": 854, "type1": "ghost", "type2": null, "color": "purple", "genus": "Black Tea Pokémon"}
+{"name": "polteageist", "national_dex_number": 855, "type1": "ghost", "type2": null, "color": "purple", "genus": "Black Tea Pokémon"}
+{"name": "hatenna", "national_dex_number": 856, "type1": "psychic", "type2": null, "color": "pink", "genus": "Calm Pokémon"}
+{"name": "hattrem", "national_dex_number": 857, "type1": "psychic", "type2": null, "color": "pink", "genus": "Serene Pokémon"}
+{"name": "hatterene", "national_dex_number": 858, "type1": "psychic", "type2": "fairy", "color": "pink", "genus": "Silent Pokémon"}
+{"name": "impidimp", "national_dex_number": 859, "type1": "dark", "type2": "fairy", "color": "pink", "genus": "Wily Pokémon"}
+{"name": "morgrem", "national_dex_number": 860, "type1": "dark", "type2": "fairy", "color": "pink", "genus": "Devious Pokémon"}
+{"name": "grimmsnarl", "national_dex_number": 861, "type1": "dark", "type2": "fairy", "color": "purple", "genus": "Bulk Up Pokémon"}
+{"name": "obstagoon", "national_dex_number": 862, "type1": "dark", "type2": "normal", "color": "gray", "genus": "Blocking Pokémon"}
+{"name": "perrserker", "national_dex_number": 863, "type1": "steel", "type2": null, "color": "brown", "genus": "Viking Pokémon"}
+{"name": "cursola", "national_dex_number": 864, "type1": "ghost", "type2": null, "color": "white", "genus": "Coral Pokémon"}
+{"name": "sirfetchd", "national_dex_number": 865, "type1": "fighting", "type2": null, "color": "white", "genus": "Wild Duck Pokémon"}
+{"name": "mr-rime", "national_dex_number": 866, "type1": "ice", "type2": "psychic", "color": "purple", "genus": "Comedian Pokémon"}
+{"name": "runerigus", "national_dex_number": 867, "type1": "ground", "type2": "ghost", "color": "gray", "genus": "Grudge Pokémon"}
+{"name": "milcery", "national_dex_number": 868, "type1": "fairy", "type2": null, "color": "white", "genus": "Cream Pokémon"}
+{"name": "alcremie", "national_dex_number": 869, "type1": "fairy", "type2": null, "color": "white", "genus": "Cream Pokémon"}
+{"name": "falinks", "national_dex_number": 870, "type1": "fighting", "type2": null, "color": "yellow", "genus": "Formation Pokémon"}
+{"name": "pincurchin", "national_dex_number": 871, "type1": "electric", "type2": null, "color": "purple", "genus": "Sea Urchin Pokémon"}
+{"name": "snom", "national_dex_number": 872, "type1": "ice", "type2": "bug", "color": "white", "genus": "Worm Pokémon"}
+{"name": "frosmoth", "national_dex_number": 873, "type1": "ice", "type2": "bug", "color": "white", "genus": "Frost Moth Pokémon"}
+{"name": "stonjourner", "national_dex_number": 874, "type1": "rock", "type2": null, "color": "gray", "genus": "Big Rock Pokémon"}
+{"name": "eiscue-ice", "national_dex_number": 875, "type1": "ice", "type2": null, "color": "blue", "genus": "Penguin Pokémon"}
+{"name": "indeedee-male", "national_dex_number": 876, "type1": "psychic", "type2": "normal", "color": "purple", "genus": "Emotion Pokémon"}
+{"name": "morpeko-full-belly", "national_dex_number": 877, "type1": "electric", "type2": "dark", "color": "yellow", "genus": "Two-Sided Pokémon"}
+{"name": "cufant", "national_dex_number": 878, "type1": "steel", "type2": null, "color": "yellow", "genus": "Copperderm Pokémon"}
+{"name": "copperajah", "national_dex_number": 879, "type1": "steel", "type2": null, "color": "green", "genus": "Copperderm Pokémon"}
+{"name": "dracozolt", "national_dex_number": 880, "type1": "electric", "type2": "dragon", "color": "green", "genus": "Fossil Pokémon"}
+{"name": "arctozolt", "national_dex_number": 881, "type1": "electric", "type2": "ice", "color": "blue", "genus": "Fossil Pokémon"}
+{"name": "dracovish", "national_dex_number": 882, "type1": "water", "type2": "dragon", "color": "green", "genus": "Fossil Pokémon"}
+{"name": "arctovish", "national_dex_number": 883, "type1": "water", "type2": "ice", "color": "blue", "genus": "Fossil Pokémon"}
+{"name": "duraludon", "national_dex_number": 884, "type1": "steel", "type2": "dragon", "color": "white", "genus": "Alloy Pokémon"}
+{"name": "dreepy", "national_dex_number": 885, "type1": "dragon", "type2": "ghost", "color": "green", "genus": "Lingering Pokémon"}
+{"name": "drakloak", "national_dex_number": 886, "type1": "dragon", "type2": "ghost", "color": "green", "genus": "Caretaker Pokémon"}
+{"name": "dragapult", "national_dex_number": 887, "type1": "dragon", "type2": "ghost", "color": "green", "genus": "Stealth Pokémon"}
+{"name": "zacian", "national_dex_number": 888, "type1": "fairy", "type2": null, "color": "blue", "genus": "Warrior Pokémon"}
+{"name": "zamazenta", "national_dex_number": 889, "type1": "fighting", "type2": null, "color": "red", "genus": "Warrior Pokémon"}
+{"name": "eternatus", "national_dex_number": 890, "type1": "poison", "type2": "dragon", "color": "purple", "genus": "Gigantic Pokémon"}
+{"name": "kubfu", "national_dex_number": 891, "type1": "fighting", "type2": null, "color": "gray", "genus": "Wushu Pokémon"}
+{"name": "urshifu-single-strike", "national_dex_number": 892, "type1": "fighting", "type2": "dark", "color": "gray", "genus": "Wushu Pokémon"}
+{"name": "zarude", "national_dex_number": 893, "type1": "dark", "type2": "grass", "color": "green", "genus": "Rogue Monkey Pokémon"}
+{"name": "regieleki", "national_dex_number": 894, "type1": "electric", "type2": null, "color": "yellow", "genus": "Electron Pokémon"}
+{"name": "regidrago", "national_dex_number": 895, "type1": "dragon", "type2": null, "color": "green", "genus": "Dragon Orb Pokémon"}
+{"name": "glastrier", "national_dex_number": 896, "type1": "ice", "type2": null, "color": "white", "genus": "Wild Horse Pokémon"}
+{"name": "spectrier", "national_dex_number": 897, "type1": "ghost", "type2": null, "color": "black", "genus": "Swift Horse Pokémon"}
+{"name": "calyrex", "national_dex_number": 898, "type1": "psychic", "type2": "grass", "color": "green", "genus": "King Pokémon"}
+{"name": "wyrdeer", "national_dex_number": 899, "type1": "normal", "type2": "psychic", "color": "gray", "genus": "Big Horn Pokémon"}
+{"name": "kleavor", "national_dex_number": 900, "type1": "bug", "type2": "rock", "color": "brown", "genus": "Axe Pokémon"}
+{"name": "ursaluna", "national_dex_number": 901, "type1": "ground", "type2": "normal", "color": "brown", "genus": "Peat Pokémon"}
+{"name": "basculegion-male", "national_dex_number": 902, "type1": "water", "type2": "ghost", "color": "green", "genus": "Big Fish Pokémon"}
+{"name": "sneasler", "national_dex_number": 903, "type1": "fighting", "type2": "poison", "color": "gray", "genus": "Free Climb Pokémon"}
+{"name": "overqwil", "national_dex_number": 904, "type1": "dark", "type2": "poison", "color": "black", "genus": "Pin Cluster Pokémon"}
+{"name": "enamorus-incarnate", "national_dex_number": 905, "type1": "fairy", "type2": "flying", "color": "pink", "genus": "Love-Hate Pokémon"}
+{"name": "sprigatito", "national_dex_number": 906, "type1": "grass", "type2": null, "color": "green", "genus": "Grass Cat Pokémon"}
+{"name": "floragato", "national_dex_number": 907, "type1": "grass", "type2": null, "color": "green", "genus": "Grass Cat Pokémon"}
+{"name": "meowscarada", "national_dex_number": 908, "type1": "grass", "type2": "dark", "color": "green", "genus": "Magician Pokémon"}
+{"name": "fuecoco", "national_dex_number": 909, "type1": "fire", "type2": null, "color": "red", "genus": "Fire Croc Pokémon"}
+{"name": "crocalor", "national_dex_number": 910, "type1": "fire", "type2": null, "color": "red", "genus": "Fire Croc Pokémon"}
+{"name": "skeledirge", "national_dex_number": 911, "type1": "fire", "type2": "ghost", "color": "red", "genus": "Singer Pokémon"}
+{"name": "quaxly", "national_dex_number": 912, "type1": "water", "type2": null, "color": "white", "genus": "Duckling Pokémon"}
+{"name": "quaxwell", "national_dex_number": 913, "type1": "water", "type2": null, "color": "blue", "genus": "Practicing Pokémon"}
+{"name": "quaquaval", "national_dex_number": 914, "type1": "water", "type2": "fighting", "color": "blue", "genus": "Dancer Pokémon"}
+{"name": "lechonk", "national_dex_number": 915, "type1": "normal", "type2": null, "color": "gray", "genus": "Hog Pokémon"}
+{"name": "oinkologne-male", "national_dex_number": 916, "type1": "normal", "type2": null, "color": "gray", "genus": "Hog Pokémon"}
+{"name": "tarountula", "national_dex_number": 917, "type1": "bug", "type2": null, "color": "white", "genus": "String Ball Pokémon"}
+{"name": "spidops", "national_dex_number": 918, "type1": "bug", "type2": null, "color": "green", "genus": "Trap Pokémon"}
+{"name": "nymble", "national_dex_number": 919, "type1": "bug", "type2": null, "color": "gray", "genus": "Grasshopper Pokémon"}
+{"name": "lokix", "national_dex_number": 920, "type1": "bug", "type2": "dark", "color": "gray", "genus": "Grasshopper Pokémon"}
+{"name": "pawmi", "national_dex_number": 921, "type1": "electric", "type2": null, "color": "yellow", "genus": "Mouse Pokémon"}
+{"name": "pawmo", "national_dex_number": 922, "type1": "electric", "type2": "fighting", "color": "yellow", "genus": "Mouse Pokémon"}
+{"name": "pawmot", "national_dex_number": 923, "type1": "electric", "type2": "fighting", "color": "yellow", "genus": "Hands-On Pokémon"}
+{"name": "tandemaus", "national_dex_number": 924, "type1": "normal", "type2": null, "color": "white", "genus": "Couple Pokémon"}
+{"name": "maushold-family-of-four", "national_dex_number": 925, "type1": "normal", "type2": null, "color": "white", "genus": "Family Pokémon"}
+{"name": "fidough", "national_dex_number": 926, "type1": "fairy", "type2": null, "color": "yellow", "genus": "Puppy Pokémon"}
+{"name": "dachsbun", "national_dex_number": 927, "type1": "fairy", "type2": null, "color": "brown", "genus": "Dog Pokémon"}
+{"name": "smoliv", "national_dex_number": 928, "type1": "grass", "type2": "normal", "color": "green", "genus": "Olive Pokémon"}
+{"name": "dolliv", "national_dex_number": 929, "type1": "grass", "type2": "normal", "color": "green", "genus": "Olive Pokémon"}
+{"name": "arboliva", "national_dex_number": 930, "type1": "grass", "type2": "normal", "color": "green", "genus": "Olive Pokémon"}
+{"name": "squawkabilly-green-plumage", "national_dex_number": 931, "type1": "normal", "type2": "flying", "color": "green", "genus": "Parrot Pokémon"}
+{"name": "nacli", "national_dex_number": 932, "type1": "rock", "type2": null, "color": "brown", "genus": "Rock Salt Pokémon"}
+{"name": "naclstack", "national_dex_number": 933, "type1": "rock", "type2": null, "color": "brown", "genus": "Rock Salt Pokémon"}
+{"name": "garganacl", "national_dex_number": 934, "type1": "rock", "type2": null, "color": "brown", "genus": "Rock Salt Pokémon"}
+{"name": "charcadet", "national_dex_number": 935, "type1": "fire", "type2": null, "color": "red", "genus": "Fire Child Pokémon"}
+{"name": "armarouge", "national_dex_number": 936, "type1": "fire", "type2": "psychic", "color": "red", "genus": "Fire Warrior Pokémon"}
+{"name": "ceruledge", "national_dex_number": 937, "type1": "fire", "type2": "ghost", "color": "blue", "genus": "Fire Blades Pokémon"}
+{"name": "tadbulb", "national_dex_number": 938, "type1": "electric", "type2": null, "color": "yellow", "genus": "EleTadpole Pokémon"}
+{"name": "bellibolt", "national_dex_number": 939, "type1": "electric", "type2": null, "color": "green", "genus": "EleFrog Pokémon"}
+{"name": "wattrel", "national_dex_number": 940, "type1": "electric", "type2": "flying", "color": "black", "genus": "Storm Petrel Pokémon"}
+{"name": "kilowattrel", "national_dex_number": 941, "type1": "electric", "type2": "flying", "color": "yellow", "genus": "Frigatebird Pokémon"}
+{"name": "maschiff", "national_dex_number": 942, "type1": "dark", "type2": null, "color": "brown", "genus": "Rascal Pokémon"}
+{"name": "mabosstiff", "national_dex_number": 943, "type1": "dark", "type2": null, "color": "gray", "genus": "Boss Pokémon"}
+{"name": "shroodle", "national_dex_number": 944, "type1": "poison", "type2": "normal", "color": "gray", "genus": "Toxic Mouse Pokémon"}
+{"name": "grafaiai", "national_dex_number": 945, "type1": "poison", "type2": "normal", "color": "gray", "genus": "Toxic Monkey Pokémon"}
+{"name": "bramblin", "national_dex_number": 946, "type1": "grass", "type2": "ghost", "color": "brown", "genus": "Tumbleweed Pokémon"}
+{"name": "brambleghast", "national_dex_number": 947, "type1": "grass", "type2": "ghost", "color": "brown", "genus": "Tumbleweed Pokémon"}
+{"name": "toedscool", "national_dex_number": 948, "type1": "ground", "type2": "grass", "color": "yellow", "genus": "Woodear Pokémon"}
+{"name": "toedscruel", "national_dex_number": 949, "type1": "ground", "type2": "grass", "color": "black", "genus": "Woodear Pokémon"}
+{"name": "klawf", "national_dex_number": 950, "type1": "rock", "type2": null, "color": "red", "genus": "Ambush Pokémon"}
+{"name": "capsakid", "national_dex_number": 951, "type1": "grass", "type2": null, "color": "green", "genus": "Spicy Pepper Pokémon"}
+{"name": "scovillain", "national_dex_number": 952, "type1": "grass", "type2": "fire", "color": "green", "genus": "Spicy Pepper Pokémon"}
+{"name": "rellor", "national_dex_number": 953, "type1": "bug", "type2": null, "color": "brown", "genus": "Rolling Pokémon"}
+{"name": "rabsca", "national_dex_number": 954, "type1": "bug", "type2": "psychic", "color": "green", "genus": "Rolling Pokémon"}
+{"name": "flittle", "national_dex_number": 955, "type1": "psychic", "type2": null, "color": "yellow", "genus": "Frill Pokémon"}
+{"name": "espathra", "national_dex_number": 956, "type1": "psychic", "type2": null, "color": "yellow", "genus": "Ostrich Pokémon"}
+{"name": "tinkatink", "national_dex_number": 957, "type1": "fairy", "type2": "steel", "color": "pink", "genus": "Metalsmith Pokémon"}
+{"name": "tinkatuff", "national_dex_number": 958, "type1": "fairy", "type2": "steel", "color": "pink", "genus": "Hammer Pokémon"}
+{"name": "tinkaton", "national_dex_number": 959, "type1": "fairy", "type2": "steel", "color": "pink", "genus": "Hammer Pokémon"}
+{"name": "wiglett", "national_dex_number": 960, "type1": "water", "type2": null, "color": "white", "genus": "Garden Eel Pokémon"}
+{"name": "wugtrio", "national_dex_number": 961, "type1": "water", "type2": null, "color": "red", "genus": "Garden Eel Pokémon"}
+{"name": "bombirdier", "national_dex_number": 962, "type1": "flying", "type2": "dark", "color": "white", "genus": "Item Drop Pokémon"}
+{"name": "finizen", "national_dex_number": 963, "type1": "water", "type2": null, "color": "blue", "genus": "Dolphin Pokémon"}
+{"name": "palafin-zero", "national_dex_number": 964, "type1": "water", "type2": null, "color": "blue", "genus": "Dolphin Pokémon"}
+{"name": "varoom", "national_dex_number": 965, "type1": "steel", "type2": "poison", "color": "gray", "genus": "Single-Cyl Pokémon"}
+{"name": "revavroom", "national_dex_number": 966, "type1": "steel", "type2": "poison", "color": "gray", "genus": "Multi-Cyl Pokémon"}
+{"name": "cyclizar", "national_dex_number": 967, "type1": "dragon", "type2": "normal", "color": "green", "genus": "Mount Pokémon"}
+{"name": "orthworm", "national_dex_number": 968, "type1": "steel", "type2": null, "color": "pink", "genus": "Earthworm Pokémon"}
+{"name": "glimmet", "national_dex_number": 969, "type1": "rock", "type2": "poison", "color": "blue", "genus": "Ore Pokémon"}
+{"name": "glimmora", "national_dex_number": 970, "type1": "rock", "type2": "poison", "color": "blue", "genus": "Ore Pokémon"}
+{"name": "greavard", "national_dex_number": 971, "type1": "ghost", "type2": null, "color": "white", "genus": "Ghost Dog Pokémon"}
+{"name": "houndstone", "national_dex_number": 972, "type1": "ghost", "type2": null, "color": "white", "genus": "Ghost Dog Pokémon"}
+{"name": "flamigo", "national_dex_number": 973, "type1": "flying", "type2": "fighting", "color": "pink", "genus": "Synchronize Pokémon"}
+{"name": "cetoddle", "national_dex_number": 974, "type1": "ice", "type2": null, "color": "white", "genus": "Terra Whale Pokémon"}
+{"name": "cetitan", "national_dex_number": 975, "type1": "ice", "type2": null, "color": "white", "genus": "Terra Whale Pokémon"}
+{"name": "veluza", "national_dex_number": 976, "type1": "water", "type2": "psychic", "color": "gray", "genus": "Jettison Pokémon"}
+{"name": "dondozo", "national_dex_number": 977, "type1": "water", "type2": null, "color": "blue", "genus": "Big Catfish Pokémon"}
+{"name": "tatsugiri-curly", "national_dex_number": 978, "type1": "dragon", "type2": "water", "color": "pink", "genus": "Mimicry Pokémon"}
+{"name": "annihilape", "national_dex_number": 979, "type1": "fighting", "type2": "ghost", "color": "gray", "genus": "Rage Monkey Pokémon"}
+{"name": "clodsire", "national_dex_number": 980, "type1": "poison", "type2": "ground", "color": "brown", "genus": "Spiny Fish Pokémon"}
+{"name": "farigiraf", "national_dex_number": 981, "type1": "normal", "type2": "psychic", "color": "brown", "genus": "Long Neck Pokémon"}
+{"name": "dudunsparce-two-segment", "national_dex_number": 982, "type1": "normal", "type2": null, "color": "yellow", "genus": "Land Snake Pokémon"}
+{"name": "kingambit", "national_dex_number": 983, "type1": "dark", "type2": "steel", "color": "black", "genus": "Big Blade Pokémon"}
+{"name": "great-tusk", "national_dex_number": 984, "type1": "ground", "type2": "fighting", "color": "purple", "genus": "Paradox Pokémon"}
+{"name": "scream-tail", "national_dex_number": 985, "type1": "fairy", "type2": "psychic", "color": "pink", "genus": "Paradox Pokémon"}
+{"name": "brute-bonnet", "national_dex_number": 986, "type1": "grass", "type2": "dark", "color": "gray", "genus": "Paradox Pokémon"}
+{"name": "flutter-mane", "national_dex_number": 987, "type1": "ghost", "type2": "fairy", "color": "gray", "genus": "Paradox Pokémon"}
+{"name": "slither-wing", "national_dex_number": 988, "type1": "bug", "type2": "fighting", "color": "red", "genus": "Paradox Pokémon"}
+{"name": "sandy-shocks", "national_dex_number": 989, "type1": "electric", "type2": "ground", "color": "gray", "genus": "Paradox Pokémon"}
+{"name": "iron-treads", "national_dex_number": 990, "type1": "ground", "type2": "steel", "color": "gray", "genus": "Paradox Pokémon"}
+{"name": "iron-bundle", "national_dex_number": 991, "type1": "ice", "type2": "water", "color": "red", "genus": "Paradox Pokémon"}
+{"name": "iron-hands", "national_dex_number": 992, "type1": "fighting", "type2": "electric", "color": "gray", "genus": "Paradox Pokémon"}
+{"name": "iron-jugulis", "national_dex_number": 993, "type1": "dark", "type2": "flying", "color": "blue", "genus": "Paradox Pokémon"}
+{"name": "iron-moth", "national_dex_number": 994, "type1": "fire", "type2": "poison", "color": "yellow", "genus": "Paradox Pokémon"}
+{"name": "iron-thorns", "national_dex_number": 995, "type1": "rock", "type2": "electric", "color": "green", "genus": "Paradox Pokémon"}
+{"name": "frigibax", "national_dex_number": 996, "type1": "dragon", "type2": "ice", "color": "gray", "genus": "Ice Fin Pokémon"}
+{"name": "arctibax", "national_dex_number": 997, "type1": "dragon", "type2": "ice", "color": "gray", "genus": "Ice Fin Pokémon"}
+{"name": "baxcalibur", "national_dex_number": 998, "type1": "dragon", "type2": "ice", "color": "gray", "genus": "Ice Dragon Pokémon"}
+{"name": "gimmighoul", "national_dex_number": 999, "type1": "ghost", "type2": null, "color": "brown", "genus": "Coin Chest Pokémon"}
+{"name": "gholdengo", "national_dex_number": 1000, "type1": "steel", "type2": "ghost", "color": "yellow", "genus": "Coin Entity Pokémon"}
+{"name": "wo-chien", "national_dex_number": 1001, "type1": "dark", "type2": "grass", "color": "brown", "genus": "Ruinous Pokémon"}
+{"name": "chien-pao", "national_dex_number": 1002, "type1": "dark", "type2": "ice", "color": "white", "genus": "Ruinous Pokémon"}
+{"name": "ting-lu", "national_dex_number": 1003, "type1": "dark", "type2": "ground", "color": "brown", "genus": "Ruinous Pokémon"}
+{"name": "chi-yu", "national_dex_number": 1004, "type1": "dark", "type2": "fire", "color": "red", "genus": "Ruinous Pokémon"}
+{"name": "roaring-moon", "national_dex_number": 1005, "type1": "dragon", "type2": "dark", "color": "green", "genus": "Paradox Pokémon"}
+{"name": "iron-valiant", "national_dex_number": 1006, "type1": "fairy", "type2": "fighting", "color": "white", "genus": "Paradox Pokémon"}
+{"name": "koraidon", "national_dex_number": 1007, "type1": "fighting", "type2": "dragon", "color": "red", "genus": "Paradox Pokémon"}
+{"name": "miraidon", "national_dex_number": 1008, "type1": "electric", "type2": "dragon", "color": "blue", "genus": "Paradox Pokémon"}
+{"name": "walking-wake", "national_dex_number": 1009, "type1": "water", "type2": "dragon", "color": "blue", "genus": "Paradox Pokémon"}
+{"name": "iron-leaves", "national_dex_number": 1010, "type1": "grass", "type2": "psychic", "color": "green", "genus": "Paradox Pokémon"}
+{"name": "dipplin", "national_dex_number": 1011, "type1": "grass", "type2": "dragon", "color": "green", "genus": "Candy Apple Pokémon"}
+{"name": "poltchageist", "national_dex_number": 1012, "type1": "grass", "type2": "ghost", "color": "green", "genus": "Matcha Pokémon"}
+{"name": "sinistcha", "national_dex_number": 1013, "type1": "grass", "type2": "ghost", "color": "green", "genus": "Matcha Pokémon"}
+{"name": "okidogi", "national_dex_number": 1014, "type1": "poison", "type2": "fighting", "color": "black", "genus": "Retainer Pokémon"}
+{"name": "munkidori", "national_dex_number": 1015, "type1": "poison", "type2": "psychic", "color": "black", "genus": "Retainer Pokémon"}
+{"name": "fezandipiti", "national_dex_number": 1016, "type1": "poison", "type2": "fairy", "color": "black", "genus": "Retainer Pokémon"}
+{"name": "ogerpon", "national_dex_number": 1017, "type1": "grass", "type2": null, "color": "green", "genus": "Mask Pokémon"}
+{"name": "archaludon", "national_dex_number": 1018, "type1": "steel", "type2": "dragon", "color": "white", "genus": "Alloy Pokémon"}
+{"name": "hydrapple", "national_dex_number": 1019, "type1": "grass", "type2": "dragon", "color": "green", "genus": "Apple Hydra Pokémon"}
+{"name": "gouging-fire", "national_dex_number": 1020, "type1": "fire", "type2": "dragon", "color": "brown", "genus": "Paradox Pokémon"}
+{"name": "raging-bolt", "national_dex_number": 1021, "type1": "electric", "type2": "dragon", "color": "yellow", "genus": "Paradox Pokémon"}
+{"name": "iron-boulder", "national_dex_number": 1022, "type1": "rock", "type2": "psychic", "color": "gray", "genus": "Paradox Pokémon"}
+{"name": "iron-crown", "national_dex_number": 1023, "type1": "steel", "type2": "psychic", "color": "blue", "genus": "Paradox Pokémon"}
+{"name": "terapagos", "national_dex_number": 1024, "type1": "normal", "type2": null, "color": "blue", "genus": "Tera Pokémon"}
+{"name": "pecharunt", "national_dex_number": 1025, "type1": "poison", "type2": "ghost", "color": "purple", "genus": "Subjugation Pokémon"}

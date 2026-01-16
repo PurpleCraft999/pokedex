@@ -8,7 +8,7 @@ mod pokedex;
 mod pokemon;
 use pokedex::PokeDex;
 use pokemon::{PokedexColor, PokemonType};
-use strum::VariantArray;
+use strum::{Display, VariantArray};
 
 use crate::{
     pokedex::{MAX_POKEDEX_NUM, PokedexSearchResualt},
@@ -32,7 +32,7 @@ fn main() {
     pokemon.print_data(args.detailed);
 }
 
-///pokedex
+///rsdex is a cli that allow you to locally search for pokemon like the pokedex would allow you to.
 #[derive(clap::Parser)]
 #[command(version)]
 struct Args {
@@ -44,7 +44,7 @@ struct Args {
     detailed: bool,
 }
 
-#[derive(clap::Subcommand, Clone)]
+#[derive(clap::Subcommand, Clone,Display)]
 ///test
 enum SearchValue {
     
@@ -74,19 +74,17 @@ impl SearchValue {
         } else if let Ok(color) = PokedexColor::from_str(input) {
             return Ok(SearchValue::Color { color });
         }
-        let mut potintal_name = compute_similarity(input, &POKEMON_NAME_ARRAY);
-
-        if potintal_name.len() == 1 {
-            let first_name = &potintal_name[0];
-            if first_name == input {
-                return Ok(SearchValue::Name {
-                    name: first_name.clone(),
-                });
+        for name in &POKEMON_NAME_ARRAY{
+            if input==*name{
+                return Ok(Self::Name { name: input.into() });
             }
         }
-        if !potintal_name.is_empty() {
+
+
+        let mut potintal_names = compute_similarity(input, &POKEMON_NAME_ARRAY);
+        
             let mut err_vec = Vec::new();
-            err_vec.append(&mut potintal_name);
+            err_vec.append(&mut potintal_names);
             err_vec.append(&mut compute_similarity(input, PokedexColor::VARIANTS));
             err_vec.append(&mut compute_similarity(input, PokemonType::VARIANTS));
             let mut did_you_mean_str = String::with_capacity(err_vec.len());
@@ -97,22 +95,33 @@ impl SearchValue {
             }
             did_you_mean_str.pop();
              Err(did_you_mean_str)
-        } else {
-             Err("sorry we couldnt find anything".into())
-        }
+        
     }
 }
 
 
 #[test]
-fn test_dex_numbers(){
+fn test_nat_dex_numbers(){
     let pokedex =PokeDex::new().unwrap();
     for dex_num in 1..=MAX_POKEDEX_NUM{
         let args = ["rsdex".into(),dex_num.to_string()];
         let args = Args::parse_from(args);
         match args.search_value{
             SearchValue::Dex { dex_num }=>pokedex.find_by_natinal_dex_number(dex_num).unwrap(),
-            _=>panic!("idk man:{dex_num}")
+            e=>panic!(" nat dex test failed: number:{dex_num},value:{e}")
+        };
+    }
+}
+
+#[test]
+fn test_pokemon_names(){
+    let pokedex =PokeDex::new().unwrap();
+    for name in POKEMON_NAME_ARRAY {
+        let args = ["rsdex".into(),name];
+        let args = Args::parse_from(args);
+        match args.search_value{
+            SearchValue::Name { name }=>pokedex.find_by_name(name).unwrap(),
+            e=>panic!("name test failed: name:{name},value:{e}")
         };
     }
 }

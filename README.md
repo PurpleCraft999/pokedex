@@ -27,12 +27,28 @@ go to the latest release and copy the shell script into the terminal
 
 <h2>Usage</h2>
 
-after installing rsdex you can use rsdex like this
+<h3>Dex and Name</h3>
 
 `rsdex 1` which will return bulbasaur's pokedex entry or
-`rsdex "bulbasaur"` witch will also return bulbasaur pokedex info
+`rsdex bulbasaur` witch will also return bulbasaur pokedex info
 
-You can also filter by type or color such as 
+<h3>Type and Color</h3>
 
-`rsdex "fire"` to get all fire type pokemon or
-`rsdex "blue"` to get all the blue pokemon
+`rsdex fire` to get all fire type pokemon or
+`rsdex blue` to get all the blue pokemon
+
+<h3>Stat</h3>
+
+To filter by stat you append the stat you want to the end such as 
+`rsdex 20hp` for Health
+`rsdex 20a` for Attack
+`rsdex 20d` for Defence
+`rsdex 20sa` for Special Attack
+`rsdex 20sd` for Special Defence
+`rsdex 20s` for Speed
+
+
+<h2>Flags</h2>
+if you add --detailed to the end of a search you'll get a more detailed summary
+Example
+<code>rsdex 1 --detailed </code>

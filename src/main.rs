@@ -1,6 +1,6 @@
-use std::{ str::FromStr};
+use std::str::FromStr;
 
-use clap::Parser;
+use clap::{Parser, value_parser};
 
 // use serde::Deserialize;
 
@@ -12,7 +12,7 @@ use strum::{Display, VariantArray};
 
 use crate::{
     pokedex::{MAX_POKEDEX_NUM, PokedexSearchResualt},
-    pokemon::{POKEMON_NAME_ARRAY,  StatWithOrder, compute_similarity},
+    pokemon::{POKEMON_NAME_ARRAY, StatWithOrder, compute_similarity},
 };
 fn main() {
     let args = Args::parse();
@@ -34,29 +34,71 @@ fn main() {
 }
 
 ///rsdex is a cli that allow you to locally search for pokemon like the pokedex would allow you to.
+///
+///
+///
+///
+///
 #[derive(clap::Parser)]
 #[command(version)]
 struct Args {
-    ///takes a pokemon's name,color,type or dex number
+    ///takes a pokemon's name,color,type,stat or dex number
+    ///
+    /// to get dex number a simple number will work
+    ///
+    /// for name entering any pokemon name will work
+    ///
+    /// for color typing a pokemons color will work
+    ///
+    /// ***Stats***
+    ///
+    /// to search a stat you append the stat you want to a number at the end
+    /// also you can put a `l` or `g` in front of the number to get pokemon with stats that are ≤ or ≥
+    /// # Examples
+    ///
+    /// `rsdex 25hp` for pokemon with 25 hp exactly
+    ///
+    /// `rsdex 10sa` for pokemon with 10 special attack exactly
+    ///
+    /// `rsdex l120d` for pokemon with ≤ 120 defence
+    ///
+    /// `rsdex g110s` for pokemon with ≥ 110 speed
+    ///
     #[arg(value_parser = SearchValue::parser)]
     search_value: SearchValue,
-    ///prints a more detailed version of the data
-    #[arg(long, short)]
-    detailed: bool,
+    ///depending on the value you give it, it will provide you with more data
+    #[arg(long, short,value_parser = value_parser!(u8).range(0..=5),default_value_t=0)]
+    detailed: u8,
 }
 
 #[derive(clap::Subcommand, Clone, Display)]
 ///test
 enum SearchValue {
-    Dex { dex_num: u16 },
+    Dex {
+        dex_num: u16,
+    },
 
-    Name { name: String },
-    Type { ptype: PokemonType },
-    Color { color: PokedexColor },
-    Stat { stat: StatWithOrder },
+    Name {
+        name: String,
+    },
+    Type {
+        ptype: PokemonType,
+    },
+    Color {
+        color: PokedexColor,
+    },
+    ///stat help search
+    Stat {
+        stat: StatWithOrder,
+    },
 }
 impl SearchValue {
     fn parser(input: &str) -> Result<Self, String> {
+        for name in &POKEMON_NAME_ARRAY {
+            if input == *name {
+                return Ok(Self::Name { name: input.into() });
+            }
+        }
         if let Ok(dex_num) = input.parse::<u16>() {
             if (1..=MAX_POKEDEX_NUM).contains(&dex_num) {
                 return Ok(SearchValue::Dex { dex_num });
@@ -71,31 +113,29 @@ impl SearchValue {
         } else if let Ok(color) = PokedexColor::from_str(input) {
             return Ok(SearchValue::Color { color });
         } else if let Ok(stat) = StatWithOrder::from_str(input) {
-            
-
             // let stat = StatWithOrder { stat, operation };
+            // println!("hello stat");
             return Ok(SearchValue::Stat { stat });
         }
-        for name in &POKEMON_NAME_ARRAY {
-            if input == *name {
-                return Ok(Self::Name { name: input.into() });
-            }
-        }
-
-        let mut potintal_names = compute_similarity(input, &POKEMON_NAME_ARRAY);
-
+        Err(Self::parsing_error(input))
+    }
+    fn parsing_error(input: &str) -> String {
         let mut err_vec = Vec::new();
-        err_vec.append(&mut potintal_names);
+        err_vec.append(&mut compute_similarity(input, &POKEMON_NAME_ARRAY));
         err_vec.append(&mut compute_similarity(input, PokedexColor::VARIANTS));
         err_vec.append(&mut compute_similarity(input, PokemonType::VARIANTS));
         let mut did_you_mean_str = String::with_capacity(err_vec.len());
-        did_you_mean_str.push_str("did you mean:");
-        for string in err_vec {
-            did_you_mean_str.push_str(&string);
-            did_you_mean_str.push(',');
+        if !err_vec.is_empty() {
+            did_you_mean_str.push_str("did you mean:");
+            for string in err_vec {
+                did_you_mean_str.push_str(&string);
+                did_you_mean_str.push(',');
+            }
+            did_you_mean_str.pop();
+            did_you_mean_str
+        } else {
+            "sorry we couldnt parse the info".into()
         }
-        did_you_mean_str.pop();
-        Err(did_you_mean_str)
     }
 }
 
@@ -123,4 +163,13 @@ fn test_pokemon_names() {
             e => panic!("name test failed: name:{name},value:{e}"),
         };
     }
+}
+#[test]
+fn test_pokemon_stats() {
+    let attack_args = ["rsdex".into(), "150a"];
+    Args::parse_from(attack_args);
+    let less_attack_args = ["rsdex".into(), "l150a"];
+    Args::parse_from(less_attack_args);
+    let special_defence_args = ["rsdex".into(), "120sd"];
+    Args::parse_from(special_defence_args);
 }

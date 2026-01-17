@@ -1,4 +1,4 @@
-use crate::pokemon::{PokedexColor, Pokemon,  PokemonType, StatWithOrder};
+use crate::pokemon::{PokedexColor, Pokemon, PokemonType, StatWithOrder};
 use memmap2::Mmap;
 use rayon::iter::{ParallelBridge, ParallelIterator};
 use std::{
@@ -13,15 +13,15 @@ pub enum PokedexSearchResualt {
     Multi(MultiSearchReturn),
 }
 impl PokedexSearchResualt {
-    pub fn print_data(&self, is_detailed: bool) {
+    pub fn print_data(&self, detail_level: u8) {
         match self {
             PokedexSearchResualt::Single(single) => match single {
-                Some(pkmn) => pkmn.print(is_detailed),
+                Some(pkmn) => pkmn.print(detail_level),
                 None => println!("sorry we couldnt find any thing"),
             },
             PokedexSearchResualt::Multi(vec) => {
                 for pkmn in vec {
-                    pkmn.print(is_detailed)
+                    pkmn.print(detail_level)
                 }
                 if vec.is_empty() {
                     println!("sorry we couldnt find any thing")

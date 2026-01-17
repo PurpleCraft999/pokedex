@@ -1,4 +1,4 @@
-use crate::pokemon::{PokedexColor, Pokemon, PokemonType};
+use crate::pokemon::{PokedexColor, Pokemon, PokemonStat, PokemonType};
 use memmap2::Mmap;
 use rayon::iter::{ParallelBridge, ParallelIterator};
 use std::{
@@ -111,6 +111,9 @@ impl PokeDex {
     }
     pub fn find_by_color(&self, color: PokedexColor) -> MultiSearchReturn {
         self.find_many_pokemon(|pkmn| pkmn.get_color() == color)
+    }
+    pub fn find_by_stat(&self,stat:PokemonStat)->MultiSearchReturn{
+        self.find_many_pokemon(|pokemon|pokemon.stat_matches(&stat))
     }
 }
 

@@ -12,7 +12,7 @@ use strum::{Display, VariantArray};
 
 use crate::{
     pokedex::{MAX_POKEDEX_NUM, PokedexSearchResualt},
-    pokemon::{POKEMON_NAME_ARRAY, compute_similarity},
+    pokemon::{POKEMON_NAME_ARRAY, PokemonStat, compute_similarity},
 };
 fn main() {
     let args = Args::parse();
@@ -28,6 +28,7 @@ fn main() {
         SearchValue::Name { name } => pokedex.find_by_name(name).into(),
         SearchValue::Type { ptype } => pokedex.find_by_type(ptype).into(),
         SearchValue::Color { color } => pokedex.find_by_color(color).into(),
+        SearchValue::Stat { stat }=>pokedex.find_by_stat(stat).into(),
     };
     pokemon.print_data(args.detailed);
 }
@@ -57,6 +58,10 @@ enum SearchValue {
     Color {
         color: PokedexColor,
     },
+    Stat{
+        stat:PokemonStat
+    }
+
 }
 impl SearchValue {
     fn parser(input: &str) -> Result<Self, String> {
@@ -73,6 +78,8 @@ impl SearchValue {
             return Ok(Self::Type { ptype });
         } else if let Ok(color) = PokedexColor::from_str(input) {
             return Ok(SearchValue::Color { color });
+        } else if let Ok(stat) = PokemonStat::from_str(input){
+            return Ok(SearchValue::Stat { stat });
         }
         for name in &POKEMON_NAME_ARRAY{
             if input==*name{
@@ -94,7 +101,7 @@ impl SearchValue {
                 did_you_mean_str.push(',');
             }
             did_you_mean_str.pop();
-             Err(did_you_mean_str)
+            Err(did_you_mean_str)
         
     }
 }
@@ -108,7 +115,7 @@ fn test_nat_dex_numbers(){
         let args = Args::parse_from(args);
         match args.search_value{
             SearchValue::Dex { dex_num }=>pokedex.find_by_natinal_dex_number(dex_num).unwrap(),
-            e=>panic!(" nat dex test failed: number:{dex_num},value:{e}")
+            e=>panic!("nat dex test failed: number:{dex_num},value:{e}")
         };
     }
 }

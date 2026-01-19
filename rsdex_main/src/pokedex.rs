@@ -4,7 +4,7 @@ use crate::{
 };
 use memmap2::Mmap;
 use rayon::iter::{ParallelBridge, ParallelIterator};
-use serde::Deserialize;
+// use serde::Deserialize;
 use std::{
     // fs::File,
     fs::File,
@@ -114,8 +114,9 @@ impl From<MultiSearchReturn> for PokedexSearchResualt {
         Self::Multi(value)
     }
 }
+// const POKEDEX_DATA = include!()
 
-pub const POKEDEX_DATA: &[u8; 282567] = include_bytes!("../pokedex.jsonl");
+include!(concat!(env!("OUT_DIR"), "/pokedex_data.rs"));
 pub struct PokeDex {
     mmap: Mmap,
 }
@@ -184,26 +185,19 @@ impl PokeDex {
     }
 }
 
-///this only exist to not have to deseirialze the entire  `Pokemon` struct when parsing for the `make_pokemon_name_array!` macro
-#[derive(Debug, Deserialize)]
-pub struct PokemonName {
-    pub name: String,
-}
-
-/// the number of pokemon in the pokedex
-pub const MAX_POKEDEX_NUM: u16 = 1025;
-///returns an array of <code>[String;[`MAX_POKEDEX_NUM`]]</code>
-macro_rules! make_pokemon_name_array {
-    () => {{
-        use std::io::BufRead;
-        use $crate::pokedex::{POKEDEX_DATA, PokemonName};
-        let mut vec = Vec::with_capacity(MAX_POKEDEX_NUM as usize);
-        for line in POKEDEX_DATA.lines() {
-            let line = line.expect("failed to read line");
-            let name = serde_json::from_str::<PokemonName>(&line)
-                .expect("could not parse pokemon from line");
-            vec.push(name.name);
-        }
-        vec.try_into().expect("")
-    }};
-}
+// / the number of pokemon in the pokedex
+// /returns an array of <code>[String;[`MAX_POKEDEX_NUM`]]</code>
+// macro_rules! make_pokemon_name_array {
+//     () => {{
+//         use std::io::BufRead;
+//         use $crate::pokedex::{POKEDEX_DATA, PokemonName};
+//         let mut vec = Vec::with_capacity(MAX_POKEDEX_NUM as usize);
+//         for line in POKEDEX_DATA.lines() {
+//             let line = line.expect("failed to read line");
+//             let name = serde_json::from_str::<PokemonName>(&line)
+//                 .expect("could not parse pokemon from line");
+//             vec.push(name.name);
+//         }
+//         vec.try_into().expect("")
+//     }};
+// }

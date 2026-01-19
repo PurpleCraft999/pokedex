@@ -1,22 +1,7 @@
-[package]
-name = "rsdex"
-version = "0.1.30"
-edition = "2024"
-description = "a little tool that behaves as a pokedex"
-license = "MIT"
-repository = "https://github.com/PurpleCraft999/rsdex"
-authors = ["PurpleCraft999"]
+[workspace]
+resolver = "2"
+members = ["rsdex_main"]
 
-[dependencies]
-rayon = "1.11.0"
-serde_json = "1.0.149"
+[workspace.dependencies]
 serde = {version = "1.0.228",features = ["derive"]}
-clap = { version = "4.5.54", features = ["derive"] }
-strum = { version = "0.27.2", features = ["derive"] }
-memmap2 = "0.9.9"
-strsim = "0.11.1"
-
-# The profile that 'dist' will build with
-[profile.dist]
-inherits = "release"
-lto = "thin"
+serde_json = "1.0.149"

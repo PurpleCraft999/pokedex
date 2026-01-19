@@ -30,6 +30,11 @@ pub enum PokemonType {
     Fairy,
     None,
 }
+impl<'n> Null<'n> for PokemonType {
+    fn null() -> Self {
+        Self::None
+    }
+}
 #[derive(Deserialize, Clone, Copy, PartialEq, EnumString, Display, VariantArray, Serialize)]
 #[serde(rename_all = "lowercase")]
 #[strum(serialize_all = "lowercase", ascii_case_insensitive)]
@@ -63,7 +68,7 @@ pub struct Pokemon {
     name: String,
     national_dex_number: u16,
     type1: PokemonType,
-    #[serde(deserialize_with = "pokemon_type2_parser")]
+    #[serde(deserialize_with = "null_parser")]
     type2: PokemonType,
 
     color: PokedexColor,
@@ -75,6 +80,10 @@ pub struct Pokemon {
     special_attack: u8,
     special_defence: u8,
     speed: u8,
+
+    egg_group1: EggGroup,
+    #[serde(deserialize_with = "null_parser")]
+    egg_group2:EggGroup,
 }
 impl Display for Pokemon {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
@@ -147,12 +156,15 @@ impl Pokemon {
     }
 }
 
-fn pokemon_type2_parser<'de, D>(deserializer: D) -> Result<PokemonType, D::Error>
+fn null_parser<'de, D, N: Null<'de>>(deserializer: D) -> Result<N, D::Error>
 where
     D: serde::Deserializer<'de>,
 {
     let opt = Option::deserialize(deserializer)?;
-    Ok(opt.unwrap_or(PokemonType::None))
+    Ok(opt.unwrap_or(N::null()))
+}
+trait Null<'de>: Deserialize<'de> {
+    fn null() -> Self;
 }
 
 #[derive(Clone)]
@@ -222,4 +234,35 @@ fn str_to_u8(s: &str) -> u8 {
         .collect::<String>()
         .parse()
         .expect("expected a number but none was found ")
+}
+#[derive(Deserialize,Clone,Serialize)]
+#[serde(rename_all = "kebab-case")]
+///for whatever reason these names of some of them are different in the data set then else where
+pub enum EggGroup {
+    Monster,
+    #[serde(alias = "humanshape")]
+    HumanLike,
+    Water1,
+    Water2,
+    Water3,
+    Bug,
+    Mineral,
+    Flying,
+    #[serde(alias = "indeterminate")]
+    Amorphous,
+    #[serde(alias = "ground")]
+    Field,
+    Fairy,
+    Ditto,
+    #[serde(alias = "plant")]
+    Grass,
+    Dragon,
+    NoEggs,
+    Genderunknown,
+    None
+}
+impl<'d> Null<'d> for EggGroup {
+    fn null() -> Self {
+        Self::None
+    }
 }

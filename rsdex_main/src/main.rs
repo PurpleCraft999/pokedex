@@ -102,11 +102,12 @@ enum SearchValue {
         stat: StatWithOrder,
     },
 }
+use crate::pokedex::POKEMON_NAME_ARRAY;
 impl SearchValue {
     fn parser(input: &str) -> Result<Self, String> {
-        let pokemon_names: [String; MAX_POKEDEX_NUM as usize] = make_pokemon_name_array!();
-        for name in &pokemon_names {
-            if input == *name {
+        // let pokemon_names = Po;
+        for name in POKEMON_NAME_ARRAY {
+            if input == name {
                 return Ok(Self::Name { name: input.into() });
             }
         }
@@ -125,11 +126,11 @@ impl SearchValue {
         } else if let Ok(stat) = StatWithOrder::from_str(input) {
             return Ok(SearchValue::Stat { stat });
         }
-        Err(Self::parsing_error(input, pokemon_names))
+        Err(Self::parsing_error(input))
     }
-    fn parsing_error(input: &str, pokemon_names: [String; MAX_POKEDEX_NUM as usize]) -> String {
+    fn parsing_error(input: &str) -> String {
         let mut err_vec = Vec::new();
-        err_vec.append(&mut compute_similarity(input, &pokemon_names));
+        err_vec.append(&mut compute_similarity(input, &POKEMON_NAME_ARRAY));
         err_vec.append(&mut compute_similarity(input, PokedexColor::VARIANTS));
         err_vec.append(&mut compute_similarity(input, PokemonType::VARIANTS));
         let mut did_you_mean_str = String::with_capacity(err_vec.len());
@@ -178,13 +179,12 @@ fn test_nat_dex_numbers() {
 #[test]
 fn test_pokemon_names() {
     let pokedex = PokeDex::new().unwrap();
-    let names: [String; MAX_POKEDEX_NUM as usize] = make_pokemon_name_array!();
-    for name in names {
+    for name in POKEMON_NAME_ARRAY {
         let args = ["rsdex", &name];
         let args = Args::parse_from(args);
         match args.search_value {
             SearchValue::Name { name } => pokedex.find_by_name(&name).unwrap(),
-            e => panic!("name test failed: name:{},value:{e}", &*name),
+            e => panic!("name test failed: name:{},value:{e}", &name),
         };
     }
 }

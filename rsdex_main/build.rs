@@ -6,7 +6,7 @@ fn main() {
     // emit_warning("test");
     on_pokedex_data_change();
 }
-pub const POKEDEX_DATA: &[u8; 282567] = include_bytes!("../pokedex.jsonl");
+pub const POKEDEX_DATA: &[u8; 282565] = include_bytes!("../pokedex.jsonl");
 pub const MAX_POKEDEX_NUM: u16 = 1025;
 
 use std::{env, io::BufRead, path::Path};
@@ -33,7 +33,7 @@ fn on_pokedex_data_change() {
     // let a = 1;
 
     // println!("cargo::rerun-if-changed=pokedex.jsonl");
-    println!("cargo::rerun-if-changed=../pokedex.jsonl");
+    println!("cargo::rerun-if-changed=build.rs");
     let out_dir = env::var_os("OUT_DIR").unwrap();
     let pokedex_data_path = Path::new(&out_dir).join("pokedex_data.rs");
 

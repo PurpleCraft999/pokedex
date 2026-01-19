@@ -6,7 +6,6 @@ fn main() {
     // emit_warning("test");
     on_pokedex_data_change();
 }
-pub const POKEDEX_DATA: &[u8] = include_bytes!("../pokedex.jsonl");
 pub const MAX_POKEDEX_NUM: u16 = 1025;
 
 use std::{env, io::BufRead, path::Path};
@@ -19,8 +18,15 @@ pub struct PokemonName {
 }
 
 fn on_pokedex_data_change() {
+    // let manifest_dir = env::var("CARGO_MANIFEST_DIR").unwrap();
+
+    // let data_string = manifest_dir+"/pokedex.jsonl";
+    let pokedex_data_const = include_bytes!("pokedex.jsonl");
+
+
+
     let mut vec = Vec::with_capacity(MAX_POKEDEX_NUM as usize);
-    for line in POKEDEX_DATA.lines() {
+    for line in pokedex_data_const.lines() {
         let line = line.expect("failed to read line");
         let name =
             serde_json::from_str::<PokemonName>(&line).expect("could not parse pokemon from line");
@@ -38,8 +44,8 @@ fn on_pokedex_data_change() {
 
     let pokedex_data = format!(
         "pub const POKEDEX_DATA:&[u8;{}] = &{:?};",
-        POKEDEX_DATA.len(),
-        POKEDEX_DATA
+        pokedex_data_const.len(),
+        pokedex_data_const
     );
     let max_pokemon_num = format!("pub const MAX_POKEDEX_NUM: u16 = {};", MAX_POKEDEX_NUM);
     let pokemon_name_arr = format!(

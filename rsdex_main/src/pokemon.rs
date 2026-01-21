@@ -1,4 +1,4 @@
-use std::{cmp::Ordering, fmt::Display, str::FromStr};
+use std::{cmp::Ordering, collections::HashMap, fmt::Display, str::FromStr};
 
 use serde::{Deserialize, Serialize};
 use strsim::damerau_levenshtein;
@@ -115,43 +115,69 @@ impl Display for Pokemon {
     }
 }
 impl Pokemon {
-    fn possible_empty_value_stringer<'n, N: Null<'n> + PartialEq + Display>(
-        pos_null: &N,
-    ) -> String {
-        if *pos_null != N::null() {
-            format!(" and {}", pos_null)
-        } else {
-            "".into()
-        }
-    }
+    // fn possible_empty_value_stringer<'n, N: Null<'n> + PartialEq + Display>(
+    //     pos_null: &N,
+    // ) -> String {
+    //     if *pos_null != N::null() {
+    //         pos_null.to_string()
+    //     } else {
+    //         "".into()
+    //     }
+    // }
 
-    pub fn get_data_as_string(&self, detail_level: u8) -> String {
-        let mut data_string = String::new();
-
-        data_string
-            .push_str(format!("No.{}    {}\n", self.national_dex_number, self.name).as_str());
+    pub fn get_data_as_vec(&self, detail_level: u8) -> Vec<(&str, String)> {
+        let mut vec = Vec::new();
+        vec.push(("national dex number", self.national_dex_number.to_string()));
+        vec.push(("name", capitalize_first_letter(&self.name)));
         if detail_level >= 1 {
-            data_string.push_str(format!("the {}\n", self.genus).as_str());
+            vec.push(("genus", self.genus.clone()));
             //this section prints the types
-            data_string.push_str(format!("{}", self.type1).as_str());
-            data_string.push_str(Self::possible_empty_value_stringer(&self.type2).as_str());
-            data_string.push_str(" type\n");
+            vec.push(("primary type", self.type1.to_string()));
+            vec.push(("secondary type", self.type2.to_string()));
+            // map.push((Self::possible_empty_value_stringer(&self.type2).as_str()));
+            // map.push((" type\n"));
         }
 
         if detail_level >= 2 {
-            data_string.push_str(format!("this pokemon is {}\n", self.color).as_str());
-            data_string.push_str(format!("this pokemon is in the {}", self.egg_group1).as_str());
-            data_string.push_str(Self::possible_empty_value_stringer(&self.egg_group2).as_str());
-            data_string.push_str(" egg group(s)\n");
+            vec.push(("color", self.color.to_string()));
+            vec.push(("egg group 1", self.egg_group1.to_string()));
+            vec.push(("egg group 2", self.egg_group2.to_string()));
+            // map.push((" egg group(s)\n"));
         }
         if detail_level >= 4 {
-            data_string.push_str(format!("hp:{}\n", self.hp).as_str());
-            data_string.push_str(format!("attack:{}\n", self.attack).as_str());
-            data_string.push_str(format!("defence:{}\n", self.defence).as_str());
-            data_string.push_str(format!("special attack:{}\n", self.special_attack).as_str());
-            data_string.push_str(format!("special defence:{}\n", self.special_defence).as_str());
-            data_string.push_str(format!("speed:{}\n", self.speed).as_str());
+            vec.push(("hp", self.hp.to_string()));
+            vec.push(("attack", self.attack.to_string()));
+            vec.push(("defence", self.defence.to_string()));
+            vec.push(("special attack", self.special_attack.to_string()));
+            vec.push(("special defence", self.special_defence.to_string()));
+            vec.push(("speed", self.speed.to_string()));
         }
+        vec
+        // vec.iter()
+        //     .map(|(k, v)| (k.to_string(), v.to_string()))
+        //     .collect()
+        // map
+    }
+
+    pub fn get_write_data(&self,detail_level: u8)->HashMap<&str, String>{
+        let vec = self.get_data_as_vec(detail_level);
+        let mut map = HashMap::with_capacity(vec.len());
+        for (k,v) in vec{
+            map.insert(k, v);
+        }
+        map
+    }
+
+
+    pub fn get_data_as_string(&self, detail_level: u8) -> String {
+        let mut data_string = String::new();
+        for (k, v) in self.get_data_as_vec(detail_level) {
+            data_string.push_str(&(k.to_owned() + ":" + &v + "\n"));
+
+            // data_string.push_str(&v);
+        }
+        data_string.push('\n');
+
         data_string
     }
 
@@ -194,6 +220,25 @@ impl Pokemon {
             }
             PokemonStat::Speed(stat2) => stat_matches_ordering(order, self.speed, stat2),
         }
+    }
+}
+
+fn capitalize_first_letter(string: &str) -> String {
+    if string.len() > 1 {
+        let mut first_letter = string
+            .chars()
+            .next()
+            .unwrap()
+            .to_ascii_uppercase()
+            .to_string();
+        for (i, ch) in string.chars().enumerate() {
+            if i != 0 {
+                first_letter.push(ch);
+            }
+        }
+        first_letter
+    } else {
+        string.to_uppercase()
     }
 }
 

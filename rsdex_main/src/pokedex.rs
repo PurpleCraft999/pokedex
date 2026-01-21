@@ -2,14 +2,17 @@ use crate::{
     SearchValue, WriteMode,
     pokemon::{EggGroup, PokedexColor, Pokemon, PokemonType, StatWithOrder},
 };
+use clap::ValueEnum;
 use memmap2::Mmap;
 use rayon::iter::{ParallelBridge, ParallelIterator};
 // use serde::Deserialize;
 use std::{
     // fs::File,
     collections::HashSet,
+    ffi::OsStr,
     fs::File,
-    io::{self, BufRead, BufWriter, Write},
+    io::{self, BufRead, BufWriter},
+    path::Path,
 };
 
 pub type SingleSearchReturn = Option<Pokemon>;
@@ -51,52 +54,30 @@ impl PokedexSearchResualt {
         &self,
         fp: String,
         detail_level: u8,
-        write_mode: WriteMode,
+        mut write_mode: WriteMode,
     ) -> io::Result<()> {
         println!("writing to {}", fp);
-
+        let fp = Path::new(&fp);
         let file = File::create(fp)
             .unwrap_or_else(|e| panic!("sorry rsdex could not create your file because {e}"));
 
         // let pokemon:&[u8] = &self.to_vec().iter().map(|pkmn|pkmn.get_data_as_string(detail_level)).map(|s|s.as_bytes()).flatten().copied().collect::<Vec<u8>>();
-
         let mut writer = BufWriter::new(file);
+
         // let vec = self.to_vec();
-
-        match write_mode {
-            WriteMode::Json => {
-                writer.write_all("[".as_bytes())?;
-                for (i, data) in self.vec.iter().enumerate() {
-                    writer.write_all(
-                        serde_json::to_string_pretty(&data.get_data_as_string(detail_level))?
-                            .as_bytes(),
-                    )?;
-                    if i < self.vec.len() - 1 {
-                        writer.write_all(",\n".as_bytes())?;
-                    }
-                }
-                writer.write_all("\n]".as_bytes())?;
-            }
-
-            WriteMode::Jsonl => {
-                for data in &self.vec {
-                    writer.write_all("{".as_bytes())?;
-                    writer.write_all(
-                        serde_json::to_string_pretty(&data.get_data_as_string(detail_level))?
-                            .as_bytes(),
-                    )?;
-                    writer.write_all("}\n".as_bytes())?;
-                    // if i<vec.len()-1{
-                    // writer.write_all(",\n".as_bytes())?;
-                    // }
-                }
-                // writer.seek_relative(-1)
-            }
+        //tries to determine write mode if not set
+        if let WriteMode::Guess = write_mode {
+            write_mode = WriteMode::from_str(
+                fp.extension()
+                    .unwrap_or_else(|| OsStr::new("unkown"))
+                    .to_str()
+                    .expect("sorry the file path isnt valid unicode"),
+                true,
+            )
+            .unwrap_or(write_mode)
         }
-        // writer.write_all(serde_json::to_string(&self.to_vec()).expect("this failed").as_bytes()).unwrap();
 
-        // BufWriter::new(file).write_all(pokemon);
-        Ok(())
+        write_mode.write(&mut writer, &self.vec, detail_level)
     }
 }
 impl From<SingleSearchReturn> for PokedexSearchResualt {

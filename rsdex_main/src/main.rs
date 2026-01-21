@@ -1,4 +1,4 @@
-use std::str::FromStr;
+use std::{io::Write, str::FromStr};
 
 use clap::{Parser, ValueEnum, builder::PossibleValue, value_parser};
 
@@ -12,7 +12,7 @@ use strum::{Display, VariantArray};
 
 use crate::{
     pokedex::MAX_POKEDEX_NUM,
-    pokemon::{EggGroup, StatWithOrder, compute_similarity},
+    pokemon::{EggGroup, Pokemon, StatWithOrder, compute_similarity},
 };
 fn main() {
     let args = Args::parse();
@@ -30,10 +30,11 @@ fn main() {
         pokedex.search(&args.search_value)
     };
 
-    if args.write_to_file != DEFAULT_FP {
+    if args.file_path != DEFAULT_FP {
         pokemon
-            .write_data_to_file(args.write_to_file, detail_level, args.write_mode)
+            .write_data_to_file(args.file_path, detail_level, args.write_mode)
             .expect("something went wrong while saving your file");
+        println!("writing succesfull")
     } else {
         pokemon.print_data(detail_level);
     }
@@ -79,10 +80,10 @@ struct Args {
     ///depending on the value you give it, it will provide you with more data
     #[arg(long, short,value_parser = value_parser!(u8).range(0..=5),default_value_t=0)]
     detailed: u8,
-    ///will write to the given path with the specified data level in the format specified by WRITE_MODE
-    #[arg(long,default_value_t=String::from(DEFAULT_FP))]
-    write_to_file: String,
-    #[arg(long,requires = "write_to_file",default_value_t=WriteMode::Json)]
+    ///will write to the given path with the specified data level in the format specified by write-mode
+    #[arg(default_value_t=String::from(DEFAULT_FP),long,aliases(["fp"]))]
+    file_path: String,
+    #[arg(long,requires = "file_path",default_value_t=WriteMode::Guess)]
     write_mode: WriteMode,
 }
 const DEFAULT_FP: &str = "_";
@@ -158,18 +159,109 @@ impl SearchValue {
 pub enum WriteMode {
     Json,
     Jsonl,
+    Guess,
+    Csv,
 }
 impl ValueEnum for WriteMode {
     fn to_possible_value(&self) -> Option<clap::builder::PossibleValue> {
         match self {
             Self::Json => Some(PossibleValue::new("json").alias("Json")),
             Self::Jsonl => Some(PossibleValue::new("jsonl").alias("Jsonl")),
+            Self::Guess => Some(PossibleValue::new("Guess")),
+            Self::Csv => Some(PossibleValue::new("csv")),
         }
     }
     fn value_variants<'a>() -> &'a [Self] {
-        &[Self::Json, Self::Jsonl]
+        &[Self::Json, Self::Jsonl, Self::Csv, Self::Guess]
     }
 }
+impl WriteMode {
+    fn write<W: Write>(
+        &self,
+        writer: &mut W,
+        data: &[Pokemon],
+        detail_level: u8,
+    ) -> std::io::Result<()> {
+        // let mut writer = BufWriter::new(file);
+
+        match self {
+            WriteMode::Json => {
+                
+                writer.write_all("[".as_bytes())?;
+                for pkmn in data {
+                    let mut  string = String::new();
+                    string.push_str(
+                        &serde_json::to_string_pretty(&pkmn.get_write_data(detail_level))?
+                            
+                    );
+                    // string.pop();
+                    writer.write_all(string.as_bytes())?;
+                    // if i < data.len() - 1 {
+                    //     writer.write_all(",\n".as_bytes())?;
+                    // }
+                }
+                writer.write_all("\n]".as_bytes())?;
+            }
+
+            WriteMode::Jsonl => {
+                for pkmn in data {
+                    let mut string = String::new();
+                    string.push('{');
+                    string.push_str(
+                        &serde_json::to_string(&pkmn.get_write_data(detail_level))?
+                            
+                    );
+                    string.push_str("}\n");
+                    writer.write_all(string.as_bytes())?;
+                    // if i<vec.len()-1{
+                    // writer.write_all(",\n".as_bytes())?;
+                    // }
+                }
+                // writer.seek_relative(-1)
+            }
+            WriteMode::Guess => {
+                return Err(std::io::Error::other(
+                    "could not set the write mode automaticly please set it manuely",
+                ));
+            }
+            WriteMode::Csv => {
+                for (i,pkmn) in data.iter().enumerate(){
+                    let mut string = String::new();
+                    let vec = pkmn.get_data_as_vec(detail_level);
+                    if i ==0{
+                        let mut head_string = String::new();
+                        for (k,_) in &vec{
+                            head_string.push_str(k);
+                            head_string.push(',');
+                        }
+                        head_string.pop();
+                        head_string.push('\n');
+                        writer.write_all(head_string.as_bytes())?;
+
+                    }
+
+
+
+                    for (_,v) in vec{
+                       string.push_str(&v);
+                        string.push(',');
+
+                    }
+                    string.pop();
+                    string.push('\n');
+                    writer.write_all(string.as_bytes())?;
+                }
+
+
+
+
+            }
+        }
+
+        Ok(())
+    }
+}
+
 #[test]
 fn test_nat_dex_numbers() {
     let pokedex = PokeDex::new().unwrap();

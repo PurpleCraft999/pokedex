@@ -61,7 +61,7 @@ impl PokedexSearchResualt {
         &self,
         fp: String,
         detail_level: u8,
-        mut write_mode: WriteMode,
+        mut write_mode: Option<WriteMode>,
     ) -> io::Result<()> {
         println!("writing to {}", fp);
         let fp = Path::new(&fp);
@@ -73,18 +73,21 @@ impl PokedexSearchResualt {
 
         // let vec = self.to_vec();
         //tries to determine write mode if not set
-        if let WriteMode::Guess = write_mode {
-            write_mode = WriteMode::from_str(
+        if let None = write_mode {
+            write_mode = match WriteMode::from_str(
                 fp.extension()
-                    .unwrap_or_else(|| OsStr::new("unkown"))
+                    .unwrap_or_else(|| OsStr::new("extension missing"))
                     .to_str()
-                    .expect("sorry the file path isnt valid unicode"),
+                    .expect("sorry the file path isn't valid unicode"),
                 true,
-            )
-            .unwrap_or(write_mode)
+            ){
+                Ok(w)=>Some(w),
+                Err(_)=> {return Err(std::io::Error::other("could not guess writemode "));}
+            }
+            
         }
 
-        write_mode.write(&mut writer, &self.vec, detail_level)
+        write_mode.expect("invailed write_mode state: still None").write(&mut writer, &self.vec, detail_level)
     }
 }
 impl From<SingleSearchReturn> for PokedexSearchResualt {

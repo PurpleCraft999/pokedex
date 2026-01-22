@@ -19,21 +19,13 @@ fn main() {
     let detail_level = args.detailed;
     let pokedex = match PokeDex::new() {
         Ok(dex) => dex,
-        Err(e) => panic!("could not run: {e}"),
+        Err(e) => panic!("could not build pokedex because: {e}"),
     };
-    // let pkmn1 = pokedex.find_by_natinal_dex_number(5).unwrap();
-    // let pkmn2 = pokedex.find_by_natinal_dex_number(7).unwrap();
-    // let pokemon: PokedexSearchResualt = pokedex.find(&args.search_value);
-    // let pokemon = if let Some(value2) = args.second_search_value {
-    //     pokedex.search_many([args.search_value, value2])
-    // } else {
-    //     pokedex.search(&args.search_value)
-    // };
     let pokemon = pokedex.search_many(args.search_queries);
 
-    if args.file_path != DEFAULT_FP {
+    if let Some(fp) = args.file_path {
         pokemon
-            .write_data_to_file(args.file_path, detail_level, args.write_mode)
+            .write_data_to_file(fp, detail_level, args.write_mode)
             .expect("something went wrong while saving your file");
         println!("writing succesfull")
     } else {
@@ -47,7 +39,7 @@ fn main() {
 #[derive(clap::Parser)]
 #[command(version)]
 struct Args {
-    ///takes a pokemon's name,color,type,stat or dex number
+    ///takes a pokemon's name,color,type,stat,egg group or dex number
     ///
     /// to get dex number a simple number will work
     ///
@@ -77,16 +69,15 @@ struct Args {
     // /// if you have this you can search for pokemon meeting both criteria
     // /// some options are disabled such as name and dex number because it will always return an error
     // second_search_value: Option<SearchValue>,
-    ///depending on the value you give it, it will provide you with more data
+    ///provides more detail the higher the number given
     #[arg(long, short,value_parser = value_parser!(u8).range(0..=5),default_value_t=0)]
     detailed: u8,
     ///will write to the given path with the specified data level in the format specified by write-mode
-    #[arg(default_value_t=String::from(DEFAULT_FP),long,aliases(["fp"]))]
-    file_path: String,
-    #[arg(long,requires = "file_path",default_value_t=WriteMode::Guess)]
-    write_mode: WriteMode,
+    #[arg(long,aliases(["fp"]))]
+    file_path: Option<String>,
+    #[arg(long,requires = "file_path")]
+    write_mode: Option<WriteMode>,
 }
-const DEFAULT_FP: &str = "_";
 #[derive(clap::Subcommand, Clone, Display)]
 enum SearchQuery {
     NatDex { dex_num: u16 },
@@ -162,7 +153,7 @@ impl SearchQuery {
 pub enum WriteMode {
     Json,
     Jsonl,
-    Guess,
+    // Guess,
     Csv,
 }
 impl ValueEnum for WriteMode {
@@ -170,12 +161,12 @@ impl ValueEnum for WriteMode {
         match self {
             Self::Json => Some(PossibleValue::new("json").alias("Json")),
             Self::Jsonl => Some(PossibleValue::new("jsonl").alias("Jsonl")),
-            Self::Guess => Some(PossibleValue::new("Guess")),
+            // Self::Guess => Some(PossibleValue::new("Guess")),
             Self::Csv => Some(PossibleValue::new("csv")),
         }
     }
     fn value_variants<'a>() -> &'a [Self] {
-        &[Self::Json, Self::Jsonl, Self::Csv, Self::Guess]
+        &[Self::Json, Self::Jsonl, Self::Csv]
     }
 }
 impl WriteMode {
@@ -196,13 +187,12 @@ impl WriteMode {
                 for pkmn in data {
                     writer.write_all((serde_json::to_string(&pkmn.get_write_data(detail_level))?+"\n").as_bytes())?;
                 }
-                // writer.seek_relative(-1)
             }
-            WriteMode::Guess => {
-                return Err(std::io::Error::other(
-                    "could not set the write mode automaticly please set it manuely",
-                ));
-            }
+            // WriteMode::Guess => {
+            //     return Err(std::io::Error::other(
+            //         "could not set the write mode automaticly please set it manuely",
+            //     ));
+            // }
             WriteMode::Csv => {
                 for (i, pkmn) in data.iter().enumerate() {
                     let mut string = String::new();

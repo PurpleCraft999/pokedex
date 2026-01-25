@@ -111,7 +111,7 @@ pub struct Pokemon {
 }
 impl Display for Pokemon {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        write!(f, "{}", self.get_as_string(0))
+        write!(f, "{}", self.get_display(0))
     }
 }
 impl Pokemon {
@@ -168,20 +168,21 @@ impl Pokemon {
         map
     }
 
-    pub fn get_as_string(&self, detail_level: u8) -> String {
+    pub fn get_display(&self, detail_level: u8) -> String {
         let mut data_string = String::new();
         for (k, v) in self.get_as_vec(detail_level) {
-            data_string.push_str(&(k.to_owned() + ":" + &v + "\n"));
-
+            if &v != "none"{
+            data_string.push_str(&(k.to_owned() + ": " + &v + "\n"));
+            }
             // data_string.push_str(&v);
         }
-        data_string.push('\n');
+        // data_string.push('\n');
 
         data_string
     }
 
     pub fn print(&self, detail_level: u8) {
-        print!("{}", self.get_as_string(detail_level));
+        println!("{}", self.get_display(detail_level));
         // println!("print data")
     }
     pub fn get_name(&self) -> &String {
@@ -324,7 +325,8 @@ fn str_to_u8(s: &str) -> u8 {
     Deserialize, Clone, Serialize, Display, PartialEq, EnumString, VariantArray, Eq, Hash, Debug,
 )]
 #[serde(rename_all = "kebab-case")]
-#[strum(serialize_all = "lowercase", ascii_case_insensitive)]
+#[strum(serialize_all = "lowercase",ascii_case_insensitive)]
+
 ///for whatever reason these names of some of them are different in the data set then else where
 pub enum EggGroup {
     Monster,

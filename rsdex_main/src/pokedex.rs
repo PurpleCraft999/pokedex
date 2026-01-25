@@ -1,6 +1,7 @@
 use crate::{
     SearchQuery, WriteMode,
-    pokemon::{EggGroup, PokedexColor, Pokemon, PokemonType, StatWithOrder},
+    data_types::{EggGroup, PokedexColor, PokemonType, StatWithOrder},
+    pokemon::Pokemon,
 };
 use clap::ValueEnum;
 use memmap2::Mmap;
@@ -22,7 +23,14 @@ pub struct PokedexSearchResualt {
     vec: Vec<Pokemon>,
 }
 impl PokedexSearchResualt {
-    pub fn new(vec: Vec<Pokemon>) -> Self {
+    pub fn new(mut vec: Vec<Pokemon>) -> Self {
+        vec.sort_by(|o, t| {
+            if o.get_dex_number() > t.get_dex_number() {
+                std::cmp::Ordering::Greater
+            } else {
+                std::cmp::Ordering::Less
+            }
+        });
         Self { vec }
     }
     pub fn merge(&mut self, other: &mut PokedexSearchResualt) {
@@ -102,14 +110,7 @@ impl From<SingleSearchReturn> for PokedexSearchResualt {
     }
 }
 impl From<MultiSearchReturn> for PokedexSearchResualt {
-    fn from(mut vec: MultiSearchReturn) -> Self {
-        vec.sort_by(|o, t| {
-            if o.get_dex_number() > t.get_dex_number() {
-                std::cmp::Ordering::Greater
-            } else {
-                std::cmp::Ordering::Less
-            }
-        });
+    fn from(vec: MultiSearchReturn) -> Self {
         Self::new(vec)
     }
 }
@@ -121,14 +122,12 @@ impl Default for PokedexSearchResualt {
 // const POKEDEX_DATA = include!()
 
 include!(concat!(env!("OUT_DIR"), "/pokedex_data.rs"));
-pub struct PokeDex {
+
+pub struct PokeDexMmap {
     mmap: Mmap,
 }
-impl PokeDex {
+impl PokeDexMmap {
     pub fn new() -> Result<Self, std::io::Error> {
-        // File::(include_str!("../pokedex.jsonl"));
-        // let file = File::open("pokedex.jsonl").unwrap();
-        // let data = include_bytes!("../pokedex.jsonl");
         let mut mmap = memmap2::MmapOptions::new()
             .len(POKEDEX_DATA.len())
             .map_anon()?;
@@ -154,60 +153,67 @@ impl PokeDex {
             .par_bridge()
             .map(|line| serde_json::from_str::<Pokemon>(&line).unwrap())
     }
+}
 
-    fn find_one_pokemon<P: Fn(&Pokemon) -> bool + Sync + Send>(
+impl Pokedex for PokeDexMmap {
+    fn find_single_pokemon<P: Fn(&Pokemon) -> bool + Sync + Send>(
         &self,
         find: P,
     ) -> SingleSearchReturn {
         self.mmap_to_pokemap().find_first(find)
     }
-
     fn find_many_pokemon<P: Fn(&Pokemon) -> bool + Sync + Send>(
         &self,
         filter: P,
     ) -> MultiSearchReturn {
         self.mmap_to_pokemap().filter(filter).collect()
     }
-    pub fn find_by_type(&self, ptype: &PokemonType) -> MultiSearchReturn {
-        // println!("find_by_type");
+}
+
+pub trait Pokedex {
+    fn find_many_pokemon<P: Fn(&Pokemon) -> bool + Sync + Send>(
+        &self,
+        filter: P,
+    ) -> MultiSearchReturn;
+    fn find_single_pokemon<P: Fn(&Pokemon) -> bool + Sync + Send>(
+        &self,
+        find: P,
+    ) -> SingleSearchReturn;
+
+    fn find_by_pokemon_type(&self, ptype: &PokemonType) -> MultiSearchReturn {
         self.find_many_pokemon(|pokemon| {
             pokemon.get_primary_type() == ptype || pokemon.get_seconary_type() == ptype
         })
     }
 
-    pub fn find_by_natinal_dex_number(&self, dex_num: &u16) -> SingleSearchReturn {
-        self.find_one_pokemon(|pokemon| pokemon.get_dex_number() == dex_num)
+    fn find_by_natinal_dex_number(&self, dex_num: &u16) -> SingleSearchReturn {
+        self.find_single_pokemon(|pokemon| pokemon.get_dex_number() == dex_num)
     }
-    pub fn find_by_name(&self, name: &String) -> SingleSearchReturn {
-        self.find_one_pokemon(|pkmn| pkmn.get_name() == name)
+    fn find_by_name(&self, name: &String) -> SingleSearchReturn {
+        self.find_single_pokemon(|pkmn| pkmn.get_name() == name)
     }
-    pub fn find_by_color(&self, color: &PokedexColor) -> MultiSearchReturn {
+    fn find_by_color(&self, color: &PokedexColor) -> MultiSearchReturn {
         self.find_many_pokemon(|pkmn| pkmn.get_color() == color)
     }
-    pub fn find_by_stat(&self, stat: &StatWithOrder) -> MultiSearchReturn {
+    fn find_by_stat(&self, stat: &StatWithOrder) -> MultiSearchReturn {
         self.find_many_pokemon(|pokemon| pokemon.stat_matches(stat))
     }
-    pub fn find_by_egg_group(&self, group: &EggGroup) -> MultiSearchReturn {
+    fn find_by_egg_group(&self, group: &EggGroup) -> MultiSearchReturn {
         self.find_many_pokemon(|pokemon| {
             pokemon.get_egg_group_1() == group || pokemon.get_egg_group_2() == group
         })
     }
-
-    pub fn search(&self, value: &SearchQuery) -> PokedexSearchResualt {
+    fn search(&self, value: &SearchQuery) -> PokedexSearchResualt {
         match value {
             SearchQuery::NatDex { dex_num } => self.find_by_natinal_dex_number(dex_num).into(),
             SearchQuery::Name { name } => self.find_by_name(name).into(),
-            SearchQuery::Type { ptype } => self.find_by_type(ptype).into(),
+            SearchQuery::Type { ptype } => self.find_by_pokemon_type(ptype).into(),
             SearchQuery::Color { color } => self.find_by_color(color).into(),
             SearchQuery::Stat { stat } => self.find_by_stat(stat).into(),
             SearchQuery::EggGroup { group } => self.find_by_egg_group(group).into(),
         }
     }
-
-    pub fn search_many(
-        &self,
-        values: impl IntoIterator<Item = SearchQuery>,
-    ) -> PokedexSearchResualt {
+    fn multi_search(&self, values: impl IntoIterator<Item = SearchQuery>) -> PokedexSearchResualt {
         let mut singles = Vec::new();
 
         let mut many = PokedexSearchResualt::default();

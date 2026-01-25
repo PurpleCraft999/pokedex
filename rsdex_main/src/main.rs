@@ -5,23 +5,25 @@ use clap::{Parser, ValueEnum, builder::PossibleValue, value_parser};
 // use serde::Deserialize;
 #[macro_use]
 mod pokedex;
+mod data_types;
 mod pokemon;
-use pokedex::PokeDex;
-use pokemon::{PokedexColor, PokemonType};
+use data_types::{PokedexColor, PokemonType};
+use pokedex::{PokeDexMmap, Pokedex};
 use strum::{Display, VariantArray};
 
 use crate::{
+    data_types::{EggGroup, StatWithOrder},
     pokedex::MAX_POKEDEX_NUM,
-    pokemon::{EggGroup, Pokemon, StatWithOrder, compute_similarity},
+    pokemon::{Pokemon, compute_similarity},
 };
 fn main() {
     let args = Args::parse();
     let detail_level = args.detailed;
-    let pokedex = match PokeDex::new() {
+    let pokedex = match PokeDexMmap::new() {
         Ok(dex) => dex,
         Err(e) => panic!("could not build pokedex because: {e}"),
     };
-    let pokemon = pokedex.search_many(args.search_queries);
+    let pokemon = pokedex.multi_search(args.search_queries);
 
     if let Some(fp) = args.file_path {
         pokemon
